@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { AUDIO_SERVICE as A, CONTACT } from "../data";
 import { Button, Kicker, Reveal, SectionTitle, cx } from "../components/ui";
 
@@ -129,12 +129,93 @@ function useAudioSeo() {
     });
     document.head.appendChild(script);
 
+    // FAQPage: aumenta le probabilità di rich snippet con le domande frequenti.
+    const faqScript = document.createElement("script");
+    faqScript.id = "aw-audio-faq-jsonld";
+    faqScript.type = "application/ld+json";
+    faqScript.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: A.faq.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    });
+    document.head.appendChild(faqScript);
+
     return () => {
       document.title = prevTitle;
       if (prevDesc !== null && metaDesc) metaDesc.setAttribute("content", prevDesc);
       document.getElementById("aw-audio-jsonld")?.remove();
+      document.getElementById("aw-audio-faq-jsonld")?.remove();
     };
   }, []);
+}
+
+/* -------------------------------------------------------------------------- */
+/*  FAQ: lista ad accordion (una risposta aperta alla volta)                  */
+/* -------------------------------------------------------------------------- */
+
+function FaqList() {
+  const [open, setOpen] = useState<number | null>(0);
+
+  return (
+    <div className="space-y-3">
+      {A.faq.map((f, i) => {
+        const isOpen = open === i;
+        return (
+          <Reveal key={f.q} delay={i * 50}>
+            <div
+              className={cx(
+                "overflow-hidden rounded-2xl bg-white ring-1 transition",
+                isOpen ? "ring-brand-200" : "ring-ink-950/5"
+              )}
+            >
+              <button
+                type="button"
+                onClick={() => setOpen(isOpen ? null : i)}
+                aria-expanded={isOpen}
+                aria-controls={`faq-panel-${i}`}
+                id={`faq-button-${i}`}
+                className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
+              >
+                <span className="font-display text-[15px] font-bold text-ink-950 sm:text-base">
+                  {f.q}
+                </span>
+                <span
+                  className={cx(
+                    "grid h-7 w-7 shrink-0 place-items-center rounded-full text-sm font-bold transition-all duration-300",
+                    isOpen
+                      ? "rotate-45 bg-brand-500 text-white"
+                      : "bg-sand-100 text-ink-900/60"
+                  )}
+                  aria-hidden="true"
+                >
+                  +
+                </span>
+              </button>
+              <div
+                id={`faq-panel-${i}`}
+                role="region"
+                aria-labelledby={`faq-button-${i}`}
+                className={cx(
+                  "grid transition-all duration-300 ease-out",
+                  isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                )}
+              >
+                <div className="overflow-hidden">
+                  <p className="px-6 pb-5 text-sm leading-relaxed text-ink-900/65">
+                    {f.a}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Reveal>
+        );
+      })}
+    </div>
+  );
 }
 
 /* -------------------------------------------------------------------------- */
@@ -143,6 +224,17 @@ function useAudioSeo() {
 
 export default function AudioService() {
   useAudioSeo();
+  const [lightbox, setLightbox] = useState<string | null>(null);
+
+  // Chiude il lightbox con il tasto Esc.
+  useEffect(() => {
+    if (!lightbox) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setLightbox(null);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [lightbox]);
 
   return (
     <main>
@@ -291,20 +383,41 @@ export default function AudioService() {
             ))}
           </div>
 
-          {/* Striscia fotografica dal campo */}
-          <div className="mt-14 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-            {A.gallery.map((g, i) => (
-              <Reveal key={g.img} delay={i * 60}>
-                <figure className="overflow-hidden rounded-2xl">
-                  <img
-                    src={g.img}
-                    alt={g.alt}
-                    loading="lazy"
-                    className="h-36 w-full object-cover transition duration-700 hover:scale-110 sm:h-44"
-                  />
-                </figure>
-              </Reveal>
-            ))}
+          {/* Galleria dal campo con lightbox */}
+          <div className="mt-14">
+            <div className="flex items-end justify-between gap-4">
+              <h3 className="font-display text-xl font-bold text-ink-950">
+                Dal campo
+              </h3>
+              <p className="text-xs text-ink-900/40">
+                Clicca su una foto per ingrandirla
+              </p>
+            </div>
+            <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
+              {A.gallery.map((g, i) => (
+                <Reveal key={g.img} delay={i * 60}>
+                  <button
+                    type="button"
+                    onClick={() => setLightbox(g.img)}
+                    aria-label={`Ingrandisci: ${g.alt}`}
+                    className={cx(
+                      "group w-full overflow-hidden rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2",
+                      i === 0 && "col-span-2 row-span-2"
+                    )}
+                  >
+                    <img
+                      src={g.img}
+                      alt={g.alt}
+                      loading="lazy"
+                      className={cx(
+                        "w-full object-cover transition duration-700 group-hover:scale-110",
+                        i === 0 ? "h-56 sm:h-72" : "h-28 sm:h-[8.75rem]"
+                      )}
+                    />
+                  </button>
+                </Reveal>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -420,6 +533,24 @@ export default function AudioService() {
         </div>
       </section>
 
+      {/* ------------------------------- FAQ ------------------------------- */}
+      <section id="faq" className="mx-auto max-w-6xl scroll-mt-28 px-5 py-20 sm:py-24">
+        <div className="grid gap-10 lg:grid-cols-[1fr_1.5fr] lg:gap-16">
+          <div>
+            <SectionTitle
+              kicker="Domande frequenti"
+              title="Prima di chiedere, guarda qui"
+              sub="Le risposte alle domande che mi fanno più spesso su costi, tempi e organizzazione del service audio."
+            />
+            <Button href="#/contatti" variant="ghost" className="mt-7">
+              Hai un'altra domanda? Scrivimi →
+            </Button>
+          </div>
+
+          <FaqList />
+        </div>
+      </section>
+
       {/* --------------------------- NOTA TERRITORIO/SEO --------------------------- */}
       <section className="mx-auto max-w-3xl px-5 pb-4 text-center">
         <Kicker>Service audio Palermo e Sicilia</Kicker>
@@ -463,6 +594,29 @@ export default function AudioService() {
           </div>
         </div>
       </section>
+      {/* ------------------------------ LIGHTBOX ------------------------------ */}
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-[60] grid place-items-center bg-ink-950/90 p-5 backdrop-blur"
+          onClick={() => setLightbox(null)}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Immagine ingrandita"
+        >
+          <img
+            src={lightbox}
+            alt=""
+            className="max-h-[85vh] w-auto max-w-5xl rounded-2xl object-contain"
+          />
+          <button
+            type="button"
+            onClick={() => setLightbox(null)}
+            className="mt-5 text-sm font-semibold text-white/70 transition hover:text-white"
+          >
+            Chiudi ✕
+          </button>
+        </div>
+      )}
     </main>
   );
 }

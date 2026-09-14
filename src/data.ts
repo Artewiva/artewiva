@@ -622,6 +622,33 @@ export const AUDIO_SERVICE = {
     text: "Raccontami che tipo di evento stai organizzando, dove si svolgerà e quante persone prevedi. Ti aiuterò a individuare la soluzione audio più adatta.",
   },
 
+  faq: [
+    {
+      q: "Quanto costa un service audio per un evento?",
+      a: "Il prezzo dipende da tre fattori: la dimensione dell'impianto, la durata dell'evento e le attrezzature richieste (microfoni wireless, monitor, subwoofer…). Raccontami l'evento — luogo, data, numero di partecipanti e tipo di musica — e riceverai un preventivo chiaro, gratuito e senza impegno, senza costi nascosti.",
+    },
+    {
+      q: "Lavori solo a Palermo o anche altrove?",
+      a: "La base è Palermo: seguo service audio per eventi in città e provincia, ma mi sposto volentieri in tutta la Sicilia per concerti, feste e manifestazioni. Indicami subito la location: è il primo dato per valutare logistica, tempi di montaggio e configurazione più adatta.",
+    },
+    {
+      q: "Il mio evento è troppo piccolo per un service audio?",
+      a: "Probabilmente no: mi occupo proprio di piccoli e medi eventi — compleanni, cerimonie, presentazioni aziendali, concerti nei club e DJ set. Esistono configurazioni compatte, eleganti ed economiche, perfette per feste private e spazi ridotti.",
+    },
+    {
+      q: "Il tecnico audio è incluso o va previsto a parte?",
+      a: "Nella maggior parte dei servizi il tecnico sono io: montaggio, sound check e gestione del suono durante l'evento sono parte del servizio. Per serate con più artisti o palchi più complessi definiamo insieme quanta assistenza tecnica serve, in modo trasparente.",
+    },
+    {
+      q: "Quanto tempo serve per montare l'impianto e fare il sound check?",
+      a: "Da un'ora e mezza a tre ore a seconda della complessità: la configurazione per una festa privata si allestisce in fretta, mentre una band completa con batteria microfonata e monitor palco richiede più tempo. I tempi vengono programmati in fase di progettazione, per essere pronti all'ora di apertura.",
+    },
+    {
+      q: "Posso usare la mia attrezzatura o il mio tecnico di fiducia?",
+      a: "Certo: posso integrare backline, mixer o microfoni della band nell'impianto, oppure collaborare con il tecnico del tuo gruppo. L'importante è saperlo in anticipo, così progettiamo insieme setup e collegamenti senza improvvisare il giorno dell'evento.",
+    },
+  ],
+
   seoNote: {
     title: "Service audio a Palermo e in Sicilia",
     text: "Cerchi un service audio a Palermo per un concerto, una festa o una presentazione? Questo service per band, gruppi musicali, DJ e privati offre impianti audio per piccoli e medi eventi: amplificazione per concerti nei club, nei cortili e nelle piazze, audio per eventi aziendali e privati, diffusione sonora per manifestazioni e iniziative culturali. Qualità professionale, costi equi e una produzione semplice, dall'installazione al mixaggio live.",
