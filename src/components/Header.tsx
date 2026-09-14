@@ -6,6 +6,7 @@ const NAV = [
   { label: "Home", href: "#/" },
   { label: "Chi Siamo", href: "#/chi-siamo" },
   { label: "Servizi", href: "#/servizi" },
+  { label: "Service Audio", href: "#/servizi/service-audio" },
   { label: "Articoli", href: "#/articoli" },
   { label: "Eventi", href: "#/eventi" },
   { label: "Contatti", href: "#/contatti" },
@@ -24,8 +25,16 @@ export default function Header({ route }: { route: string }) {
 
   useEffect(() => setOpen(false), [route]);
 
+  // Match più specifico vince: su /servizi/service-audio è attivo solo "Service Audio".
+  const matches = NAV.filter(
+    (n) =>
+      n.href !== "#/" &&
+      (route === n.href.slice(1) || route.startsWith(n.href.slice(1) + "/"))
+  ).sort((a, b) => b.href.length - a.href.length);
+  const best = matches[0]?.href;
+
   const active = (href: string) =>
-    href === "#/" ? route === "/" : route.startsWith(href.slice(1));
+    href === "#/" ? route === "/" : best === href;
 
   return (
     <div className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5 sm:pt-4">

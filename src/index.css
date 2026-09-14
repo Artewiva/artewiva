@@ -51,6 +51,23 @@ body {
 }
 .aw-marquee { animation: aw-marquee 28s linear infinite; }
 
+/* Equalizzatore decorativo della pagina Service Audio */
+@keyframes aw-eq {
+  0%, 100% { transform: scaleY(0.3); }
+  50% { transform: scaleY(1); }
+}
+.aw-eq span {
+  display: block;
+  width: 3px;
+  border-radius: 9999px;
+  background: var(--color-brand-500);
+  transform-origin: bottom;
+  animation: aw-eq 1.15s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .aw-eq span { animation: none; transform: scaleY(0.55); }
+}
+
 ::selection {
   background: var(--color-brand-500);
   color: #fff;

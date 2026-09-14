@@ -10,6 +10,7 @@ import {
 import { Button, Kicker, Reveal, SectionTitle, cx } from "../components/ui";
 import { CoverImage, RubricaTag } from "../components/ArticleCard";
 import { ARTICLES, NEWS_ARCHIVE, formatDate } from "../data/news";
+import { AudioTeaser } from "./AudioService";
 
 /** Ultimi articoli importati da www.artewiva.it. */
 const LATEST_ARTICLES = ARTICLES.slice(0, 3);
@@ -453,6 +454,7 @@ export default function Home() {
       <Marquee />
       <About />
       <Services />
+      <AudioTeaser />
       <Portfolio />
       <EventsNews />
       <CtaBand />

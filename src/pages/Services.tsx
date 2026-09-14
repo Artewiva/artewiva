@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { IMG, PROJECTS, SERVICES } from "../data";
+import { AUDIO_SERVICE, IMG, PROJECTS, SERVICES } from "../data";
 import { Button, PageHero, Reveal, SectionTitle, cx } from "../components/ui";
 import { CtaBand } from "./Home";
+import AudioService from "./AudioService";
 
 const PROCESS = [
   { n: "01", t: "Briefing", d: "Ci racconti evento, obiettivi e tempi. Definiamo insieme il taglio narrativo." },
@@ -21,6 +22,58 @@ export default function Services() {
         sub="Sei aree di attività per documentare, raccontare e archiviare eventi culturali con qualità professionale."
         img={IMG.crowd1}
       />
+
+      {/* Service Audio — servizio in evidenza */}
+      <section className="mx-auto max-w-6xl px-5 pt-20 sm:pt-24">
+        <Reveal>
+          <a
+            href={`#/servizi/${AUDIO_SERVICE.slug}`}
+            className="group grid overflow-hidden rounded-[2rem] bg-ink-950 text-white shadow-[0_40px_80px_-45px_rgba(12,11,15,0.9)] transition hover:-translate-y-1 lg:grid-cols-[1.3fr_1fr]"
+          >
+            <div className="p-8 sm:p-10">
+              <div className="flex items-center gap-3">
+                <span className="grid h-11 w-11 place-items-center rounded-2xl bg-brand-500 text-xl">
+                  🔊
+                </span>
+                <span className="text-[11px] font-semibold tracking-[0.22em] text-brand-400 uppercase">
+                  In evidenza · Nuovo
+                </span>
+              </div>
+              <h2 className="mt-6 font-display text-2xl leading-tight font-bold tracking-tight sm:text-3xl">
+                {AUDIO_SERVICE.title}
+              </h2>
+              <p className="mt-2 font-display text-base font-semibold text-white/85 sm:text-lg">
+                {AUDIO_SERVICE.subtitle}
+              </p>
+              <p className="mt-4 max-w-lg text-sm leading-relaxed text-white/60 sm:text-[15px]">
+                {AUDIO_SERVICE.short} Un impianto su misura, un tecnico sul
+                campo e un preventivo chiaro: professionalità e qualità del
+                suono, proporzionate all'evento.
+              </p>
+              <ul className="mt-5 space-y-2">
+                {AUDIO_SERVICE.bullets.map((b) => (
+                  <li key={b} className="flex gap-2 text-[13px] text-white/55">
+                    <span className="text-brand-500">•</span>
+                    {b}
+                  </li>
+                ))}
+              </ul>
+              <span className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-brand-400 transition group-hover:gap-3">
+                Scopri il service audio
+                <span aria-hidden="true">→</span>
+              </span>
+            </div>
+            <div className="relative min-h-52 overflow-hidden lg:min-h-full">
+              <img
+                src={AUDIO_SERVICE.card}
+                alt="Tecnico audio al mixer durante la gestione del suono di un evento dal vivo"
+                className="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-ink-950 via-ink-950/25 to-transparent" />
+            </div>
+          </a>
+        </Reveal>
+      </section>
 
       <section className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
         <div className="grid gap-5 md:grid-cols-2">
@@ -138,8 +191,14 @@ export default function Services() {
 }
 
 export function ServiceDetail({ slug }: { slug: string }) {
-  const s = SERVICES.find((x) => x.slug === slug);
   const [lightbox, setLightbox] = useState<string | null>(null);
+
+  // Il service audio ha una pagina dedicata, più completa della scheda generica.
+  if (slug === "service-audio") {
+    return <AudioService />;
+  }
+
+  const s = SERVICES.find((x) => x.slug === slug);
 
   if (!s) {
     return (
