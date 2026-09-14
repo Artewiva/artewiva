@@ -3,12 +3,16 @@ import {
   EVENTS,
   HERO_SLIDES,
   IMG,
-  POSTS,
   PROJECTS,
   SERVICES,
   STATS,
 } from "../data";
-import { Button, Kicker, Reveal, SectionTitle, Tag, cx } from "../components/ui";
+import { Button, Kicker, Reveal, SectionTitle, cx } from "../components/ui";
+import { CoverImage, RubricaTag } from "../components/ArticleCard";
+import { ARTICLES, NEWS_ARCHIVE, formatDate } from "../data/news";
+
+/** Ultimi articoli importati da www.artewiva.it. */
+const LATEST_ARTICLES = ARTICLES.slice(0, 3);
 
 function Hero() {
   const [i, setI] = useState(0);
@@ -325,39 +329,47 @@ function EventsNews() {
       <div className="grid gap-14 lg:grid-cols-[1.5fr_1fr]">
         <div>
           <SectionTitle
-            kicker="News dal blog"
-            title="Ultimi report e interviste"
-            sub="Racconti a caldo, voci dal backstage e aggiornamenti sull'archivio."
+            kicker="Dall'archivio"
+            title="Ultimi articoli pubblicati"
+            sub={`${NEWS_ARCHIVE.count} articoli importati da www.artewiva.it: reportage, interviste e recensioni con testo e copertine originali.`}
           />
           <div className="mt-10 space-y-5">
-            {POSTS.map((p, i) => (
-              <Reveal key={p.title} delay={i * 80}>
+            {LATEST_ARTICLES.map((article, i) => (
+              <Reveal key={article.id} delay={i * 80}>
                 <a
-                  href="#/eventi"
+                  href={`#/articoli/${article.slug}`}
                   className="group flex flex-col gap-5 rounded-3xl bg-white p-4 ring-1 ring-ink-950/5 transition hover:-translate-y-1 hover:shadow-xl sm:flex-row"
                 >
                   <div className="h-44 w-full shrink-0 overflow-hidden rounded-2xl sm:h-32 sm:w-48">
-                    <img
-                      src={p.img}
-                      alt={p.title}
-                      className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
+                    <CoverImage
+                      src={article.media.card}
+                      alt={article.media.alt}
+                      label={article.title}
+                      className="h-full w-full transition duration-700 group-hover:scale-110"
                     />
                   </div>
                   <div className="flex flex-col justify-center pb-3 pr-2 sm:py-1">
-                    <div className="flex items-center gap-3">
-                      <Tag>{p.tag}</Tag>
-                      <span className="text-xs text-ink-900/45">{p.date}</span>
+                    <div className="flex flex-wrap items-center gap-3">
+                      <RubricaTag article={article} />
+                      <span className="text-xs text-ink-900/45">
+                        {formatDate(article.date)}
+                      </span>
                     </div>
                     <h3 className="mt-2.5 font-display text-lg leading-snug font-bold text-ink-950 group-hover:text-brand-600">
-                      {p.title}
+                      {article.title}
                     </h3>
-                    <p className="mt-1.5 text-sm leading-relaxed text-ink-900/55">
-                      {p.excerpt}
+                    <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-ink-900/55">
+                      {article.excerpt}
                     </p>
                   </div>
                 </a>
               </Reveal>
             ))}
+          </div>
+          <div className="mt-8">
+            <Button href="#/articoli" variant="ghost">
+              Tutti i {NEWS_ARCHIVE.count} articoli →
+            </Button>
           </div>
         </div>
 

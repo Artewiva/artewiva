@@ -50,6 +50,7 @@ export default function Footer() {
                 ["Home", "#/"],
                 ["Chi Siamo", "#/chi-siamo"],
                 ["Servizi", "#/servizi"],
+                ["Articoli", "#/articoli"],
                 ["Eventi / News", "#/eventi"],
                 ["Contatti", "#/contatti"],
               ].map(([l, h]) => (
