@@ -429,3 +429,201 @@ export const CONTACT = {
 
 export const IMPRESSUM =
   "ARTEWIVA.IT è un blog di appassionati del mondo dell'arte e dello spettacolo. Uno spazio interamente dedicato a report, interviste, eventi e a tutto quello che gravita all'interno di questo mondo. Il direttore responsabile, i redattori e i fotografi contribuiscono al blog e alla divulgazione delle notizie a titolo gratuito. Questo blog non rappresenta una testata giornalistica in quanto viene aggiornato senza alcuna periodicità e non riceve alcun tipo di finanziamento. Non può pertanto considerarsi un prodotto editoriale ai sensi della legge n. 62 del 7.03.2001.";
+
+/* -------------------------------------------------------------------------- */
+/*  Service Audio per Eventi e Musica Live                                     */
+/*  Contenuti della pagina dedicata: #/servizi/service-audio                   */
+/* -------------------------------------------------------------------------- */
+
+const px = (id: number, w = 1200, h = 900) =>
+  `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=${h}&w=${w}`;
+
+export const AUDIO_SERVICE = {
+  slug: "service-audio",
+  title: "Service Audio per Eventi e Musica Live",
+  subtitle: "Audio professionale, dimensionato per il tuo evento.",
+  short:
+    "Amplificazione e gestione del suono per concerti, band, DJ set, eventi privati e aziendali di piccole e medie dimensioni.",
+  bullets: [
+    "Impianti audio per piccoli e medi eventi, dimensionati sul reale bisogno",
+    "Microfonazione, monitor palco, sound check e mixaggio live",
+    "Supporto tecnico audio durante concerto, festa o presentazione",
+  ],
+  hero: px(28643185, 1800, 1100), // audio engineer al mixer, evento outdoor
+  card: px(39005236), // tecnico audio al mixer, evento indoor
+  teaser: px(34585133), // diffusori PA all'aperto
+
+  img: {
+    mixerEvent: px(39005236), // tecnico al mixer durante un evento
+    mixerBackstage: px(27795474), // sound tech alla console
+    speakerStand: px(635928), // diffusore su stativo
+    paOutdoor: px(34585133), // impianto PA esterno, cielo blu
+    mic: px(164829), // microfono dinamico su stativo
+    faders: px(59107), // close-up faders mixer
+    drumsMics: px(11484397), // batteria microfonata sul palco
+    band: px(7715754), // band dal vivo su piccolo palco
+    jazz: px(8040838), // ensemble acustico chitarra e piano
+    dj: px(9005483), // DJ al mixer
+    corporate: px(8761548), // microfono a un convegno
+    audience: px(8761524), // piccola conferenza, pubblico
+    party: px(6173843), // festa privata con gente che balla
+    show: px(12298227), // band in controluce in un club
+  },
+
+  intro: [
+    "Realizzo servizi di amplificazione audio per eventi, musica live e spettacoli di piccole e medie dimensioni, mettendo a disposizione attrezzatura professionale, esperienza tecnica e una gestione attenta del suono.",
+    "L'obiettivo è semplice: far suonare bene artisti, musicisti e relatori, in modo affidabile e senza sovradimensionare l'impianto rispetto alle reali esigenze dell'evento.",
+  ],
+  introPoints: [
+    "Impianti proporzionati a location e pubblico",
+    "Tecnico audio sul campo, dall'allestimento al finale",
+    "Preventivi chiari, tempi rapidi, zero complicazioni",
+  ],
+
+  concepts: [
+    "Impianti audio per piccoli e medi eventi",
+    "Concerti e musica live",
+    "Band e gruppi musicali",
+    "DJ set e intrattenimento",
+    "Eventi privati e aziendali",
+    "Presentazioni e manifestazioni",
+    "Spettacoli e iniziative culturali",
+    "Feste e cerimonie",
+    "Supporto tecnico audio",
+    "Microfonazione e gestione del palco",
+    "Sound check",
+    "Mixaggio live",
+  ],
+
+  supply: [
+    {
+      icon: "speaker",
+      title: "Impianto audio",
+      text: "Diffusori e subwoofer dimensionati in base agli spazi, al numero di persone e al tipo di evento.",
+    },
+    {
+      icon: "mic",
+      title: "Microfoni",
+      text: "Microfoni per voce, strumenti musicali, presentazioni e conferenze, con possibilità di utilizzare sistemi cablati e wireless in base alle necessità.",
+    },
+    {
+      icon: "mixer",
+      title: "Mixer e gestione del suono",
+      text: "Console e sistema di mixaggio per gestire voce, strumenti, basi musicali e monitoraggio.",
+    },
+    {
+      icon: "monitor",
+      title: "Monitor palco",
+      text: "Sistemi di monitoraggio per permettere ai musicisti di ascoltarsi correttamente durante la performance.",
+    },
+    {
+      icon: "drum",
+      title: "Microfonazione strumenti",
+      text: "Soluzioni per batteria, amplificatori, strumenti acustici, tastiere, percussioni e altri strumenti presenti sul palco.",
+    },
+    {
+      icon: "check",
+      title: "Sound check",
+      text: "Preparazione e controllo dell'impianto prima dell'inizio dell'evento, con regolazione dei livelli e del mix.",
+    },
+  ],
+
+  gallery: [
+    { img: px(164829), alt: "Microfono dinamico su stativo pronto per il sound check di un concerto live" },
+    { img: px(59107), alt: "Fader di un mixer audio professionale durante il mixaggio di un evento live" },
+    { img: px(11484397), alt: "Batteria microfonata sul palco di un piccolo concerto" },
+    { img: px(34585133), alt: "Diffusori di un impianto audio per eventi installati all'aperto" },
+    { img: px(8040838), alt: "Gruppo musicale acustico amplificato durante un live in sala" },
+    { img: px(635928), alt: "Diffusore professionale su stativo per service audio di piccoli eventi" },
+  ],
+
+  eventTypes: [
+    {
+      emoji: "🎸",
+      title: "Musica Live",
+      text: "Band, gruppi acustici, cover band, tribute band e piccoli ensemble.",
+      img: px(7715754),
+      alt: "Band dal vivo su un piccolo palco amplificata da un service audio per concerti",
+    },
+    {
+      emoji: "🎤",
+      title: "Eventi e spettacoli",
+      text: "Manifestazioni, spettacoli, eventi culturali e intrattenimento.",
+      img: px(12298227),
+      alt: "Spettacolo dal vivo in un locale con impianto audio gestito da un tecnico",
+    },
+    {
+      emoji: "🏢",
+      title: "Eventi aziendali",
+      text: "Presentazioni, convention di piccole dimensioni, incontri e inaugurazioni.",
+      img: px(8761524),
+      alt: "Presentazione aziendale con impianto audio per relatori e pubblico",
+    },
+    {
+      emoji: "🎉",
+      title: "Eventi privati",
+      text: "Feste, compleanni, ricevimenti e occasioni speciali.",
+      img: px(6173843),
+      alt: "Festa privata con musica amplificata e invitati che ballano",
+    },
+    {
+      emoji: "🎧",
+      title: "DJ Set",
+      text: "Impianto audio e supporto tecnico per DJ e intrattenimento musicale.",
+      img: px(9005483),
+      alt: "DJ al mixer con impianto audio per eventi e intrattenimento musicale",
+    },
+    {
+      emoji: "🎙️",
+      title: "Conferenze e presentazioni",
+      text: "Microfoni, diffusione sonora e gestione audio per relatori e ospiti.",
+      img: px(8761548),
+      alt: "Relatore con microfono durante una conferenza con diffusione sonora",
+    },
+  ],
+
+  factors: [
+    "numero di partecipanti",
+    "dimensioni e caratteristiche della location",
+    "tipo di musica o spettacolo",
+    "numero di musicisti",
+    "strumenti utilizzati",
+    "necessità di monitoraggio",
+    "durata dell'evento",
+  ],
+  tailoredText:
+    "La configurazione viene scelta in funzione delle reali necessità: ogni elemento — diffusori, subwoofer, microfoni, monitor — entra in palco solo se serve un purpose. L'obiettivo è ottenere chiarezza, pressione sonora adeguata e affidabilità, evitando sia impianti insufficienti sia configurazioni inutilmente grandi e costose.",
+
+  process: [
+    {
+      n: "01",
+      title: "Analisi dell'evento",
+      text: "Valutazione della location, del pubblico e delle esigenze tecniche.",
+    },
+    {
+      n: "02",
+      title: "Progettazione del setup",
+      text: "Scelta dell'attrezzatura e configurazione dell'impianto.",
+    },
+    {
+      n: "03",
+      title: "Installazione e sound check",
+      text: "Montaggio, cablaggio, posizionamento dei diffusori e verifica del sistema.",
+    },
+    {
+      n: "04",
+      title: "Gestione dell'evento",
+      text: "Assistenza tecnica e gestione del suono durante la performance, quando richiesta.",
+    },
+  ],
+
+  cta: {
+    button: "RICHIEDI UN PREVENTIVO",
+    text: "Raccontami che tipo di evento stai organizzando, dove si svolgerà e quante persone prevedi. Ti aiuterò a individuare la soluzione audio più adatta.",
+  },
+
+  seoNote: {
+    title: "Service audio a Palermo e in Sicilia",
+    text: "Cerchi un service audio a Palermo per un concerto, una festa o una presentazione? Questo service per band, gruppi musicali, DJ e privati offre impianti audio per piccoli e medi eventi: amplificazione per concerti nei club, nei cortili e nelle piazze, audio per eventi aziendali e privati, diffusione sonora per manifestazioni e iniziative culturali. Qualità professionale, costi equi e una produzione semplice, dall'installazione al mixaggio live.",
+  },
+};

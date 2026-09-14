@@ -50,6 +50,7 @@ export default function Footer() {
                 ["Home", "#/"],
                 ["Chi Siamo", "#/chi-siamo"],
                 ["Servizi", "#/servizi"],
+                ["Service Audio", "#/servizi/service-audio"],
                 ["Articoli", "#/articoli"],
                 ["Eventi / News", "#/eventi"],
                 ["Contatti", "#/contatti"],
@@ -68,6 +69,14 @@ export default function Footer() {
               Aree di attività
             </h4>
             <ul className="mt-4 space-y-2.5 text-sm text-white/60">
+              <li>
+                <a
+                  href="#/servizi/service-audio"
+                  className="font-semibold text-white/80 transition hover:text-brand-400"
+                >
+                  🔊 Service Audio per Eventi e Musica Live
+                </a>
+              </li>
               {SERVICES.slice(0, 5).map((s) => (
                 <li key={s.slug}>
                   <a

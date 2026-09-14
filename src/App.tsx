@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services, { ServiceDetail } from "./pages/Services";
+import AudioService from "./pages/AudioService";
 import Events from "./pages/Events";
 import Articles from "./pages/Articles";
 import ArticleDetail from "./pages/ArticleDetail";
@@ -27,7 +28,9 @@ export default function App() {
   const route = useHashRoute();
 
   let page;
-  if (route.startsWith("/servizi/")) {
+  if (route.startsWith("/servizi/service-audio")) {
+    page = <AudioService />;
+  } else if (route.startsWith("/servizi/")) {
     page = <ServiceDetail slug={route.split("/servizi/")[1]} />;
   } else if (route.startsWith("/servizi")) {
     page = <Services />;
