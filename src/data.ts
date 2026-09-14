@@ -420,7 +420,7 @@ export const STATS = [
 ];
 
 export const CONTACT = {
-  email: "info@artewiva.it",
+  email: "artewiva@gmail.com",
   editorial: "redazione@artewiva.it",
   city: "Palermo, Sicilia — Italia",
   hours: "Lun – Ven, 9:00 – 19:00",

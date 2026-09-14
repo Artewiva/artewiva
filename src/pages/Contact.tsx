@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { CONTACT, IMG, SERVICES } from "../data";
+import { CONTACT, IMG } from "../data";
 import { Button, Kicker, PageHero, Reveal, SectionTitle } from "../components/ui";
 
 const FAQ = [
@@ -28,152 +27,134 @@ const SOCIAL = [
   { label: "Vimeo", handle: "artewiva" },
 ];
 
+const MAILTO_HREF =
+  "mailto:artewiva@gmail.com?subject=Richiesta%20informazioni%20-%20ArteWiva&body=Ciao%20team%20ArteWiva%2C%0A%0Avi%20scrivo%20per%3A%0A%0A-%20Nome%3A%20%0A-%20Evento%2FProgetto%3A%20%0A-%20Data%20e%20luogo%3A%20%0A-%20Servizio%20richiesto%3A%20%0A-%20Dettagli%3A%20%0A%0AGrazie%21%0A";
+
 export default function Contact() {
-  const [sent, setSent] = useState(false);
-  const [form, setForm] = useState({
-    nome: "",
-    email: "",
-    tel: "",
-    servizio: SERVICES[0].title,
-    messaggio: "",
-    privacy: false,
-  });
-
-  const set = (k: string, v: string | boolean) =>
-    setForm((f) => ({ ...f, [k]: v }));
-
-  const field =
-    "w-full rounded-2xl border border-ink-950/10 bg-white px-4 py-3 text-sm text-ink-950 outline-none transition placeholder:text-ink-900/35 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20";
-
   return (
     <main>
       <PageHero
         kicker="Contatti"
         title="Parliamo del tuo prossimo evento."
-        sub="Scrivici due righe sul progetto: rispondiamo entro 24 ore con una proposta concreta."
+        sub="Scrivici direttamente via email: rispondiamo entro 24 ore con una proposta concreta."
         img={IMG.palermoSky}
       />
 
       <section className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
-        <div className="grid gap-10 lg:grid-cols-[1.3fr_1fr]">
+        <div className="grid gap-10 lg:grid-cols-[1.35fr_1fr]">
           <Reveal>
             <div className="rounded-[2rem] bg-white p-7 shadow-[0_30px_70px_-50px_rgba(12,11,15,0.6)] ring-1 ring-ink-950/5 sm:p-10">
-              {sent ? (
-                <div className="py-16 text-center">
-                  <div className="mx-auto grid h-16 w-16 place-items-center rounded-full bg-brand-50 text-2xl">
-                    ✉️
-                  </div>
-                  <h3 className="mt-6 font-display text-2xl font-bold text-ink-950">
-                    Messaggio inviato!
-                  </h3>
-                  <p className="mx-auto mt-3 max-w-sm text-sm text-ink-900/60">
-                    Grazie {form.nome || ""}. Ti rispondiamo entro 24 ore
-                    all'indirizzo indicato.
-                  </p>
-                  <Button
-                    className="mt-7"
-                    variant="ghost"
-                    onClick={() => setSent(false)}
+              <Kicker>Contattaci via email</Kicker>
+              <h2 className="mt-4 font-display text-3xl font-bold leading-tight text-ink-950 sm:text-[2.2rem]">
+                Scrivici direttamente,
+                <br />
+                ti rispondiamo in 24 ore.
+              </h2>
+
+              <p className="mt-5 text-[15px] leading-relaxed text-ink-900/70">
+                Abbiamo rimosso il form per rendere il contatto più semplice e
+                diretto. Per richieste di preventivo, collaborazioni, uso
+                archivio o invio di comunicati stampa, scrivici direttamente
+                alla nostra casella principale.
+              </p>
+
+              <div className="mt-8 rounded-2xl bg-sand-50 p-5 ring-1 ring-ink-950/5">
+                <p className="text-xs font-semibold uppercase tracking-wider text-ink-900/40">
+                  Cosa includere nella mail
+                </p>
+                <ul className="mt-4 space-y-3 text-sm text-ink-900/70">
+                  <li className="flex gap-3">
+                    <span className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-white text-[11px] ring-1 ring-ink-950/10">
+                      1
+                    </span>
+                    <span>
+                      <strong className="font-semibold text-ink-950">
+                        Chi sei e cosa organizzi
+                      </strong>{" "}
+                      — nome, associazione / artista, breve descrizione
+                      dell'evento
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-white text-[11px] ring-1 ring-ink-950/10">
+                      2
+                    </span>
+                    <span>
+                      <strong className="font-semibold text-ink-950">
+                        Data, luogo e orari
+                      </strong>{" "}
+                      — così possiamo verificare disponibilità e logistica
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-white text-[11px] ring-1 ring-ink-950/10">
+                      3
+                    </span>
+                    <span>
+                      <strong className="font-semibold text-ink-950">
+                        Servizio richiesto
+                      </strong>{" "}
+                      — fotografia live, video, archivio, report/intervista,
+                      copertura integrale
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-white text-[11px] ring-1 ring-ink-950/10">
+                      4
+                    </span>
+                    <span>
+                      <strong className="font-semibold text-ink-950">
+                        Budget indicativo
+                      </strong>{" "}
+                      (facoltativo) — ci aiuta a proporti la soluzione migliore
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mt-9 flex flex-col gap-4">
+                <Button
+                  href={MAILTO_HREF}
+                  size="lg"
+                  className="w-full justify-center sm:w-auto"
+                >
+                  <span className="text-base">✉️</span>
+                  Invia email a artewiva@gmail.com
+                </Button>
+
+                <div className="flex flex-wrap items-center gap-3 text-sm">
+                  <span className="text-ink-900/50">
+                    Preferisci copiare l'indirizzo?
+                  </span>
+                  <a
+                    href="mailto:artewiva@gmail.com"
+                    className="inline-flex items-center gap-2 rounded-full bg-ink-950 px-4 py-2 font-semibold text-white ring-1 ring-ink-950/10 transition hover:bg-ink-900"
                   >
-                    Invia un altro messaggio
-                  </Button>
+                    artewiva@gmail.com
+                    <span className="text-white/60">↗</span>
+                  </a>
                 </div>
-              ) : (
-                <>
-                  <Kicker>Form contatti</Kicker>
-                  <h2 className="mt-4 font-display text-2xl font-bold text-ink-950 sm:text-3xl">
-                    Richiedi informazioni
-                  </h2>
-                  <form
-                    className="mt-8 space-y-5"
-                    onSubmit={(e) => {
-                      e.preventDefault();
-                      setSent(true);
-                    }}
-                  >
-                    <div className="grid gap-5 sm:grid-cols-2">
-                      <div>
-                        <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-ink-900/50">
-                          Nome e cognome *
-                        </label>
-                        <input
-                          required
-                          className={field}
-                          placeholder="Mario Rossi"
-                          value={form.nome}
-                          onChange={(e) => set("nome", e.target.value)}
-                        />
-                      </div>
-                      <div>
-                        <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-ink-900/50">
-                          Email *
-                        </label>
-                        <input
-                          required
-                          type="email"
-                          className={field}
-                          placeholder="nome@email.it"
-                          value={form.email}
-                          onChange={(e) => set("email", e.target.value)}
-                        />
-                      </div>
-                      <div>
-                        <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-ink-900/50">
-                          Telefono
-                        </label>
-                        <input
-                          className={field}
-                          placeholder="+39 ..."
-                          value={form.tel}
-                          onChange={(e) => set("tel", e.target.value)}
-                        />
-                      </div>
-                      <div>
-                        <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-ink-900/50">
-                          Servizio d'interesse
-                        </label>
-                        <select
-                          className={field}
-                          value={form.servizio}
-                          onChange={(e) => set("servizio", e.target.value)}
-                        >
-                          {SERVICES.map((s) => (
-                            <option key={s.slug}>{s.title}</option>
-                          ))}
-                          <option>Altro / Collaborazioni</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div>
-                      <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-ink-900/50">
-                        Messaggio *
-                      </label>
-                      <textarea
-                        required
-                        rows={5}
-                        className={field}
-                        placeholder="Raccontaci l'evento: data, luogo, cosa ti serve..."
-                        value={form.messaggio}
-                        onChange={(e) => set("messaggio", e.target.value)}
-                      />
-                    </div>
-                    <label className="flex items-start gap-3 text-xs leading-relaxed text-ink-900/55">
-                      <input
-                        type="checkbox"
-                        required
-                        checked={form.privacy}
-                        onChange={(e) => set("privacy", e.target.checked)}
-                        className="mt-0.5 h-4 w-4 accent-[#e30613]"
-                      />
-                      Ho letto e accetto la Privacy Policy e acconsento al
-                      trattamento dei dati per essere ricontattato.
-                    </label>
-                    <Button type="submit" size="lg" className="w-full sm:w-auto">
-                      Invia richiesta →
-                    </Button>
-                  </form>
-                </>
-              )}
+              </div>
+
+              <div className="mt-8 flex items-start gap-3 rounded-2xl bg-brand-50 px-4 py-3 ring-1 ring-brand-100">
+                <div className="mt-0.5 grid h-7 w-7 shrink-0 place-items-center rounded-full bg-white text-sm ring-1 ring-brand-100">
+                  ⚡
+                </div>
+                <p className="text-[13px] leading-relaxed text-ink-900/70">
+                  <strong className="font-semibold text-ink-950">
+                    Risposta rapida garantita:
+                  </strong>{" "}
+                  di solito rispondiamo in poche ore, al massimo entro 24 ore
+                  nei giorni feriali. Se è urgente, indica “URGENTE” nell'oggetto
+                  della mail.
+                </p>
+              </div>
+
+              <p className="mt-6 text-[11px] leading-relaxed text-ink-900/40">
+                Inviando una email accetti il trattamento dei dati per essere
+                ricontattato. Nessun dato viene salvato sul sito: la
+                comunicazione avviene direttamente via email.
+              </p>
             </div>
           </Reveal>
 
@@ -184,14 +165,17 @@ export default function Contact() {
                 <ul className="mt-6 space-y-5 text-sm">
                   <li>
                     <p className="text-xs uppercase tracking-wider text-white/40">
-                      Email generale
+                      Email principale
                     </p>
                     <a
-                      href={`mailto:${CONTACT.email}`}
+                      href="mailto:artewiva@gmail.com"
                       className="font-semibold text-brand-400 hover:underline"
                     >
-                      {CONTACT.email}
+                      artewiva@gmail.com
                     </a>
+                    <p className="mt-1 text-xs text-white/45">
+                      Per preventivi, booking e info generali
+                    </p>
                   </li>
                   <li>
                     <p className="text-xs uppercase tracking-wider text-white/40">
