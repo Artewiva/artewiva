@@ -1,0 +1,86 @@
+name: Import articoli Artewiva
+
+# Aggiorna il dataset statico della sezione "Articoli" leggendo gli ultimi
+# articoli pubblicati su https://www.artewiva.it/ (REST API WordPress).
+#
+# - workflow_dispatch: import manuale (con limite/date personalizzabili)
+# - schedule: aggiornamento automatico settimanale
+#
+# Il job riscrive src/data/artewiva-news.json (+ eventuali immagini) e le
+# committa sul branch da cui è partito il workflow.
+
+on:
+  # Import automatico quando cambia lo script di import (e come test rapido
+  # della pipeline). Il job committa solo il dataset, quindi non si auto-innesca.
+  push:
+    paths:
+      - "scripts/import-artewiva.mjs"
+      - ".github/workflows/import-artewiva.yml"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Numero massimo di articoli da importare"
+        required: false
+        default: "300"
+      since:
+        description: "Importa solo articoli pubblicati da questa data (YYYY-MM-DD, vuoto = tutti)"
+        required: false
+        default: ""
+      merge:
+        description: "Unisci al dataset esistente (incrementale)"
+        type: boolean
+        required: false
+        default: true
+      download_images:
+        description: "Scarica anche le copertine in public/ (repo più pesante)"
+        type: boolean
+        required: false
+        default: false
+  schedule:
+    - cron: "0 4 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-artewiva
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Import articoli da artewiva.it
+        run: |
+          ARGS=(--limit "${{ github.event.inputs.limit || '300' }}")
+          if [ -n "${{ github.event.inputs.since }}" ]; then
+            ARGS+=(--since "${{ github.event.inputs.since }}")
+          fi
+          if [ "${{ github.event.inputs.merge }}" = "true" ] || [ "${{ github.event_name }}" = "schedule" ]; then
+            ARGS+=(--merge)
+          fi
+          if [ "${{ github.event.inputs.download_images }}" = "true" ]; then
+            ARGS+=(--download-images)
+          fi
+          node scripts/import-artewiva.mjs "${ARGS[@]}"
+
+      - name: Commit dataset aggiornato
+        run: |
+          git config user.name "artewiva-bot"
+          git config user.email "bot@artewiva.it"
+          git add -A src/data public/artewiva 2>/dev/null || git add -A src/data
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica: dataset già aggiornato."
+            exit 0
+          fi
+          COUNT=$(node -e "console.log(require('./src/data/artewiva-news.json').count)")
+          git commit -m "chore(data): importa ${COUNT} articoli da artewiva.it"
+          git push

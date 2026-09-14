@@ -1,0 +1,15 @@
+# Dipendenze
+node_modules/
+
+# Build
+dist/
+
+# Sistema / editor
+.DS_Store
+*.local
+.vscode/
+.idea/
+
+# Log
+npm-debug.log*
+yarn-error.log*
