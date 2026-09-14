@@ -373,7 +373,7 @@ export const TEAM = [
     name: "Massimo Torcivia",
     role: "Direttore responsabile & Fotografo",
     bio: "Cura i contenuti fotografici e video del portale. Sguardo attento, professionale, mai invadente.",
-    img: IMG.photographer2,
+    img: "IMG_4616.PNG",
   },
   {
     name: "Redazione ArteWiva",
