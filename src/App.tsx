@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services, { ServiceDetail } from "./pages/Services";
 import Events from "./pages/Events";
+import Articles from "./pages/Articles";
+import ArticleDetail from "./pages/ArticleDetail";
 import Contact from "./pages/Contact";
 
 function useHashRoute() {
@@ -29,6 +31,10 @@ export default function App() {
     page = <ServiceDetail slug={route.split("/servizi/")[1]} />;
   } else if (route.startsWith("/servizi")) {
     page = <Services />;
+  } else if (route.startsWith("/articoli/")) {
+    page = <ArticleDetail slug={decodeURIComponent(route.split("/articoli/")[1] ?? "")} />;
+  } else if (route.startsWith("/articoli")) {
+    page = <Articles />;
   } else if (route.startsWith("/chi-siamo")) {
     page = <About />;
   } else if (route.startsWith("/eventi")) {
