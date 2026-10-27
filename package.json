@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "import:news": "node scripts/import-artewiva.mjs",
     "import:news:full": "node scripts/import-artewiva.mjs --limit 11700 --merge",
-    "import:news:images": "node scripts/import-artewiva.mjs --limit 300 --merge --download-images"
+    "import:news:images": "node scripts/import-artewiva.mjs --limit 300 --merge --download-images",
+    "import:events": "node scripts/import-balarm-events.mjs",
+    "test:import-events": "node --test scripts/import-balarm-events.test.mjs"
   },
   "dependencies": {
     "clsx": "2.1.1",

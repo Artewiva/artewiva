@@ -1,54 +1,168 @@
-import { useState } from "react";
-import { EVENTS, IMG } from "../data";
-import { Button, PageHero, Reveal, SectionTitle } from "../components/ui";
+import { useMemo, useState } from "react";
+import { IMG } from "../data";
+import { Button, PageHero, Reveal, SectionTitle, cx } from "../components/ui";
 import { ArticleCard } from "../components/ArticleCard";
+import { EventCard } from "../components/EventCard";
 import { ARTICLES, NEWS_ARCHIVE, formatDate } from "../data/news";
+import {
+  AGENDA_EVENTS,
+  EVENT_CATEGORIES,
+  EVENT_SOURCE,
+  filterEvents,
+  formatLongDate,
+} from "../data/events";
 import { CtaBand } from "./Home";
 
 /** Ultime pubblicazioni dell'archivio importato da www.artewiva.it. */
 const LATEST = ARTICLES.slice(0, 6);
+const PAGE_SIZE = 12;
 
 export default function Events() {
   const [email, setEmail] = useState("");
   const [sub, setSub] = useState(false);
+  const [category, setCategory] = useState("Tutti");
+  const [query, setQuery] = useState("");
+  const [visible, setVisible] = useState(PAGE_SIZE);
+
+  const filtered = useMemo(
+    () => filterEvents(AGENDA_EVENTS, { query, category }),
+    [query, category]
+  );
+  const shown = filtered.slice(0, visible);
+  const categories = EVENT_CATEGORIES.filter((c) => c.count > 0);
+
+  const resetVisible = () => setVisible(PAGE_SIZE);
 
   return (
     <main>
       <PageHero
         kicker="Eventi & News"
-        title="Il diario visivo della scena palermitana."
-        sub="Report a caldo, interviste, approfondimenti e il calendario degli eventi che stiamo per documentare."
+        title="L'agenda culturale di Palermo, in un unico posto."
+        sub="Concerti, teatro, mostre, visite e sagre: gli eventi in città e provincia importati da Balarm.it, accanto ai nostri report e approfondimenti."
         img={IMG.crowd4}
       />
 
       <section className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
-        <SectionTitle kicker="Agenda" title="Prossimi appuntamenti" />
-        <div className="mt-10 grid gap-4 sm:grid-cols-2">
-          {EVENTS.map((e, i) => (
-            <Reveal key={e.title} delay={i * 70}>
-              <div className="group flex items-center gap-5 rounded-3xl bg-white p-5 ring-1 ring-ink-950/5 transition hover:-translate-y-1 hover:shadow-lg">
-                <div className="grid h-16 w-16 shrink-0 place-items-center rounded-2xl bg-ink-950 text-center text-white">
-                  <div>
-                    <p className="font-display text-xl leading-none font-extrabold text-brand-400">
-                      {e.day}
-                    </p>
-                    <p className="mt-1 text-[10px] font-semibold tracking-widest text-white/50">
-                      {e.month}
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <h3 className="font-display text-base font-bold text-ink-950">
-                    {e.title}
-                  </h3>
-                  <p className="mt-1 text-sm text-ink-900/55">📍 {e.place}</p>
-                  <p className="mt-1.5 text-[11px] font-semibold uppercase tracking-wider text-brand-600">
-                    {e.type}
-                  </p>
-                </div>
+        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <SectionTitle
+            kicker="Agenda"
+            title="Prossimi appuntamenti"
+            sub={`${AGENDA_EVENTS.length} eventi in calendario tra oggi e le prossime settimane. Ogni scheda rimanda all'originale su Balarm.it per orari, biglietti e programma completo.`}
+          />
+          <a
+            href={EVENT_SOURCE.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 text-sm font-semibold text-brand-600 hover:text-brand-700"
+          >
+            Apri la fonte: Balarm.it ↗
+          </a>
+        </div>
+
+        <div className="mt-10 flex flex-col gap-4">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <input
+              type="search"
+              value={query}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                resetVisible();
+              }}
+              placeholder="Cerca un evento, un luogo, una categoria…"
+              aria-label="Cerca negli eventi"
+              className="w-full rounded-full bg-white px-5 py-3.5 text-sm text-ink-950 ring-1 ring-ink-950/10 outline-none placeholder:text-ink-900/40 focus:ring-brand-500 sm:max-w-md"
+            />
+            <p className="shrink-0 text-sm text-ink-900/50">
+              {filtered.length} {filtered.length === 1 ? "evento trovato" : "eventi trovati"}
+            </p>
+          </div>
+
+          <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-2">
+            {["Tutti", ...categories.map((c) => c.name)].map((name) => (
+              <button
+                key={name}
+                type="button"
+                onClick={() => {
+                  setCategory(name);
+                  resetVisible();
+                }}
+                className={cx(
+                  "shrink-0 rounded-full px-4 py-2 text-xs font-semibold transition",
+                  category === name
+                    ? "bg-ink-950 text-white"
+                    : "bg-white text-ink-900/65 ring-1 ring-ink-950/10 hover:ring-brand-500"
+                )}
+              >
+                {name}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {filtered.length > 0 ? (
+          <>
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {shown.map((event, i) => (
+                <Reveal key={event.id} delay={(i % 3) * 60}>
+                  <EventCard event={event} />
+                </Reveal>
+              ))}
+            </div>
+            {visible < filtered.length && (
+              <div className="mt-9 text-center">
+                <Button
+                  variant="ghost"
+                  onClick={() => setVisible((v) => v + PAGE_SIZE)}
+                >
+                  Mostra altri eventi ({filtered.length - visible}) ↓
+                </Button>
               </div>
-            </Reveal>
-          ))}
+            )}
+          </>
+        ) : (
+          <div className="mt-10 rounded-3xl bg-white p-10 text-center ring-1 ring-ink-950/5">
+            <p className="font-display text-lg font-bold text-ink-950">
+              Nessun evento trovato
+            </p>
+            <p className="mt-2 text-sm text-ink-900/55">
+              Prova con un'altra parola chiave oppure rimetti tutte le categorie.
+            </p>
+            <Button
+              variant="ghost"
+              className="mt-6"
+              onClick={() => {
+                setQuery("");
+                setCategory("Tutti");
+                resetVisible();
+              }}
+            >
+              Azzera i filtri
+            </Button>
+          </div>
+        )}
+
+        <div className="mt-12 flex flex-col gap-5 rounded-3xl bg-ink-950 p-7 text-white sm:flex-row sm:items-center sm:justify-between sm:p-9">
+          <div>
+            <p className="font-display text-xl font-bold">Agenda a cura di Balarm.it</p>
+            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-white/60">
+              Titoli, date e luoghi sono importati dalle pagine degli eventi di
+              Palermo e provincia. Non ripubblichiamo testi o immagini della
+              fonte: per dettagli, orari e prenotazioni apri la scheda originale.
+            </p>
+            <p className="mt-3 text-xs text-white/40">
+              Snapshot del {formatLongDate(EVENT_SOURCE.generatedAt)} ·{" "}
+              {EVENT_SOURCE.count} eventi importati ·{" "}
+              {AGENDA_EVENTS.length} ancora in calendario
+            </p>
+          </div>
+          <a
+            href={EVENT_SOURCE.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex shrink-0 items-center justify-center rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-600"
+          >
+            Vai su Balarm.it ↗
+          </a>
         </div>
       </section>
 
