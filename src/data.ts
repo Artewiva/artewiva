@@ -337,36 +337,8 @@ export const POSTS: Post[] = [
   },
 ];
 
-export const EVENTS = [
-  {
-    day: "05",
-    month: "APR",
-    title: "Jazz al Tramonto — Live Session",
-    place: "Molo Trapezoidale, Palermo",
-    type: "Copertura foto + video",
-  },
-  {
-    day: "19",
-    month: "APR",
-    title: "Rassegna Corpi in Scena, atto II",
-    place: "Teatro Biondo, Palermo",
-    type: "Reportage di scena",
-  },
-  {
-    day: "10",
-    month: "MAG",
-    title: "Palco Aperto Festival — Opening",
-    place: "Cantieri Culturali alla Zisa",
-    type: "Copertura integrale",
-  },
-  {
-    day: "31",
-    month: "MAG",
-    title: "Mostra «Dieci anni di ArteWiva»",
-    place: "Spazio espositivo, Palermo",
-    type: "Mostra fotografica",
-  },
-];
+// L'agenda eventi non è più un elenco dimostrativo: è importata da Balarm.it
+// e vive in `src/data/balarm-events.json` (tipi e filtri in `src/data/events.ts`).
 
 export const TEAM = [
   {

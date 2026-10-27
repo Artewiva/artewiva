@@ -1,0 +1,67 @@
+name: Import eventi Balarm
+
+# Aggiorna lo snapshot statico dell'agenda leggendo le pagine pubbliche
+# "Tutti gli eventi a Palermo e provincia" di https://www.balarm.it/.
+#
+# - workflow_dispatch: import manuale (con o senza merge)
+# - schedule: ogni mattina alle 05:00 UTC
+#
+# Lo script interrompe il job senza scrivere il file se trova meno di
+# --min-events eventi: in caso di cambiamento del markup della fonte il
+# dataset già committato resta valido.
+
+on:
+  workflow_dispatch:
+    inputs:
+      merge:
+        description: "Unisci i nuovi eventi al dataset esistente"
+        type: boolean
+        required: false
+        default: false
+  schedule:
+    - cron: "0 5 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-balarm-events
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Test del parser (offline)
+        run: node --test scripts/import-balarm-events.test.mjs
+
+      - name: Import eventi da balarm.it
+        run: |
+          ARGS=()
+          if [ "${{ github.event.inputs.merge }}" = "true" ]; then
+            ARGS+=(--merge)
+          fi
+          node scripts/import-balarm-events.mjs "${ARGS[@]}"
+
+      - name: Commit dataset aggiornato
+        run: |
+          git config user.name "artewiva-bot"
+          git config user.email "bot@artewiva.it"
+          git add src/data/balarm-events.json
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica: agenda già aggiornata."
+            exit 0
+          fi
+          COUNT=$(node -e "console.log(require('./src/data/balarm-events.json').count)")
+          git commit -m "chore(data): importa ${COUNT} eventi da balarm.it"
+          git push

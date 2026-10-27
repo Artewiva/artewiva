@@ -43,9 +43,41 @@ Cosa fa l'import:
 5. raggruppa le categorie WordPress (in parte tecniche) nelle rubriche
    editoriali definite in `src/data/news.ts`.
 
+## Sezione Eventi / "Prossimi eventi"
+
+L'agenda della pagina `#/eventi` e il box "Prossimi eventi" della home sono
+alimentati da `src/data/balarm-events.json`, uno snapshot statico importato da
+[Balarm.it — tutti gli eventi a Palermo e provincia](https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-di-oggi)
+e dalle pagine collegate (domani, weekend, prossima settimana).
+
+Il dataset conserva solo **dati di servizio**: titolo, categoria, date, luogo e
+link alla scheda originale. Testi degli articoli e immagini di Balarm non
+vengono copiati né ospitati qui; ogni card rimanda alla fonte.
+
+```bash
+npm run import:events                       # aggiorna il dataset dalle 4 pagine
+npm run import:events -- --dry-run          # verifica senza scrivere
+npm run import:events -- --merge            # unisce i nuovi eventi ai vecchi
+npm run import:events -- --from-file p.html # import offline da HTML/markdown
+npm run test:import-events                  # test del parser, senza rete
+```
+
+`src/data/events.ts` espone tipi, categorie, ricerca (`filterEvents`),
+lo stato di ogni evento (passato / in corso / futuro) e la formattazione delle
+date. Gli eventi scaduti vengono nascosti automaticamente in base alla data del
+browser, quindi il sito resta utilizzabile anche tra due import.
+
+> Lo script esce con errore senza sovrascrivere il file se il parser trova meno
+> di `--min-events` eventi (default 20): protegge il dataset nel caso cambino
+> markup o URL della fonte.
+
 ### Aggiornamento automatico (GitHub Actions)
 
-`.github/workflows/import-artewiva.yml` esegue l'import e committa il dataset:
+Due workflow eseguono gli import e committano i dataset:
+`.github/workflows/import-artewiva.yml` (articoli, settimanale) e
+`.github/workflows/import-balarm-events.yml` (agenda eventi, ogni mattina).
+
+Il workflow degli articoli:
 
 - **push** su `scripts/import-artewiva.mjs` (o sul workflow stesso) → import automatico;
 - **workflow_dispatch** → import manuale con `limit`, `since`, `merge`, `download_images`;
@@ -66,10 +98,16 @@ npm run preview
 ## Struttura
 
 ```
-scripts/import-artewiva.mjs        import dalla REST API di artewiva.it
-src/data/artewiva-news.json        dataset generato (300 articoli)
-src/data/news.ts                   tipi, rubriche e utilità di consultazione
-src/components/ArticleCard.tsx     card articolo + copertina con fallback
-src/pages/Articles.tsx             archivio con filtri e ricerca
-src/pages/ArticleDetail.tsx        lettura articolo
+scripts/import-artewiva.mjs          import dalla REST API di artewiva.it
+scripts/import-balarm-events.mjs     import agenda da balarm.it
+scripts/import-balarm-events.test.mjs  test parser (offline)
+src/data/artewiva-news.json          dataset articoli generato
+src/data/balarm-events.json          dataset eventi generato
+src/data/news.ts                     tipi, rubriche e utilità di consultazione
+src/data/events.ts                   tipi, categorie, filtri e date dell'agenda
+src/components/ArticleCard.tsx       card articolo + copertina con fallback
+src/components/EventCard.tsx         card / riga evento con badge data
+src/pages/Articles.tsx               archivio con filtri e ricerca
+src/pages/ArticleDetail.tsx          lettura articolo
+src/pages/Events.tsx                 agenda eventi + ultime pubblicazioni
 ```

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import {
-  EVENTS,
   HERO_SLIDES,
   IMG,
   PROJECTS,
@@ -9,11 +8,40 @@ import {
 } from "../data";
 import { Button, Kicker, Reveal, SectionTitle, cx } from "../components/ui";
 import { CoverImage, RubricaTag } from "../components/ArticleCard";
+import { EventRow } from "../components/EventCard";
 import { ARTICLES, NEWS_ARCHIVE, formatDate } from "../data/news";
+import {
+  AGENDA_EVENTS,
+  EVENT_SOURCE,
+  UPCOMING_EVENTS,
+  formatLongDate,
+} from "../data/events";
 import { AudioTeaser } from "./AudioService";
 
 /** Ultimi articoli importati da www.artewiva.it. */
 const LATEST_ARTICLES = ARTICLES.slice(0, 3);
+
+/**
+ * Prossimi appuntamenti dell'agenda importata da Balarm.it.
+ * Si privilegia un evento per giorno, così il box mostra date diverse
+ * invece di quattro appuntamenti tutti nella stessa giornata.
+ */
+const NEXT_EVENTS: typeof UPCOMING_EVENTS = (() => {
+  const pool = UPCOMING_EVENTS.length ? UPCOMING_EVENTS : AGENDA_EVENTS;
+  const picked: typeof UPCOMING_EVENTS = [];
+  const dates = new Set<string>();
+  for (const event of pool) {
+    if (dates.has(event.start)) continue;
+    dates.add(event.start);
+    picked.push(event);
+    if (picked.length === 4) break;
+  }
+  for (const event of pool) {
+    if (picked.length >= 4) break;
+    if (!picked.includes(event)) picked.push(event);
+  }
+  return picked;
+})();
 
 function Hero() {
   const [i, setI] = useState(0);
@@ -381,34 +409,28 @@ function EventsNews() {
               Prossimi eventi
             </h3>
             <p className="mt-2 text-sm text-white/55">
-              Dove saremo con macchine e taccuini.
+              Gli appuntamenti in città, importati da Balarm.it.
             </p>
             <ul className="mt-7 space-y-5">
-              {EVENTS.map((e) => (
-                <li key={e.title} className="flex gap-4 border-b border-white/10 pb-5 last:border-0 last:pb-0">
-                  <div className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-brand-500/15 text-center ring-1 ring-brand-500/30">
-                    <div>
-                      <p className="font-display text-lg leading-none font-bold text-brand-400">
-                        {e.day}
-                      </p>
-                      <p className="text-[10px] font-semibold tracking-widest text-white/50">
-                        {e.month}
-                      </p>
-                    </div>
-                  </div>
-                  <div>
-                    <p className="text-sm font-semibold leading-snug">{e.title}</p>
-                    <p className="mt-1 text-xs text-white/45">{e.place}</p>
-                    <p className="mt-1 text-[11px] font-medium uppercase tracking-wider text-brand-400">
-                      {e.type}
-                    </p>
-                  </div>
-                </li>
+              {NEXT_EVENTS.map((event) => (
+                <EventRow key={event.id} event={event} />
               ))}
             </ul>
             <Button href="#/eventi" className="mt-7 w-full">
               Vedi tutti gli eventi
             </Button>
+            <p className="mt-4 text-[11px] leading-relaxed text-white/40">
+              Fonte:{" "}
+              <a
+                href={EVENT_SOURCE.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-white/30 underline-offset-2 hover:text-white/70"
+              >
+                {EVENT_SOURCE.name} ↗
+              </a>{" "}
+              · aggiornato il {formatLongDate(EVENT_SOURCE.generatedAt)}
+            </p>
           </div>
         </Reveal>
       </div>
