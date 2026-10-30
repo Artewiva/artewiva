@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-10-29",
-  "count": 152,
+  "generatedAt": "2026-10-30",
+  "count": 155,
   "events": [
     {
       "id": "140721",
@@ -507,17 +507,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149068",
-      "title": "Figura, colore e materia: \"Donne... E Oltre\" di Maria Rosaria Lo Porchio a Palermo",
-      "url": "https://www.balarm.it/eventi/figura-colore-e-materia-donne-e-oltre-di-maria-rosaria-lo-porchio-a-palermo-149068",
-      "category": "Mostre",
-      "dateLabel": "Dal 17 al 29 ottobre 2026",
-      "start": "2026-10-17",
-      "end": "2026-10-29",
-      "venue": "Spazio Espositivo Experience",
-      "city": "Palermo"
-    },
-    {
       "id": "149274",
       "title": "Le tappe della legalità a Palermo con \"Le Vie dei Tesori\": dal bunkerino a Radio 100 passi",
       "url": "https://www.balarm.it/eventi/le-tappe-della-legalita-a-palermo-con-le-vie-dei-tesori-dal-bunkerino-a-radio-100-passi-149274",
@@ -683,28 +672,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149409",
-      "title": "\"Girofatando\" chiude la rassegna \"Voci di Periferia\": spettacolo gratuito a Palermo",
-      "url": "https://www.balarm.it/eventi/girofatando-chiude-la-rassegna-voci-di-periferia-spettacolo-gratuito-a-palermo-149409",
-      "category": "Concerti",
-      "dateLabel": "29 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "venue": "Ultimo appuntamneto della rassegna \"Voci di Periferia",
-      "city": "Nuove Consonanze\", promossa dall’associazione MusicaMente di Palermo."
-    },
-    {
-      "id": "149515",
-      "title": "Accumulazione illegale: Umberto Santino con il libro \"La mafia finanziaria\" a Palermo",
-      "url": "https://www.balarm.it/eventi/accumulazione-illegale-umberto-santino-con-il-libro-la-mafia-finanziaria-a-palermo-149515",
-      "category": "Libri, film e incontri",
-      "dateLabel": "29 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "venue": "EPYC – European Palermo Youth Center",
-      "city": "Palermo"
-    },
-    {
       "id": "149453",
       "title": "Adolescenti e il bisogno di essere ascoltati: \"Freddo\" al Teatro Libero di Palermo",
       "url": "https://www.balarm.it/eventi/adolescenti-e-il-bisogno-di-essere-ascoltati-freddo-al-teatro-libero-di-palermo-149453",
@@ -713,28 +680,6 @@
       "start": "2026-10-29",
       "end": "2026-10-31",
       "venue": "Teatro Libero",
-      "city": "Palermo"
-    },
-    {
-      "id": "149460",
-      "title": "Beatrice Monroy presenta \"La buttana del Re\": l'incontro alla ModusVivendi di Palermo",
-      "url": "https://www.balarm.it/eventi/beatrice-monroy-presenta-la-buttana-del-re-l-incontro-alla-modusvivendi-di-palermo-149460",
-      "category": "Libri, film e incontri",
-      "dateLabel": "29 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "venue": "Libreria Modusvivendi",
-      "city": "Palermo"
-    },
-    {
-      "id": "149445",
-      "title": "Domenico Gallo incontra Alberto Cacopardo: libro sulla \"Dittatura Planetaria\" a Palermo",
-      "url": "https://www.balarm.it/eventi/domenico-gallo-incontra-alberto-cacopardo-libro-sulla-dittatura-planetaria-a-palermo-149445",
-      "category": "Libri, film e incontri",
-      "dateLabel": "29 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "venue": "Casa dell'equità e della bellezza",
       "city": "Palermo"
     },
     {
@@ -782,28 +727,6 @@
       "city": "Palermo"
     },
     {
-      "id": "170566",
-      "title": "La spesa incontra l'aperitivo a Palermo: come funziona il nuovo format del giovedì",
-      "url": "https://www.balarm.it/news/la-spesa-incontra-l-aperitivo-a-palermo-come-funziona-il-nuovo-format-del-giovedi-170566",
-      "category": "Esperienze",
-      "dateLabel": "29 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "venue": "Vari luoghi di Palermo",
-      "city": "Palermo"
-    },
-    {
-      "id": "149368",
-      "title": "Michele Foderà nell'Europa dell'Ottocento: il libro di Irene Foderà a Villa Magnisi",
-      "url": "https://www.balarm.it/eventi/michele-fodera-nell-europa-dell-ottocento-il-libro-di-irene-fodera-a-villa-magnisi-a-palermo-149368",
-      "category": "Libri, film e incontri",
-      "dateLabel": "29 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "venue": "Villa Magnisi",
-      "city": "Palermo"
-    },
-    {
       "id": "149468",
       "title": "Omaggi a Lucio Dalla, George Benson e Tina Turner: i concerti del Miles di Palermo",
       "url": "https://www.balarm.it/eventi/omaggi-a-lucio-dalla-george-benson-e-tina-turner-i-concerti-del-miles-di-palermo-149468",
@@ -815,28 +738,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149549",
-      "title": "Pizza contemporanea sul piatto: la cena a quattro mani da Fermento 2.0 a Cefalù",
-      "url": "https://www.balarm.it/eventi/pizza-contemporanea-sul-piatto-la-cena-a-quattro-mani-da-fermento-2-0-a-cefalu-149549",
-      "category": "Dove mangiare",
-      "dateLabel": "29 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "venue": "Fermento 2.0 - via Giacomo Matteotti 29",
-      "city": "Cefalù (Pa)"
-    },
-    {
-      "id": "149483",
-      "title": "Teatro ragazzi nella storia d'Italia: \"Basta Favole!\" di Alessandro Scillitani a Palermo",
-      "url": "https://www.balarm.it/eventi/teatro-ragazzi-nella-storia-d-italia-basta-favole-di-alessandro-scillitani-a-palermo-149483",
-      "category": "Libri, film e incontri",
-      "dateLabel": "29 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "venue": "Cinema Rouge Et Noir",
-      "city": "Palermo"
-    },
-    {
       "id": "148826",
       "title": "Una delle voci più eclettiche del jazz: Michael Mayo al teatro Santa Cecilia di Palermo",
       "url": "https://www.balarm.it/eventi/il-primo-appuntamento-del-brass-in-jazz-al-teatro-santa-cecilia-palermo-capitale-del-jazz-148826",
@@ -845,17 +746,6 @@
       "start": "2026-10-29",
       "end": "2026-11-01",
       "venue": "Real Teatro Santa Cecilia",
-      "city": "Palermo"
-    },
-    {
-      "id": "149450",
-      "title": "Una nuova dolce fiaba: \"Totò Tetù e i pupi di zucchero\" alla Libreria Dudi di Palermo",
-      "url": "https://www.balarm.it/eventi/una-nuova-dolce-fiaba-toto-tetu-e-i-pupi-di-zucchero-alla-libreria-dudi-di-palermo-149450",
-      "category": "Libri, film e incontri",
-      "dateLabel": "29 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "venue": "Libreria Dudi",
       "city": "Palermo"
     },
     {
@@ -944,6 +834,28 @@
       "start": "2026-10-30",
       "end": "2026-10-30",
       "venue": "Associazione Hombre",
+      "city": "Palermo"
+    },
+    {
+      "id": "149563",
+      "title": "Erica Fortino porta il jazz al Cinematocasa: una serata tra voce, chitarra e pianoforte",
+      "url": "https://www.balarm.it/eventi/erica-fortino-porta-il-jazz-al-cinematocasa-una-serata-tra-voce-chitarra-e-pianoforte-149563",
+      "category": "Musica e aperitivi",
+      "dateLabel": "30 ottobre 2026",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "venue": "Cinematocasa",
+      "city": "Palermo"
+    },
+    {
+      "id": "149560",
+      "title": "HoneyLuv stella della house al Country club: con lei il B2B di Sossa e DJ Vivona a Palermo",
+      "url": "https://www.balarm.it/eventi/honeyluv-stella-della-house-al-country-club-con-lei-il-b2b-di-sossa-e-dj-vivona-a-palermo-149560",
+      "category": "Musica e aperitivi",
+      "dateLabel": "30 ottobre 2026",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "venue": "Country DiscoClub",
       "city": "Palermo"
     },
     {
@@ -1046,6 +958,17 @@
       "city": "Carini (Pa)"
     },
     {
+      "id": "149568",
+      "title": "\"Halloween\" al Bioparco di Sicilia: animali, giochi e divertimento per tutta la famiglia",
+      "url": "https://www.balarm.it/eventi/halloween-al-bioparco-di-sicilia-animali-giochi-e-divertimento-per-tutta-la-famiglia-149568",
+      "category": "Bambini e ragazzi",
+      "dateLabel": "Dal 31 ottobre al 2 novembre 2026",
+      "start": "2026-10-31",
+      "end": "2026-11-02",
+      "venue": "Bioparco di Sicilia",
+      "city": "Carini (Pa)"
+    },
+    {
       "id": "149551",
       "title": "\"Invasione dei bambini al museo\": la visita ludica per i piccoli da Radici a Palermo",
       "url": "https://www.balarm.it/eventi/invasione-dei-bambini-al-museo-la-visita-ludica-per-i-piccoli-da-radici-a-palermo-149551",
@@ -1054,6 +977,17 @@
       "start": "2026-10-31",
       "end": "2026-10-31",
       "venue": "Radici - Piccolo museo della natura",
+      "city": "Palermo"
+    },
+    {
+      "id": "149571",
+      "title": "\"La città invisibile\": Spazio Cultura ospita l'incontro con lo scrittore Guglielmo Peralta",
+      "url": "https://www.balarm.it/eventi/la-citta-invisibile-spazio-cultura-ospita-l-incontro-con-lo-scrittore-guglielmo-peralta-149571",
+      "category": "Libri, film e incontri",
+      "dateLabel": "31 ottobre 2026",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "venue": "Spazio Cultura Libreria Macaione",
       "city": "Palermo"
     },
     {
@@ -1101,6 +1035,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149573",
+      "title": "Halloween a Villa Tasca: zucche giganti e giochi \"da brivido\" nel verde di Palermo",
+      "url": "https://www.balarm.it/eventi/halloween-a-villa-tasca-zucche-giganti-e-giochi-da-brivido-nel-verde-di-palermo-149573",
+      "category": "Bambini e ragazzi",
+      "dateLabel": "Dal 31 ottobre al 2 novembre 2026",
+      "start": "2026-10-31",
+      "end": "2026-11-02",
+      "venue": "Parco Villa Tasca",
+      "city": "Palermo"
+    },
+    {
       "id": "149224",
       "title": "Il Castello di Carini riapre al mistero: la visita immersiva di Halloween rievoca Laura Lanza",
       "url": "https://www.balarm.it/eventi/il-castello-di-carini-riapre-al-mistero-la-visita-immersiva-di-halloween-rievoca-laura-lanza-149224",
@@ -1110,6 +1055,39 @@
       "end": "2026-10-31",
       "venue": "Castello di Carini",
       "city": "Carini (Pa)"
+    },
+    {
+      "id": "149565",
+      "title": "Il jazz dal vivo a Cinematocasa: un trio di chitarra, contrabbasso e batteria sul palco",
+      "url": "https://www.balarm.it/eventi/il-jazz-dal-vivo-a-cinematocasa-un-trio-di-chitarra-contrabbasso-e-batteria-sul-palco-149565",
+      "category": "Musica e aperitivi",
+      "dateLabel": "31 ottobre 2026",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "venue": "Cinematocasa",
+      "city": "Palermo"
+    },
+    {
+      "id": "149564",
+      "title": "Il Vietnam tra luoghi, volti e culture: a Palermo gli scatti di Stefania Bongiovanni",
+      "url": "https://www.balarm.it/eventi/il-vietnam-tra-luoghi-volti-e-culture-a-palermo-gli-scatti-di-stefania-bongiovanni-149564",
+      "category": "Mostre",
+      "dateLabel": "Dal 31 ottobre 2026 al 2 gennaio 2027",
+      "start": "2026-10-31",
+      "end": "2027-01-02",
+      "venue": "Cinematocasa",
+      "city": "Palermo"
+    },
+    {
+      "id": "149558",
+      "title": "Incontri, musica e spettacoli per la Festa dei Morti: la \"Notte di Zucchero\" anima Palermo",
+      "url": "https://www.balarm.it/eventi/incontri-musica-e-spettacoli-per-la-festa-dei-morti-la-notte-di-zucchero-anima-palermo-149558",
+      "category": "Festival e rassegne",
+      "dateLabel": "Dal 31 ottobre al 1 novembre 2026",
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "venue": "Vari luoghi della città",
+      "city": "Palermo"
     },
     {
       "id": "149541",
@@ -1354,6 +1332,17 @@
       "city": "Capaci (Pa)"
     },
     {
+      "id": "149570",
+      "title": "Dove si celano le raffigurazioni della morte: tour in quattro luoghi della Kalsa di Palermo",
+      "url": "https://www.balarm.it/eventi/dove-si-celano-le-raffigurazioni-della-morte-tour-in-4-luoghi-della-kalsa-di-palermo-149570",
+      "category": "Visite ed escursioni",
+      "dateLabel": "1 novembre 2026",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "venue": "Vari luoghi di Palermo",
+      "city": "Palermo"
+    },
+    {
       "id": "149542",
       "title": "Giuseppe Andaloro al Politeama Garibaldi con una prima assoluta di Eliodoro Sollima",
       "url": "https://www.balarm.it/eventi/giuseppe-andaloro-al-politeama-garibaldi-con-una-prima-assoluta-di-eliodoro-sollima-149542",
@@ -1373,6 +1362,17 @@
       "start": "2026-11-01",
       "end": "2026-11-29",
       "venue": "Teatro Biondo",
+      "city": "Palermo"
+    },
+    {
+      "id": "149569",
+      "title": "La domenica mattina al \"Rouge et Noir\": colazione e due film a scelta a Palermo",
+      "url": "https://www.balarm.it/eventi/la-domenica-mattina-al-rouge-et-noir-colazione-e-due-film-a-scelta-a-palermo-149569",
+      "category": "Libri, film e incontri",
+      "dateLabel": "1 novembre 2026",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "venue": "Cinema Rouge Et Noir",
       "city": "Palermo"
     },
     {
@@ -1475,6 +1475,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149572",
+      "title": "\"Festival di Morgana\" nel cuore della Kalsa: in viaggio tra Oriente e Occidente a Palermo",
+      "url": "https://www.balarm.it/eventi/festival-di-morgana-nel-cuore-della-kalsa-in-viaggio-tra-oriente-e-occidente-a-palermo-149572",
+      "category": "Festival e rassegne",
+      "dateLabel": "Dal 5 al 22 novembre 2026",
+      "start": "2026-11-05",
+      "end": "2026-11-22",
+      "venue": "Vari luoghi di Palermo",
+      "city": "Palermo"
+    },
+    {
       "id": "149319",
       "title": "\"Jazz Up Close\" la nuova stagione a Palermo: al via con l'Alice Sparti Trio \"Music Tales\"",
       "url": "https://www.balarm.it/eventi/jazz-up-close-la-nuova-stagione-a-palermo-al-via-con-l-alice-sparti-trio-music-tales-149319",
@@ -1563,6 +1574,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149559",
+      "title": "\"Efebo d'Oro Film Festival\" tra incontri, tributi e proiezione: il cinema a Palermo",
+      "url": "https://www.balarm.it/eventi/nuova-edizione-per-l-efebo-d-oro-film-festival-incontri-e-proiezioni-a-palermo-149559",
+      "category": "Festival e rassegne",
+      "dateLabel": "Dal 7 al 15 novembre 2026",
+      "start": "2026-11-07",
+      "end": "2026-11-15",
+      "venue": "Vari luoghi di Palermo",
+      "city": "Palermo"
+    },
+    {
       "id": "149508",
       "title": "\"Fuori traccia\" arriva a Palermo: la mostra sul disco in vinile al Pablo Listening Bar",
       "url": "https://www.balarm.it/eventi/fuori-traccia-arriva-a-palermo-la-mostra-sul-disco-in-vinile-al-pablo-listening-bar-149508",
@@ -1571,6 +1593,17 @@
       "start": "2026-11-07",
       "end": "2026-11-07",
       "venue": "Pablo Listening Bar",
+      "city": "Palermo"
+    },
+    {
+      "id": "149567",
+      "title": "\"Sarò la tua voce\": Mirna Mastronardi presenta il suo libro a Palazzo Mazzarino",
+      "url": "https://www.balarm.it/eventi/saro-la-tua-voce-mirna-mastronardi-presenta-il-suo-libro-a-palazzo-mazzarino-149567",
+      "category": "Libri, film e incontri",
+      "dateLabel": "7 novembre 2026",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "venue": "Palazzo Mazzarino",
       "city": "Palermo"
     },
     {
