@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-10-31",
-  "count": 141,
+  "generatedAt": "2026-11-01",
+  "count": 113,
   "events": [
     {
       "id": "140721",
@@ -34,17 +34,6 @@
       "city": "Palermo"
     },
     {
-      "id": "146593",
-      "title": "Street Art in mostra all'Albergheria: volti e storie di Palermo visti da Maxine Jones",
-      "url": "https://www.balarm.it/eventi/street-art-in-mostra-all-albergheria-volti-e-storie-di-palermo-visti-da-maxine-jones-146593",
-      "category": "Mostre",
-      "dateLabel": "Dal 1 giugno al 1 novembre 2026",
-      "start": "2026-06-01",
-      "end": "2026-11-01",
-      "venue": "Saletta delle Foto - via Generale Luigi Cadorna 51",
-      "city": "Palermo"
-    },
-    {
       "id": "146898",
       "title": "\"Andy Warhol, Mimmo Rotella e Arman\" in mostra: 80 opere a confronto a Palermo",
       "url": "https://www.balarm.it/eventi/andy-warhol-mimmo-rotella-e-arman-in-mostra-80-opere-a-confronto-a-palermo-146898",
@@ -65,28 +54,6 @@
       "end": "2027-01-09",
       "venue": "Museo dell'Eros",
       "city": "Bagheria (Pa)"
-    },
-    {
-      "id": "147509",
-      "title": "Stato, mafia, uomini di valore: la mostra \"Le Rose Spezzate, Speciale Stragi\" a Palermo",
-      "url": "https://www.balarm.it/eventi/stato-mafia-uomini-di-valore-la-mostra-le-rose-spezzate-speciale-stragi-a-palermo-147509",
-      "category": "Mostre",
-      "dateLabel": "Dal 17 luglio al 31 ottobre 2026",
-      "start": "2026-07-17",
-      "end": "2026-10-31",
-      "venue": "Corte d'Appello - piazza Vittorio Emanuele Orlando",
-      "city": "Palermo"
-    },
-    {
-      "id": "147731",
-      "title": "La Sicilia e Botero: i capolavori dell'artista in una (doppia) mostra a Palermo e Agrigento",
-      "url": "https://www.balarm.it/eventi/la-sicilia-e-botero-i-capolavori-dell-artista-in-una-doppia-mostra-a-palermo-e-agrigento-147731",
-      "category": "Mostre",
-      "dateLabel": "Dal 23 luglio al 31 ottobre 2026",
-      "start": "2026-07-23",
-      "end": "2026-10-31",
-      "venue": "Vari luoghi della Sicilia",
-      "city": "Sicilia"
     },
     {
       "id": "148112",
@@ -120,17 +87,6 @@
       "end": "2026-11-15",
       "venue": "Riserva naturale orientata Bosco della Ficuzza, Rocca Busambra, Bosco del Cappelliere e Gorgo del Drago",
       "city": "Corleone (Pa)"
-    },
-    {
-      "id": "148467",
-      "title": "Due anni di In via Cluverio Officina: nuove mostre per lo spazio d'arte di Palermo",
-      "url": "https://www.balarm.it/eventi/due-anni-di-in-via-cluverio-officina-nuove-mostre-per-lo-spazio-d-arte-di-palermo-148467",
-      "category": "Mostre",
-      "dateLabel": "Dal 16 settembre al 31 ottobre 2026",
-      "start": "2026-09-16",
-      "end": "2026-10-31",
-      "venue": "In via Cluverio, Officina",
-      "city": "Palermo"
     },
     {
       "id": "148615",
@@ -186,17 +142,6 @@
       "end": "2026-11-30",
       "venue": "Chiesa di Sant'Agnese dei Danisinni",
       "city": "Palermo"
-    },
-    {
-      "id": "148968",
-      "title": "Cefalù sotto la superficie: la ricerca di Amedeo Tullio riemerge all’Osterio Magno",
-      "url": "https://www.balarm.it/eventi/cefalu-sotto-la-superficie-la-ricerca-di-amedeo-tullio-riemerge-all-osterio-magno-148968",
-      "category": "Mostre",
-      "dateLabel": "Dal 1 al 31 ottobre 2026",
-      "start": "2026-10-01",
-      "end": "2026-10-31",
-      "venue": "Osterio Magno",
-      "city": "Cefalù (Pa)"
     },
     {
       "id": "148875",
@@ -273,17 +218,6 @@
       "start": "2026-10-09",
       "end": "2026-11-15",
       "venue": "Vari luoghi",
-      "city": "Palermo"
-    },
-    {
-      "id": "148934",
-      "title": "\"Sguardi Invisibili\" a Palazzo Bonocore: un viaggio fotografico tra reale e immaginato",
-      "url": "https://www.balarm.it/eventi/sguardi-invisibili-a-palazzo-bonocore-un-viaggio-fotografico-tra-reale-e-immaginato-148934",
-      "category": "Mostre",
-      "dateLabel": "Dal 9 al 31 ottobre 2026",
-      "start": "2026-10-09",
-      "end": "2026-10-31",
-      "venue": "Palazzo Bonocore",
       "city": "Palermo"
     },
     {
@@ -441,17 +375,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149157",
-      "title": "Alla scoperta del Fanuso in giro tra antichi boschi: l'escursione alla Riserva di Ficuzza",
-      "url": "https://www.balarm.it/eventi/alla-scoperta-del-fanuso-in-giro-tra-antichi-boschi-l-escursione-alla-riserva-di-ficuzza-149157",
-      "category": "Visite ed escursioni",
-      "dateLabel": "Dal 18 al 31 ottobre 2026",
-      "start": "2026-10-18",
-      "end": "2026-10-31",
-      "venue": "Riserva naturale orientata Bosco della Ficuzza, Rocca Busambra, Bosco del Cappelliere e Gorgo del Drago",
-      "city": "Corleone (Pa)"
-    },
-    {
       "id": "149127",
       "title": "Visite alla Catacomba di Villagrazia di Carini: gli orari per le domeniche d'autunno",
       "url": "https://www.balarm.it/eventi/visite-alla-catacomba-di-villagrazia-di-carini-gli-orari-per-le-domeniche-d-autunno-149127",
@@ -518,17 +441,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149298",
-      "title": "Potere, intrighi e maledizioni: il \"Rigoletto\" di Verdi al Teatro Massimo di Palermo",
-      "url": "https://www.balarm.it/eventi/potere-intrighi-e-maledizioni-il-rigoletto-di-verdi-al-teatro-massimo-di-palermo-149298",
-      "category": "Opera, musical e danza",
-      "dateLabel": "Dal 23 al 31 ottobre 2026",
-      "start": "2026-10-23",
-      "end": "2026-10-31",
-      "venue": "Teatro Massimo",
-      "city": "Palermo"
-    },
-    {
       "id": "149427",
       "title": "Visite guidate al Teatro Massimo di Palermo: dal Palco Reale ai segreti dietro le quinte",
       "url": "https://www.balarm.it/eventi/visite-guidate-al-teatro-massimo-di-palermo-dal-palco-reale-ai-segreti-dietro-le-quinte-149427",
@@ -584,28 +496,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149433",
-      "title": "Protagonisti della risata a Ustica: torna sull'isola il festival \"Il respiro del mare\"",
-      "url": "https://www.balarm.it/eventi/protagonisti-della-risata-a-ustica-torna-sull-isola-il-festival-il-respiro-del-mare-149433",
-      "category": "Festival e rassegne",
-      "dateLabel": "Dal 28 al 31 ottobre 2026",
-      "start": "2026-10-28",
-      "end": "2026-10-31",
-      "venue": "Teatro Agricantus",
-      "city": "Palermo"
-    },
-    {
-      "id": "149453",
-      "title": "Adolescenti e il bisogno di essere ascoltati: \"Freddo\" al Teatro Libero di Palermo",
-      "url": "https://www.balarm.it/eventi/adolescenti-e-il-bisogno-di-essere-ascoltati-freddo-al-teatro-libero-di-palermo-149453",
-      "category": "Teatro e cabaret",
-      "dateLabel": "Dal 29 al 31 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-31",
-      "venue": "Teatro Libero",
-      "city": "Palermo"
-    },
-    {
       "id": "149133",
       "title": "Halloween a Palermo: la magia delle favole conquista le Antiche Fornaci Maiorana",
       "url": "https://www.balarm.it/eventi/halloween-a-palermo-la-magia-delle-favole-conquista-le-antiche-fornaci-maiorana-149133",
@@ -617,17 +507,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149461",
-      "title": "Halloween all'Orto di Paolino: tre giorni di festa, spettacoli e inclusione a Palermo",
-      "url": "https://www.balarm.it/eventi/halloween-all-orto-di-paolino-tre-giorni-di-festa-spettacoli-e-inclusione-a-palermo-149461",
-      "category": "Bambini e ragazzi",
-      "dateLabel": "Dal 29 al 31 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-31",
-      "venue": "Orto di Paolino",
-      "city": "Palermo"
-    },
-    {
       "id": "149518",
       "title": "Indagine artistica sullo specchio: \"Delle meraviglie\" in mostra In Via Cluverio Officina",
       "url": "https://www.balarm.it/eventi/indagine-artistica-sullo-specchio-delle-meraviglie-in-mostra-in-via-cluverio-officina-a-palermo-149518",
@@ -636,17 +515,6 @@
       "start": "2026-10-29",
       "end": "2026-11-29",
       "venue": "In via Cluverio, Officina",
-      "city": "Palermo"
-    },
-    {
-      "id": "149468",
-      "title": "Omaggi a Lucio Dalla, George Benson e Tina Turner: i concerti del Miles di Palermo",
-      "url": "https://www.balarm.it/eventi/omaggi-a-lucio-dalla-george-benson-e-tina-turner-i-concerti-del-miles-di-palermo-149468",
-      "category": "Musica e aperitivi",
-      "dateLabel": "Dal 29 al 31 ottobre 2026",
-      "start": "2026-10-29",
-      "end": "2026-10-31",
-      "venue": "Miles Jazz Club",
       "city": "Palermo"
     },
     {
@@ -705,28 +573,6 @@
       "city": "Mezzojuso (Pa)"
     },
     {
-      "id": "149404",
-      "title": "Una \"Parabola Romantica\" a Palermo: viaggio musicale tra Beethoven e Bruckner",
-      "url": "https://www.balarm.it/eventi/una-parabola-romantica-a-palermo-viaggio-musicale-tra-beethoven-e-bruckner-149404",
-      "category": "Concerti",
-      "dateLabel": "Dal 30 al 31 ottobre 2026",
-      "start": "2026-10-30",
-      "end": "2026-10-31",
-      "venue": "Politeama Garibaldi",
-      "city": "Palermo"
-    },
-    {
-      "id": "149513",
-      "title": "\"Halloween Night\" al Mood: aperitivo, maschere e musica per divertirsi a Carini",
-      "url": "https://www.balarm.it/eventi/halloween-night-al-mood-aperitivo-maschere-e-musica-per-divertirsi-a-carini-149513",
-      "category": "Musica e aperitivi",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Parco cittadino Almoad",
-      "city": "Carini (Pa)"
-    },
-    {
       "id": "149568",
       "title": "\"Halloween\" al Bioparco di Sicilia: animali, giochi e divertimento per tutta la famiglia",
       "url": "https://www.balarm.it/eventi/halloween-al-bioparco-di-sicilia-animali-giochi-e-divertimento-per-tutta-la-famiglia-149568",
@@ -738,28 +584,6 @@
       "city": "Carini (Pa)"
     },
     {
-      "id": "149551",
-      "title": "\"Invasione dei bambini al museo\": la visita ludica per i piccoli da Radici a Palermo",
-      "url": "https://www.balarm.it/eventi/invasione-dei-bambini-al-museo-la-visita-ludica-per-i-piccoli-da-radici-a-palermo-149551",
-      "category": "Bambini e ragazzi",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Radici - Piccolo museo della natura",
-      "city": "Palermo"
-    },
-    {
-      "id": "149571",
-      "title": "\"La città invisibile\": Spazio Cultura ospita l'incontro con lo scrittore Guglielmo Peralta",
-      "url": "https://www.balarm.it/eventi/la-citta-invisibile-spazio-cultura-ospita-l-incontro-con-lo-scrittore-guglielmo-peralta-149571",
-      "category": "Libri, film e incontri",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Spazio Cultura Libreria Macaione",
-      "city": "Palermo"
-    },
-    {
       "id": "149260",
       "title": "\"Talè chi mi misiru i morti\": il Ditirammu porta un baule delle meraviglie a Palermo",
       "url": "https://www.balarm.it/eventi/tale-chi-mi-misiru-i-morti-il-ditirammu-porta-un-baule-delle-meraviglie-a-palermo-149260",
@@ -768,28 +592,6 @@
       "start": "2026-10-31",
       "end": "2026-11-02",
       "venue": "Bottega 5",
-      "city": "Palermo"
-    },
-    {
-      "id": "149492",
-      "title": "A Palermo c'è \"Halloween a Villa Niscemi\": letture, giochi e dolcetti per tutti i bimbi",
-      "url": "https://www.balarm.it/eventi/a-palermo-c-e-halloween-a-villa-niscemi-letture-giochi-e-dolcetti-per-tutti-i-bimbi-149492",
-      "category": "Bambini e ragazzi",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Villa Niscemi",
-      "city": "Palermo"
-    },
-    {
-      "id": "149538",
-      "title": "Al via la fiaba teatralizzata \"Murticeddi Murticeddi\": la magia del giorno dei morti",
-      "url": "https://www.balarm.it/eventi/al-via-la-fiaba-teatralizzata-murticeddi-murticeddi-la-magia-del-giorno-dei-morti-149538",
-      "category": "Esperienze",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Associazione Ricreativa Culturale Danisinni",
       "city": "Palermo"
     },
     {
@@ -812,28 +614,6 @@
       "start": "2026-10-31",
       "end": "2026-11-02",
       "venue": "Parco Villa Tasca",
-      "city": "Palermo"
-    },
-    {
-      "id": "149224",
-      "title": "Il Castello di Carini riapre al mistero: la visita immersiva di Halloween rievoca Laura Lanza",
-      "url": "https://www.balarm.it/eventi/il-castello-di-carini-riapre-al-mistero-la-visita-immersiva-di-halloween-rievoca-laura-lanza-149224",
-      "category": "Visite ed escursioni",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Castello di Carini",
-      "city": "Carini (Pa)"
-    },
-    {
-      "id": "149565",
-      "title": "Il jazz dal vivo a Cinematocasa: un trio di chitarra, contrabbasso e batteria sul palco",
-      "url": "https://www.balarm.it/eventi/il-jazz-dal-vivo-a-cinematocasa-un-trio-di-chitarra-contrabbasso-e-batteria-sul-palco-149565",
-      "category": "Musica e aperitivi",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Cinematocasa",
       "city": "Palermo"
     },
     {
@@ -870,39 +650,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149191",
-      "title": "La notte delle streghe prende vita a Palermo: Museo delle Illusioni celebra un Halloween",
-      "url": "https://www.balarm.it/eventi/la-notte-delle-streghe-prende-vita-a-palermo-museo-delle-illusioni-celebra-un-halloween-149191",
-      "category": "Esperienze",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Museo delle Illusioni",
-      "city": "Palermo"
-    },
-    {
-      "id": "149435",
-      "title": "La tradizione siciliana incontra il Messico: a Danisinni la fiaba \"Murticeddi Murticeddi\"",
-      "url": "https://www.balarm.it/eventi/la-tradizione-siciliana-incontra-il-messico-a-danisinni-la-fiaba-murticeddi-murticeddi-149435",
-      "category": "Bambini e ragazzi",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Associazione Ricreativa Culturale Danisinni 1489 - vicolo La Fiura snc",
-      "city": "Palermo"
-    },
-    {
-      "id": "149499",
-      "title": "Le canzoni che scaldano il cuore dei Millennials: i Not for You da Radici a Palermo",
-      "url": "https://www.balarm.it/eventi/le-canzoni-che-scaldano-il-cuore-dei-millennials-i-not-for-you-da-radici-a-palermo-149499",
-      "category": "Musica e aperitivi",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Radici - Piccolo museo della natura",
-      "city": "Palermo"
-    },
-    {
       "id": "149539",
       "title": "Palermo celebra la Festa dei Morti: gli eventi (gratuiti) della \"Notte di Zucchero\"",
       "url": "https://www.balarm.it/eventi/palermo-celebra-la-festa-dei-morti-gli-eventi-gratuiti-dellla-notte-di-zucchero-149539",
@@ -922,39 +669,6 @@
       "start": "2026-10-31",
       "end": "2026-11-01",
       "venue": "Nuovo Teatro Orione",
-      "city": "Palermo"
-    },
-    {
-      "id": "149249",
-      "title": "Pinocchio Musical incanta il Teatro Golden di Palermo: la magia del teatro torna in scena",
-      "url": "https://www.balarm.it/eventi/pinocchio-musical-incanta-il-teatro-golden-di-palermo-la-magia-del-teatro-torna-in-scena-149249",
-      "category": "Opera, musical e danza",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Teatro Golden",
-      "city": "Palermo"
-    },
-    {
-      "id": "149545",
-      "title": "Poesie e musiche improvvisate: \"Rimatori\" alla Biblioteca itinerante in centro a Palermo",
-      "url": "https://www.balarm.it/eventi/poesie-e-musiche-improvvisate-rimatori-alla-biblioteca-itinerante-in-centro-a-palermo-149545",
-      "category": "Libri, film e incontri",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Biblioteca privata itinerante di Pietro Tramonte",
-      "city": "Palermo"
-    },
-    {
-      "id": "149345",
-      "title": "Risolvere un mistero a tema Halloween: \"Crime night. Caccia all'assassino\" a Palermo",
-      "url": "https://www.balarm.it/eventi/risolvere-un-mistero-a-tema-halloween-crime-night-caccia-all-assassino-a-palermo-149345",
-      "category": "Sport e giochi",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Vari luoghi del centro storico",
       "city": "Palermo"
     },
     {
@@ -1011,28 +725,6 @@
       "end": "2026-11-01",
       "venue": "Agriturismo Casi Javuti",
       "city": "Casteldaccia (Pa)"
-    },
-    {
-      "id": "149017",
-      "title": "Vasco vs Ligabue: due storie e due cover band per uno show a tutto rock a Palermo",
-      "url": "https://www.balarm.it/eventi/vasco-vs-ligabue-due-storie-e-due-cover-band-per-uno-show-a-tutto-rock-a-palermo-149017",
-      "category": "Opera, musical e danza",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Nuovo Teatro Zappalà",
-      "city": "Palermo"
-    },
-    {
-      "id": "149502",
-      "title": "Visita alle Catacombe dei Cappuccini: \"La città dei morti\" a Palermo con Terradamare",
-      "url": "https://www.balarm.it/eventi/visita-alle-catacombe-dei-cappuccini-la-citta-dei-morti-a-palermo-con-terradamare-149502",
-      "category": "Visite ed escursioni",
-      "dateLabel": "31 ottobre 2026",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "venue": "Catacombe dei Cappuccini",
-      "city": "Palermo"
     },
     {
       "id": "149449",
