@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-11-03",
-  "count": 131,
+  "generatedAt": "2026-11-04",
+  "count": 141,
   "events": [
     {
       "id": "146469",
@@ -196,17 +196,6 @@
       "start": "2026-10-04",
       "end": "2026-11-07",
       "venue": "Vari luoghi di Palermo",
-      "city": "Palermo"
-    },
-    {
-      "id": "148881",
-      "title": "Immagini tra realtà e menzogne: la rassegna \"F come Falso\" al Rouge et Noir di Palermo",
-      "url": "https://www.balarm.it/eventi/immagini-tra-realta-e-menzogne-la-rassegna-f-come-falso-al-rouge-et-noir-di-palermo-148881",
-      "category": "Festival e rassegne",
-      "dateLabel": "Dal 6 ottobre al 1 dicembre 2026",
-      "start": "2026-10-06",
-      "end": "2026-12-01",
-      "venue": "Cinema Rouge Et Noir",
       "city": "Palermo"
     },
     {
@@ -617,28 +606,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149594",
-      "title": "Cura delle relazioni nelle Istituzioni e nella società: l'incontro a San Michele a Palermo",
-      "url": "https://www.balarm.it/eventi/cura-delle-relazioni-nelle-istituzioni-e-nella-societa-l-incontro-a-san-michele-a-palermo-149594",
-      "category": "Libri, film e incontri",
-      "dateLabel": "3 novembre 2026",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "venue": "Chiesa di San Michele",
-      "city": "Palermo"
-    },
-    {
-      "id": "149613",
-      "title": "Paul Marinaro Quintet a Palermo: il concerto del cantante al Ridotto dello Spasimo",
-      "url": "https://www.balarm.it/eventi/paul-marinaro-quintet-a-palermo-il-concerto-del-cantante-al-ridotto-dello-spasimo-149613",
-      "category": "Concerti",
-      "dateLabel": "3 novembre 2026",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "venue": "Blue Brass ridotto dello Spasimo",
-      "city": "Palermo"
-    },
-    {
       "id": "149620",
       "title": "Cena e concerto dalla romanza lirica al pop: musica al Circolo Artistico di Palermo",
       "url": "https://www.balarm.it/eventi/cena-e-concerto-dalla-romanza-lirica-al-pop-musica-al-circolo-artistico-di-palermo-149620",
@@ -727,6 +694,28 @@
       "city": "Palermo"
     },
     {
+      "id": "149663",
+      "title": "A Palermo un meeting sul benessere: l'incontro su salute e crescita professionale",
+      "url": "https://www.balarm.it/eventi/a-palermo-un-meeting-sul-benessere-l-incontro-su-salute-e-crescita-professionale-149663",
+      "category": "Libri, film e incontri",
+      "dateLabel": "5 novembre 2026",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "venue": "Casale San Lorenzo",
+      "city": "Palermo"
+    },
+    {
+      "id": "149647",
+      "title": "Cena con libro e con delitto: \"Malatrama\" di Myriam Leone da Prospero a Palermo",
+      "url": "https://www.balarm.it/eventi/cena-con-libro-e-con-delitto-malatrama-di-myriam-leone-da-prospero-a-palermo-149647",
+      "category": "Dove mangiare",
+      "dateLabel": "5 novembre 2026",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "venue": "Prospero Enoteca Letteraria",
+      "city": "Palermo"
+    },
+    {
       "id": "149578",
       "title": "Convegno di studi dedicato a Bruno Trentin: due giorni di confronto all'Istituto Gramsci",
       "url": "https://www.balarm.it/eventi/convegno-di-studi-dedicato-a-bruno-trentin-due-giorni-di-confronto-all-istituto-gramsci-di-palermo-149578",
@@ -738,6 +727,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149596",
+      "title": "Incontro con Elisa del Mese: firmacopie, letture, dialogo e degustazione a Cinisi",
+      "url": "https://www.balarm.it/eventi/incontro-con-elisa-del-mese-firmacopie-letture-dialogo-e-degustazione-a-cinisi-149596",
+      "category": "Libri, film e incontri",
+      "dateLabel": "5 novembre 2026",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "venue": "Palazzo dei Benedettini",
+      "city": "Cinisi (Pa)"
+    },
+    {
       "id": "149576",
       "title": "Omaggio ai Simply Red, jazz internazionale e soul: i concerti del Miles di Palermo",
       "url": "https://www.balarm.it/eventi/omaggio-ai-simply-red-jazz-internazionale-e-soul-i-concerti-del-miles-di-palermo-149576",
@@ -746,6 +746,28 @@
       "start": "2026-11-05",
       "end": "2026-11-07",
       "venue": "Miles Jazz Club",
+      "city": "Palermo"
+    },
+    {
+      "id": "149646",
+      "title": "Salvatore Petrotto e BachStringEnsemble: a Palermo le note del \"Pre Christmas Concert\"",
+      "url": "https://www.balarm.it/eventi/salvatore-petrotto-e-bachstringensemble-a-palermo-le-note-del-pre-christmas-concert-149646",
+      "category": "Concerti",
+      "dateLabel": "5 novembre 2026",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "venue": "Chiesa dei Santi Pietro e Paolo Apostoli",
+      "city": "Palermo"
+    },
+    {
+      "id": "149615",
+      "title": "Trio Reverse al Blue Brass di Palermo: Simona Trentacoste al club dello Spasimo",
+      "url": "https://www.balarm.it/eventi/trio-reverse-al-blue-brass-di-palermo-simona-trentacoste-al-club-dello-spasimo-149615",
+      "category": "Concerti",
+      "dateLabel": "5 novembre 2026",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "venue": "Blue Brass ridotto dello Spasimo",
       "city": "Palermo"
     },
     {
@@ -790,6 +812,17 @@
       "start": "2026-11-06",
       "end": "2026-11-06",
       "venue": "PPP – Pregiata Putia Palermitana",
+      "city": "Palermo"
+    },
+    {
+      "id": "149653",
+      "title": "Eva Robin's e \"Il Frigo\" di Copi: il vortice surreale arriva al Teatro Libero di Palermo",
+      "url": "https://www.balarm.it/eventi/eva-robin-s-e-il-frigo-di-copi-il-vortice-surreale-arriva-al-teatro-libero-di-palermo-149653",
+      "category": "Teatro e cabaret",
+      "dateLabel": "Dal 6 al 7 novembre 2026",
+      "start": "2026-11-06",
+      "end": "2026-11-07",
+      "venue": "Teatro Libero",
       "city": "Palermo"
     },
     {
@@ -925,6 +958,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149652",
+      "title": "\"Una notte al museo Salinas\": archeologia, racconto e gioco per grandi e bambini",
+      "url": "https://www.balarm.it/eventi/una-notte-al-museo-salinas-archeologia-racconto-e-gioco-per-grandi-e-bambini-149652",
+      "category": "Bambini e ragazzi",
+      "dateLabel": "7 novembre 2026",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "venue": "Museo archeologico regionale \"Antonino Salinas\"",
+      "city": "Palermo"
+    },
+    {
       "id": "149598",
       "title": "Caccia fotografica ai tesori di Palermo: l'iniziativa di P'Orto di Mare in centro storico",
       "url": "https://www.balarm.it/eventi/caccia-fotografica-ai-tesori-di-palermo-l-iniziativa-di-p-orto-di-mare-in-centro-storico-149598",
@@ -947,6 +991,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149657",
+      "title": "Corpi e volti raccontano storie: mostra collettiva alla Galleria Josephine Bonì",
+      "url": "https://www.balarm.it/eventi/corpi-e-volti-raccontano-storie-mostra-collettiva-alla-galleria-josephine-boni-di-palermo-149657",
+      "category": "Mostre",
+      "dateLabel": "Dal 7 al 14 novembre 2026",
+      "start": "2026-11-07",
+      "end": "2026-11-14",
+      "venue": "Josephine Bonì - Galleria d'Arte",
+      "city": "Palermo"
+    },
+    {
       "id": "149174",
       "title": "Daria Biancardi e Giuseppe Milici in concerto: i successi di Mina al Teatro Orione di Palermo",
       "url": "https://www.balarm.it/eventi/daria-biancardi-e-giuseppe-milici-in-concerto-i-successi-di-mina-al-teatro-orione-di-palermo-149174",
@@ -955,6 +1010,17 @@
       "start": "2026-11-07",
       "end": "2026-11-08",
       "venue": "Nuovo Teatro Orione",
+      "city": "Palermo"
+    },
+    {
+      "id": "149658",
+      "title": "Donne sui trenta e aspettative in famiglia e società: le racconta Giulia Cerruti a Palermo",
+      "url": "https://www.balarm.it/eventi/donne-sui-trenta-e-aspettative-in-famiglia-e-societa-le-racconta-giulia-cerruti-a-palermo-149658",
+      "category": "Teatro e cabaret",
+      "dateLabel": "7 novembre 2026",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "venue": "Piccolo Teatro ai Biscottari",
       "city": "Palermo"
     },
     {
@@ -1101,6 +1167,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149660",
+      "title": "Film e colazione al Rouge et Noir: le due proiezioni per \"Sunday Morning\" a Palermo",
+      "url": "https://www.balarm.it/eventi/film-e-colazione-al-rouge-et-noir-le-due-proiezioni-per-sunday-morning-a-palermo-149660",
+      "category": "Libri, film e incontri",
+      "dateLabel": "8 novembre 2026",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "venue": "Cinema Rouge Et Noir",
+      "city": "Palermo"
+    },
+    {
       "id": "149471",
       "title": "Giocare insieme per aiutare i più piccoli: un torneo solidale al Club Lauria di Palermo",
       "url": "https://www.balarm.it/eventi/giocare-insieme-per-aiutare-i-piu-piccoli-un-torneo-solidale-al-club-lauria-di-palermo-149471",
@@ -1211,6 +1288,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149662",
+      "title": "Storia di \"whisky e contrabbassi\" e del Brass: Mario Di Caro presenta il suo libro a Palermo",
+      "url": "https://www.balarm.it/eventi/storia-di-whisky-e-contrabbassi-e-del-brass-mario-di-caro-presenta-il-suo-libro-a-palermo-149662",
+      "category": "Libri, film e incontri",
+      "dateLabel": "9 novembre 2026",
+      "start": "2026-11-09",
+      "end": "2026-11-09",
+      "venue": "La Feltrinelli libri e musica",
+      "city": "Palermo"
+    },
+    {
       "id": "149641",
       "title": "Un trio internazionale al Politeama Garibaldi: il concerto per gli \"Amici della Musica\"",
       "url": "https://www.balarm.it/eventi/un-trio-internazionale-al-politeama-garibaldi-il-concerto-per-gli-amici-della-musica-149641",
@@ -1263,6 +1351,17 @@
       "start": "2026-11-12",
       "end": "2026-11-12",
       "venue": "Teatro Biondo",
+      "city": "Palermo"
+    },
+    {
+      "id": "149625",
+      "title": "Quando l'infanzia è interrotta dalla violenza: \"Il Boato\" in prima nazionale a Palermo",
+      "url": "https://www.balarm.it/eventi/quando-l-infanzia-e-interrotta-dalla-violenza-il-boato-in-prima-nazionale-a-palermo-149625",
+      "category": "Teatro e cabaret",
+      "dateLabel": "Dal 12 al 13 novembre 2026",
+      "start": "2026-11-12",
+      "end": "2026-11-13",
+      "venue": "Bottega 5",
       "city": "Palermo"
     },
     {
@@ -1329,6 +1428,17 @@
       "start": "2026-11-14",
       "end": "2026-12-05",
       "venue": "Galleria Caravello",
+      "city": "Palermo"
+    },
+    {
+      "id": "149626",
+      "title": "\"Semplicemente Io\" in scena ai Cantieri: il tema dell'identità sul palco del Ditirammu",
+      "url": "https://www.balarm.it/eventi/semplicemente-io-in-scena-ai-cantieri-il-tema-dell-identita-sul-palco-del-ditirammu-149626",
+      "category": "Teatro e cabaret",
+      "dateLabel": "Dal 14 al 15 novembre 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "venue": "Bottega 5",
       "city": "Palermo"
     },
     {
