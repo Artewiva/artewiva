@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-11-04",
-  "count": 141,
+  "generatedAt": "2026-11-05",
+  "count": 145,
   "events": [
     {
       "id": "146469",
@@ -573,19 +573,8 @@
       "city": "Palermo"
     },
     {
-      "id": "149536",
-      "title": "\"Colazioni d'Autore\" al Biondo di Palermo: Vincenzo Pirrotta e gli umoristi del '900",
-      "url": "https://www.balarm.it/eventi/colazioni-d-autore-al-biondo-di-palermo-vincenzo-pirrotta-e-gli-umoristi-del-novecento-149536",
-      "category": "Teatro e cabaret",
-      "dateLabel": "Dal 1 al 29 novembre 2026",
-      "start": "2026-11-01",
-      "end": "2026-11-29",
-      "venue": "Teatro Biondo",
-      "city": "Palermo"
-    },
-    {
       "id": "149257",
-      "title": "Incontri d'autore al Biondo di Palermo: umoristi a colazione con Vincenzo Pirrotta",
+      "title": "\"Colazioni d'Autore\" al Biondo di Palermo: Vincenzo Pirrotta e gli umoristi del '900",
       "url": "https://www.balarm.it/eventi/incontri-d-autore-al-biondo-di-palermo-umoristi-a-colazione-con-vincenzo-pirrotta-149257",
       "category": "Festival e rassegne",
       "dateLabel": "Dal 1 al 29 novembre 2026",
@@ -606,17 +595,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149620",
-      "title": "Cena e concerto dalla romanza lirica al pop: musica al Circolo Artistico di Palermo",
-      "url": "https://www.balarm.it/eventi/cena-e-concerto-dalla-romanza-lirica-al-pop-musica-al-circolo-artistico-di-palermo-149620",
-      "category": "Musica e aperitivi",
-      "dateLabel": "4 novembre 2026",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "venue": "Circolo Artistico di Palermo",
-      "city": "Palermo"
-    },
-    {
       "id": "149630",
       "title": "Domenico Pellegrino a Palazzo Bonocore: donne del mito e simboli dell'Isola in mostra",
       "url": "https://www.balarm.it/eventi/domenico-pellegrino-a-palazzo-bonocore-le-donne-del-mito-e-i-simboli-dell-isola-a-palermo-149630",
@@ -628,14 +606,14 @@
       "city": "Palermo"
     },
     {
-      "id": "149637",
-      "title": "Doppio incontro per \"Brontolo e la magnolia\": Beppe Severgnini a Palermo",
-      "url": "https://www.balarm.it/eventi/doppio-incontro-per-brontolo-e-la-magnolia-beppe-severgnini-a-palermo-149637",
-      "category": "Libri, film e incontri",
-      "dateLabel": "4 novembre 2026",
+      "id": "149681",
+      "title": "Giornate Nazionali del Cinema per la Scuola 2026: programma e ospiti ai Cantieri alla Zisa",
+      "url": "https://www.balarm.it/eventi/giornate-nazionali-del-cinema-per-la-scuola-2026-programma-e-ospiti-ai-cantieri-alla-zisa-149681",
+      "category": "Festival e rassegne",
+      "dateLabel": "Dal 4 al 6 novembre 2026",
       "start": "2026-11-04",
-      "end": "2026-11-04",
-      "venue": "Vari luoghi di Palermo",
+      "end": "2026-11-06",
+      "venue": "Cantieri culturali alla Zisa",
       "city": "Palermo"
     },
     {
@@ -648,39 +626,6 @@
       "end": "2026-11-25",
       "venue": "Blue Brass ridotto dello Spasimo",
       "city": "Palermo"
-    },
-    {
-      "id": "149590",
-      "title": "Presentazione del libro \"Fare Archivio\": incontro con le autrici al Pickwick di Palermo",
-      "url": "https://www.balarm.it/eventi/presentazione-del-libro-fare-archivio-incontro-con-le-autrici-al-pickwick-di-palermo-149590",
-      "category": "Libri, film e incontri",
-      "dateLabel": "4 novembre 2026",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "venue": "Pickwick",
-      "city": "Palermo"
-    },
-    {
-      "id": "149159",
-      "title": "Teresa Mannino per Danisinni: \"I monologhi del cuore\" al Teatro Massimo di Palermo",
-      "url": "https://www.balarm.it/eventi/teresa-mannino-per-danisinni-i-monologhi-del-cuore-al-teatro-massimo-di-palermo-149159",
-      "category": "Teatro e cabaret",
-      "dateLabel": "4 novembre 2026",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "venue": "Teatro Massimo",
-      "city": "Palermo"
-    },
-    {
-      "id": "149604",
-      "title": "Un grande cult al Rouge et Noir: \"Nightmare - Dal profondo della notte\" a Palermo",
-      "url": "https://www.balarm.it/eventi/un-grande-cult-al-rouge-et-noir-nightmare-dal-profondo-della-notte-a-palermo-149604",
-      "category": "Libri, film e incontri",
-      "dateLabel": "4 novembre 2026",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "venue": "Un grande cult al Rouge et Noir: \"Nightmare",
-      "city": "Dal profondo della notte\" a Palermo"
     },
     {
       "id": "149572",
@@ -859,6 +804,28 @@
       "city": "Palermo"
     },
     {
+      "id": "149669",
+      "title": "La \"nave più bella del mondo\" torna a Palermo: quando visitare l'Amerigo Vespucci",
+      "url": "https://www.balarm.it/eventi/la-nave-piu-bella-del-mondo-torna-a-palermo-quando-visitare-l-amerigo-vespucci-149669",
+      "category": "Visite ed escursioni",
+      "dateLabel": "Dal 6 al 8 novembre 2026",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "venue": "Porto",
+      "city": "Palermo"
+    },
+    {
+      "id": "149678",
+      "title": "Laboratorio per studenti e concerto aperto: il progetto \"Io sono energia\" a Palermo",
+      "url": "https://www.balarm.it/eventi/laboratorio-per-studenti-e-concerto-aperto-il-progetto-io-sono-energia-a-palermo-149678",
+      "category": "Concerti",
+      "dateLabel": "6 novembre 2026",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "venue": "Liceo classico \"Vittorio Emanuele II\"",
+      "city": "Palermo"
+    },
+    {
       "id": "149504",
       "title": "Musica live, menu fisso e cucina romana: venerdì a cena da \"Cacio & Pepe\" a Palermo",
       "url": "https://www.balarm.it/eventi/musica-live-menu-fisso-e-cucina-romana-venerdi-a-cena-da-cacio-pepe-a-palermo-149504",
@@ -969,6 +936,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149680",
+      "title": "Alt-rock, post-punk e noise: i Kōhei da Catania al palco del PunkFunk di Palermo",
+      "url": "https://www.balarm.it/eventi/alt-rock-post-punk-e-noise-i-kohei-da-catania-al-palco-del-punkfunk-di-palermo-149680",
+      "category": "Concerti",
+      "dateLabel": "7 novembre 2026",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "venue": "PunkFunk Record Shop Music Bar",
+      "city": "Palermo"
+    },
+    {
       "id": "149598",
       "title": "Caccia fotografica ai tesori di Palermo: l'iniziativa di P'Orto di Mare in centro storico",
       "url": "https://www.balarm.it/eventi/caccia-fotografica-ai-tesori-di-palermo-l-iniziativa-di-p-orto-di-mare-in-centro-storico-149598",
@@ -988,6 +966,17 @@
       "start": "2026-11-07",
       "end": "2026-11-07",
       "venue": "Real Teatro Santa Cecilia",
+      "city": "Palermo"
+    },
+    {
+      "id": "149672",
+      "title": "Centesimo libro per Sara Favarò: \"Il Femminile sacro in Sicilia\" a Palazzo Reale",
+      "url": "https://www.balarm.it/eventi/centesimo-libro-per-sara-favaro-il-femminile-sacro-in-sicilia-a-palazzo-reale-a-palermo-149672",
+      "category": "Libri, film e incontri",
+      "dateLabel": "7 novembre 2026",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "venue": "Palazzo Reale (o Palazzo dei Normanni)",
       "city": "Palermo"
     },
     {
@@ -1079,6 +1068,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149673",
+      "title": "Joan Mirò e Navarra in mostra: \"I labirinti della gioia\" al Centro d'arte Raffaello",
+      "url": "https://www.balarm.it/eventi/joan-miro-e-navarra-in-mostra-i-labirinti-della-gioia-al-centro-d-arte-raffaello-di-palermo-149673",
+      "category": "Mostre",
+      "dateLabel": "Dal 7 al 21 novembre 2026",
+      "start": "2026-11-07",
+      "end": "2026-11-21",
+      "venue": "Centro d'arte Raffaello (Notarbartolo)",
+      "city": "Palermo"
+    },
+    {
       "id": "149574",
       "title": "La \"Notte Bianca dei Tesori\" a Palermo: le visite (serali) in otto luoghi straordinari",
       "url": "https://www.balarm.it/eventi/la-notte-bianca-dei-tesori-a-palermo-le-visite-serali-in-otto-luoghi-straordinari-149574",
@@ -1143,17 +1143,6 @@
       "end": "2026-11-08",
       "venue": "Contessa Entellina",
       "city": "Contessa Entellina (Pa)"
-    },
-    {
-      "id": "149509",
-      "title": "Arte e sperimentazione a Cantieri Culturali alla Zisa: \"Fuori traccia\" fa tappa a cre.zi.plus",
-      "url": "https://www.balarm.it/eventi/arte-e-sperimentazione-a-cantieri-culturali-alla-zisa-fuori-traccia-fa-tappa-a-cre-zi-plus-149509",
-      "category": "Mostre",
-      "dateLabel": "8 novembre 2026",
-      "start": "2026-11-08",
-      "end": "2026-11-08",
-      "venue": "Cre.Zi. Plus",
-      "city": "Palermo"
     },
     {
       "id": "149581",
@@ -1233,6 +1222,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149682",
+      "title": "Presentazione di \"fuoriregistro\": il quinto numero al Museo Civico di Castelbuono",
+      "url": "https://www.balarm.it/eventi/presentazione-di-fuoriregistro-il-quinto-numero-al-museo-civico-di-castelbuono-149682",
+      "category": "Libri, film e incontri",
+      "dateLabel": "8 novembre 2026",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "venue": "Museo Civico di Castelbuono",
+      "city": "Castelbuono (Pa)"
+    },
+    {
       "id": "149496",
       "title": "Visita teatralizzata del Castello Beccadelli: canti e monologhi storici in scena a Marineo",
       "url": "https://www.balarm.it/eventi/visita-teatralizzata-del-castello-beccadelli-canti-e-monologhi-storici-in-scena-a-marineo-149496",
@@ -1307,6 +1307,28 @@
       "start": "2026-11-09",
       "end": "2026-11-09",
       "venue": "Politeama Garibaldi",
+      "city": "Palermo"
+    },
+    {
+      "id": "149679",
+      "title": "\"Still Alice\" di Glatzer e Westmoreland: \"SorsiCorti\" al Rouge et Noir di Palermo",
+      "url": "https://www.balarm.it/eventi/still-alice-di-glatzer-e-westmoreland-sorsicorti-al-rouge-et-noir-di-palermo-149679",
+      "category": "Libri, film e incontri",
+      "dateLabel": "10 novembre 2026",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "venue": "Cinema Rouge Et Noir",
+      "city": "Palermo"
+    },
+    {
+      "id": "149671",
+      "title": "Il mito incontra il presente al Teatro Biondo di Palermo: Lina Prosa riscrive \"Pentesilea\"",
+      "url": "https://www.balarm.it/eventi/il-mito-incontra-il-presente-al-teatro-biondo-di-palermo-lina-prosa-riscrive-pentesilea-149671",
+      "category": "Teatro e cabaret",
+      "dateLabel": "Dal 10 al 22 novembre 2026",
+      "start": "2026-11-10",
+      "end": "2026-11-22",
+      "venue": "Teatro Biondo",
       "city": "Palermo"
     },
     {
@@ -1407,6 +1429,28 @@
       "end": "2026-11-13",
       "venue": "PPP – Pregiata Putia Palermitana",
       "city": "Palermo"
+    },
+    {
+      "id": "149683",
+      "title": "Libro fotografico di Angela Ferrotti: \"Until the Sun and Moon go down\" da Radici",
+      "url": "https://www.balarm.it/eventi/libro-fotografico-di-angela-ferrotti-until-the-sun-and-moon-go-down-da-radici-a-palermo-149683",
+      "category": "Libri, film e incontri",
+      "dateLabel": "13 novembre 2026",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "venue": "Radici - Piccolo museo della natura",
+      "city": "Palermo"
+    },
+    {
+      "id": "149676",
+      "title": "Opere di Adriana Pecoraro in mostra a Bagheria: \"Apparente Niente\" a Palazzo Cutò",
+      "url": "https://www.balarm.it/eventi/opere-di-adriana-pecoraro-in-mostra-a-bagheria-apparente-niente-a-palazzo-cuto-149676",
+      "category": "Mostre",
+      "dateLabel": "Dal 13 al 27 novembre 2026",
+      "start": "2026-11-13",
+      "end": "2026-11-27",
+      "venue": "Palazzo Aragona Cutò",
+      "city": "Bagheria (Pa)"
     },
     {
       "id": "149566",
