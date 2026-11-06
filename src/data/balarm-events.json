@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-11-05",
-  "count": 145,
+  "generatedAt": "2026-11-06",
+  "count": 148,
   "events": [
     {
       "id": "146469",
@@ -54,17 +54,6 @@
       "end": "2027-01-03",
       "venue": "Castello dei Ventimiglia",
       "city": "Castelbuono (Pa)"
-    },
-    {
-      "id": "168412",
-      "title": "Un arcipelago di musica, teatro e danza: il \"Prima Onda Fest\" tra Palermo e Cinisi",
-      "url": "https://www.balarm.it/news/un-arcipelago-di-musica-teatro-e-danza-il-prima-onda-fest-tra-palermo-e-cinisi-168412",
-      "category": "Festival e rassegne",
-      "dateLabel": "Dal 26 agosto al 17 novembre 2026",
-      "start": "2026-08-26",
-      "end": "2026-11-17",
-      "venue": "Vari luoghi di Palermo e provincia",
-      "city": "Palermo"
     },
     {
       "id": "148296",
@@ -639,28 +628,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149663",
-      "title": "A Palermo un meeting sul benessere: l'incontro su salute e crescita professionale",
-      "url": "https://www.balarm.it/eventi/a-palermo-un-meeting-sul-benessere-l-incontro-su-salute-e-crescita-professionale-149663",
-      "category": "Libri, film e incontri",
-      "dateLabel": "5 novembre 2026",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "venue": "Casale San Lorenzo",
-      "city": "Palermo"
-    },
-    {
-      "id": "149647",
-      "title": "Cena con libro e con delitto: \"Malatrama\" di Myriam Leone da Prospero a Palermo",
-      "url": "https://www.balarm.it/eventi/cena-con-libro-e-con-delitto-malatrama-di-myriam-leone-da-prospero-a-palermo-149647",
-      "category": "Dove mangiare",
-      "dateLabel": "5 novembre 2026",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "venue": "Prospero Enoteca Letteraria",
-      "city": "Palermo"
-    },
-    {
       "id": "149578",
       "title": "Convegno di studi dedicato a Bruno Trentin: due giorni di confronto all'Istituto Gramsci",
       "url": "https://www.balarm.it/eventi/convegno-di-studi-dedicato-a-bruno-trentin-due-giorni-di-confronto-all-istituto-gramsci-di-palermo-149578",
@@ -672,17 +639,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149596",
-      "title": "Incontro con Elisa del Mese: firmacopie, letture, dialogo e degustazione a Cinisi",
-      "url": "https://www.balarm.it/eventi/incontro-con-elisa-del-mese-firmacopie-letture-dialogo-e-degustazione-a-cinisi-149596",
-      "category": "Libri, film e incontri",
-      "dateLabel": "5 novembre 2026",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "venue": "Palazzo dei Benedettini",
-      "city": "Cinisi (Pa)"
-    },
-    {
       "id": "149576",
       "title": "Omaggio ai Simply Red, jazz internazionale e soul: i concerti del Miles di Palermo",
       "url": "https://www.balarm.it/eventi/omaggio-ai-simply-red-jazz-internazionale-e-soul-i-concerti-del-miles-di-palermo-149576",
@@ -691,28 +647,6 @@
       "start": "2026-11-05",
       "end": "2026-11-07",
       "venue": "Miles Jazz Club",
-      "city": "Palermo"
-    },
-    {
-      "id": "149646",
-      "title": "Salvatore Petrotto e BachStringEnsemble: a Palermo le note del \"Pre Christmas Concert\"",
-      "url": "https://www.balarm.it/eventi/salvatore-petrotto-e-bachstringensemble-a-palermo-le-note-del-pre-christmas-concert-149646",
-      "category": "Concerti",
-      "dateLabel": "5 novembre 2026",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "venue": "Chiesa dei Santi Pietro e Paolo Apostoli",
-      "city": "Palermo"
-    },
-    {
-      "id": "149615",
-      "title": "Trio Reverse al Blue Brass di Palermo: Simona Trentacoste al club dello Spasimo",
-      "url": "https://www.balarm.it/eventi/trio-reverse-al-blue-brass-di-palermo-simona-trentacoste-al-club-dello-spasimo-149615",
-      "category": "Concerti",
-      "dateLabel": "5 novembre 2026",
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "venue": "Blue Brass ridotto dello Spasimo",
       "city": "Palermo"
     },
     {
@@ -1112,6 +1046,28 @@
       "city": "Palermo"
     },
     {
+      "id": "149651",
+      "title": "Quando la scrittura diventa gesto e la parola immagine: a Palermo la mostra “Meridiani”",
+      "url": "https://www.balarm.it/eventi/quando-la-scrittura-diventa-gesto-e-la-parola-immagine-a-palermo-la-mostra-meridiani-149651",
+      "category": "Mostre",
+      "dateLabel": "Dal 7 novembre 2026 al 7 gennaio 2027",
+      "start": "2026-11-07",
+      "end": "2027-01-07",
+      "venue": "Martha - Musica Art House Academy",
+      "city": "Palermo"
+    },
+    {
+      "id": "149692",
+      "title": "Riuso, scambio solidale e sostenibilità: lo \"Swap Festival\" ai Cantieri alla Zisa",
+      "url": "https://www.balarm.it/eventi/riuso-scambio-solidale-e-sostenibilita-lo-swap-festival-ai-cantieri-alla-zisa-di-palermo-149692",
+      "category": "Mercatini e artigianato",
+      "dateLabel": "7 novembre 2026",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "venue": "Circolo Arci Tavola Tonda",
+      "city": "Palermo"
+    },
+    {
       "id": "149640",
       "title": "Viaggio nell'universo musicale di Bach: Basilio Timpanaro al clavicembalo a Palermo",
       "url": "https://www.balarm.it/eventi/viaggio-nell-universo-musicale-di-bach-basilio-timpanaro-al-clavicembalo-a-palermo-149640",
@@ -1131,6 +1087,17 @@
       "start": "2026-11-07",
       "end": "2026-11-07",
       "venue": "Teatro Golden",
+      "city": "Palermo"
+    },
+    {
+      "id": "149706",
+      "title": "\"Invasione dei bambini al museo\": la visita ludica per i piccoli da Radici a Palermo",
+      "url": "https://www.balarm.it/eventi/invasione-dei-bambini-al-museo-la-visita-ludica-per-i-piccoli-da-radici-a-palermo-149706",
+      "category": "Bambini e ragazzi",
+      "dateLabel": "8 novembre 2026",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "venue": "Radici - Piccolo museo della natura",
       "city": "Palermo"
     },
     {
@@ -1354,6 +1321,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149699",
+      "title": "Futuro rurale e opportunità formative: a Terrasini inaugura lo Spazio Primacenter",
+      "url": "https://www.balarm.it/eventi/futuro-rurale-e-opportunita-formative-a-terrasini-inaugura-lo-spazio-primacenter-149699",
+      "category": "Libri, film e incontri",
+      "dateLabel": "11 novembre 2026",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "venue": "LAND Impresa Sociale - via dei Siculi 2",
+      "city": "Terrasini (Pa)"
+    },
+    {
       "id": "149599",
       "title": "Litografie con la Coca-Cola? Possibile: l'incontro da Radici, in centro a Palermo",
       "url": "https://www.balarm.it/eventi/litografie-con-la-coca-cola-possibile-l-incontro-da-radici-in-centro-a-palermo-149599",
@@ -1362,6 +1340,17 @@
       "start": "2026-11-11",
       "end": "2026-11-11",
       "venue": "Radici - Piccolo museo della natura",
+      "city": "Palermo"
+    },
+    {
+      "id": "149689",
+      "title": "\"Il partigiano Gigi\" a Spazio Cultura: la Resistenza protagonista in libreria a Palermo",
+      "url": "https://www.balarm.it/eventi/il-partigiano-gigi-a-spazio-cultura-la-resistenza-protagonista-in-libreria-a-palermo-149689",
+      "category": "Libri, film e incontri",
+      "dateLabel": "12 novembre 2026",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "venue": "Spazio Cultura Libreria Macaione",
       "city": "Palermo"
     },
     {
@@ -1384,6 +1373,17 @@
       "start": "2026-11-12",
       "end": "2026-11-13",
       "venue": "Bottega 5",
+      "city": "Palermo"
+    },
+    {
+      "id": "149695",
+      "title": "Scoprire Palazzo dei Normanni e la Cappella Palatina: tour nel gioiello reale di Palermo",
+      "url": "https://www.balarm.it/eventi/scoprire-palazzo-dei-normanni-e-la-cappella-palatina-tour-nel-gioiello-reale-di-palermo-149695",
+      "category": "Visite ed escursioni",
+      "dateLabel": "12 novembre 2026",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "venue": "Palazzo Reale (o Palazzo dei Normanni)",
       "city": "Palermo"
     },
     {
@@ -1475,6 +1475,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149700",
+      "title": "\"O corte a Dio\" a Bagheria: visita teatralizzata tra sale e corridoi a Villa Butera",
+      "url": "https://www.balarm.it/eventi/o-corte-a-dio-a-bagheria-visita-teatralizzata-tra-sale-e-corridoi-a-villa-butera-149700",
+      "category": "Visite ed escursioni",
+      "dateLabel": "14 novembre 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "venue": "Palazzo Butera",
+      "city": "Bagheria (Pa)"
+    },
+    {
       "id": "149626",
       "title": "\"Semplicemente Io\" in scena ai Cantieri: il tema dell'identità sul palco del Ditirammu",
       "url": "https://www.balarm.it/eventi/semplicemente-io-in-scena-ai-cantieri-il-tema-dell-identita-sul-palco-del-ditirammu-149626",
@@ -1483,6 +1494,17 @@
       "start": "2026-11-14",
       "end": "2026-11-15",
       "venue": "Bottega 5",
+      "city": "Palermo"
+    },
+    {
+      "id": "149704",
+      "title": "Concerto del gruppo Mediterraneo: canzoni in siciliano al Laboratorio Ballarò di Palermo",
+      "url": "https://www.balarm.it/eventi/concerto-del-gruppo-mediterraneo-canzoni-in-siciliano-al-laboratorio-ballaro-di-palermo-149704",
+      "category": "Concerti",
+      "dateLabel": "14 novembre 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "venue": "Centro culturale Arci - \"Laboratorio Andrea Ballarò\"",
       "city": "Palermo"
     },
     {
@@ -1592,6 +1614,17 @@
       "dateLabel": "15 novembre 2026",
       "start": "2026-11-15",
       "end": "2026-11-15",
+      "venue": "Politeama Garibaldi",
+      "city": "Palermo"
+    },
+    {
+      "id": "149697",
+      "title": "Federico Faggin per \"Coscienza e Libero Arbitrio\": tre giorni di convegni a Palermo",
+      "url": "https://www.balarm.it/eventi/federico-faggin-per-coscienza-e-libero-arbitrio-tre-giorni-di-convegni-a-palermo-149697",
+      "category": "Libri, film e incontri",
+      "dateLabel": "Dal 15 al 17 novembre 2026",
+      "start": "2026-11-15",
+      "end": "2026-11-17",
       "venue": "Politeama Garibaldi",
       "city": "Palermo"
     },
