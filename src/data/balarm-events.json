@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-11-06",
-  "count": 148,
+  "generatedAt": "2026-11-07",
+  "count": 137,
   "events": [
     {
       "id": "146469",
@@ -185,17 +185,6 @@
       "start": "2026-10-04",
       "end": "2026-11-07",
       "venue": "Vari luoghi di Palermo",
-      "city": "Palermo"
-    },
-    {
-      "id": "170464",
-      "title": "\"Io sono Energia\" a Palermo: laboratori di cittadinanza attiva nei quartieri della città",
-      "url": "https://www.balarm.it/news/io-sono-energia-a-palermo-laboratori-di-cittadinanza-attiva-nei-quartieri-della-citta-170464",
-      "category": "Esperienze",
-      "dateLabel": "Dal 9 ottobre al 21 novembre 2026",
-      "start": "2026-10-09",
-      "end": "2026-11-21",
-      "venue": "Vari luoghi",
       "city": "Palermo"
     },
     {
@@ -595,17 +584,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149681",
-      "title": "Giornate Nazionali del Cinema per la Scuola 2026: programma e ospiti ai Cantieri alla Zisa",
-      "url": "https://www.balarm.it/eventi/giornate-nazionali-del-cinema-per-la-scuola-2026-programma-e-ospiti-ai-cantieri-alla-zisa-149681",
-      "category": "Festival e rassegne",
-      "dateLabel": "Dal 4 al 6 novembre 2026",
-      "start": "2026-11-04",
-      "end": "2026-11-06",
-      "venue": "Cantieri culturali alla Zisa",
-      "city": "Palermo"
-    },
-    {
       "id": "149614",
       "title": "Jam session al Blue Brass: la tradizionale \"Jam at Spasimo\" ogni mercoledì a Palermo",
       "url": "https://www.balarm.it/eventi/jam-session-al-blue-brass-la-tradizionale-jam-at-spasimo-ogni-mercoledi-a-palermo-149614",
@@ -625,17 +603,6 @@
       "start": "2026-11-05",
       "end": "2026-11-22",
       "venue": "Vari luoghi di Palermo",
-      "city": "Palermo"
-    },
-    {
-      "id": "149578",
-      "title": "Convegno di studi dedicato a Bruno Trentin: due giorni di confronto all'Istituto Gramsci",
-      "url": "https://www.balarm.it/eventi/convegno-di-studi-dedicato-a-bruno-trentin-due-giorni-di-confronto-all-istituto-gramsci-di-palermo-149578",
-      "category": "Libri, film e incontri",
-      "dateLabel": "Dal 5 al 6 novembre 2026",
-      "start": "2026-11-05",
-      "end": "2026-11-06",
-      "venue": "Istituto Gramsci Siciliano, Cantieri Culturali alla Zisa",
       "city": "Palermo"
     },
     {
@@ -661,17 +628,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149319",
-      "title": "\"Jazz Up Close\" la nuova stagione a Palermo: al via con l'Alice Sparti Trio \"Music Tales\"",
-      "url": "https://www.balarm.it/eventi/jazz-up-close-la-nuova-stagione-a-palermo-al-via-con-l-alice-sparti-trio-music-tales-149319",
-      "category": "Concerti",
-      "dateLabel": "6 novembre 2026",
-      "start": "2026-11-06",
-      "end": "2026-11-06",
-      "venue": "Cinematocasa",
-      "city": "Palermo"
-    },
-    {
       "id": "149196",
       "title": "A Finale di Pollina si festeggia la 50ª Sagra dell’Ulivo: mezzo secolo di tradizione e gusto",
       "url": "https://www.balarm.it/eventi/a-finale-di-pollina-si-festeggia-la-50a-sagra-dell-ulivo-mezzo-secolo-di-tradizione-e-gusto-149196",
@@ -683,17 +639,6 @@
       "city": "Finale di Pollina (Pa)"
     },
     {
-      "id": "149473",
-      "title": "Chitarra, voce, armonica e loop station: i Wine & Rock dal vivo alla PPP di Palermo",
-      "url": "https://www.balarm.it/eventi/chitarra-voce-armonica-e-loop-station-i-wine-rock-dal-vivo-alla-ppp-di-palermo-149473",
-      "category": "Musica e aperitivi",
-      "dateLabel": "6 novembre 2026",
-      "start": "2026-11-06",
-      "end": "2026-11-06",
-      "venue": "PPP – Pregiata Putia Palermitana",
-      "city": "Palermo"
-    },
-    {
       "id": "149653",
       "title": "Eva Robin's e \"Il Frigo\" di Copi: il vortice surreale arriva al Teatro Libero di Palermo",
       "url": "https://www.balarm.it/eventi/eva-robin-s-e-il-frigo-di-copi-il-vortice-surreale-arriva-al-teatro-libero-di-palermo-149653",
@@ -702,28 +647,6 @@
       "start": "2026-11-06",
       "end": "2026-11-07",
       "venue": "Teatro Libero",
-      "city": "Palermo"
-    },
-    {
-      "id": "149616",
-      "title": "Gianni Gebbia in scena con il suo Magnetic Trio: il concerto al Blue Brass di Palermo",
-      "url": "https://www.balarm.it/eventi/gianni-gebbia-in-scena-con-il-suo-magnetic-trio-il-concerto-al-blue-brass-di-palermo-149616",
-      "category": "Concerti",
-      "dateLabel": "6 novembre 2026",
-      "start": "2026-11-06",
-      "end": "2026-11-06",
-      "venue": "Blue Brass ridotto dello Spasimo",
-      "city": "Palermo"
-    },
-    {
-      "id": "149550",
-      "title": "I Florio, il Marsala, il tonno: incontro sulla filiera siciliana allo Stand Florio di Palermo",
-      "url": "https://www.balarm.it/eventi/i-florio-il-marsala-il-tonno-incontro-sulla-filiera-siciliana-allo-stand-florio-di-palermo-149550",
-      "category": "Libri, film e incontri",
-      "dateLabel": "6 novembre 2026",
-      "start": "2026-11-06",
-      "end": "2026-11-06",
-      "venue": "Stand Florio",
       "city": "Palermo"
     },
     {
@@ -745,29 +668,7 @@
       "dateLabel": "Dal 6 al 8 novembre 2026",
       "start": "2026-11-06",
       "end": "2026-11-08",
-      "venue": "Porto",
-      "city": "Palermo"
-    },
-    {
-      "id": "149678",
-      "title": "Laboratorio per studenti e concerto aperto: il progetto \"Io sono energia\" a Palermo",
-      "url": "https://www.balarm.it/eventi/laboratorio-per-studenti-e-concerto-aperto-il-progetto-io-sono-energia-a-palermo-149678",
-      "category": "Concerti",
-      "dateLabel": "6 novembre 2026",
-      "start": "2026-11-06",
-      "end": "2026-11-06",
-      "venue": "Liceo classico \"Vittorio Emanuele II\"",
-      "city": "Palermo"
-    },
-    {
-      "id": "149504",
-      "title": "Musica live, menu fisso e cucina romana: venerdì a cena da \"Cacio & Pepe\" a Palermo",
-      "url": "https://www.balarm.it/eventi/musica-live-menu-fisso-e-cucina-romana-venerdi-a-cena-da-cacio-pepe-a-palermo-149504",
-      "category": "Dove mangiare",
-      "dateLabel": "6 novembre 2026",
-      "start": "2026-11-06",
-      "end": "2026-11-06",
-      "venue": "Cacio & Pepe - cucina romana (piazza Giovanni Paolo II)",
+      "venue": "Vari luoghi di Palermo",
       "city": "Palermo"
     },
     {
@@ -955,17 +856,6 @@
       "start": "2026-11-07",
       "end": "2026-11-07",
       "venue": "Palazzo Conte Federico",
-      "city": "Palermo"
-    },
-    {
-      "id": "149557",
-      "title": "​​​​​​​Gino Carista e i \"Pidocchi a processo\": risate garantite al Sant'Eugenio di Palermo",
-      "url": "https://www.balarm.it/eventi/gino-carista-e-i-pidocchi-a-processo-risate-garantite-al-sant-eugenio-di-palermo-149557",
-      "category": "Teatro e cabaret",
-      "dateLabel": "Dal 7 al 29 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-29",
-      "venue": "Teatro Sant'Eugenio",
       "city": "Palermo"
     },
     {
@@ -1614,17 +1504,6 @@
       "dateLabel": "15 novembre 2026",
       "start": "2026-11-15",
       "end": "2026-11-15",
-      "venue": "Politeama Garibaldi",
-      "city": "Palermo"
-    },
-    {
-      "id": "149697",
-      "title": "Federico Faggin per \"Coscienza e Libero Arbitrio\": tre giorni di convegni a Palermo",
-      "url": "https://www.balarm.it/eventi/federico-faggin-per-coscienza-e-libero-arbitrio-tre-giorni-di-convegni-a-palermo-149697",
-      "category": "Libri, film e incontri",
-      "dateLabel": "Dal 15 al 17 novembre 2026",
-      "start": "2026-11-15",
-      "end": "2026-11-17",
       "venue": "Politeama Garibaldi",
       "city": "Palermo"
     },
