@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-11-07",
-  "count": 137,
+  "generatedAt": "2026-11-08",
+  "count": 120,
   "events": [
     {
       "id": "146469",
@@ -175,17 +175,6 @@
       "end": "2026-11-26",
       "venue": "Museo Civico di Castelbuono",
       "city": "Castelbuono (Pa)"
-    },
-    {
-      "id": "148691",
-      "title": "Il Festival di Musica Barocca a Palermo: otto concerti (gratuiti) in otto luoghi simbolo",
-      "url": "https://www.balarm.it/eventi/il-festival-di-musica-barocca-a-palermo-otto-concerti-gratuiti-in-otto-luoghi-simbolo-148691",
-      "category": "Festival e rassegne",
-      "dateLabel": "Dal 4 ottobre al 7 novembre 2026",
-      "start": "2026-10-04",
-      "end": "2026-11-07",
-      "venue": "Vari luoghi di Palermo",
-      "city": "Palermo"
     },
     {
       "id": "149026",
@@ -606,17 +595,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149576",
-      "title": "Omaggio ai Simply Red, jazz internazionale e soul: i concerti del Miles di Palermo",
-      "url": "https://www.balarm.it/eventi/omaggio-ai-simply-red-jazz-internazionale-e-soul-i-concerti-del-miles-di-palermo-149576",
-      "category": "Musica e aperitivi",
-      "dateLabel": "Dal 5 al 7 novembre 2026",
-      "start": "2026-11-05",
-      "end": "2026-11-07",
-      "venue": "Miles Jazz Club",
-      "city": "Palermo"
-    },
-    {
       "id": "149618",
       "title": "\"Fidarsi ma non troppo\" a Palermo: musica e varietà tra incredibili colpi di scena",
       "url": "https://www.balarm.it/eventi/fidarsi-ma-non-troppo-a-palermo-musica-e-varieta-tra-incredibili-colpi-di-scena-149618",
@@ -637,17 +615,6 @@
       "end": "2026-11-08",
       "venue": "Vari luoghi del paese",
       "city": "Finale di Pollina (Pa)"
-    },
-    {
-      "id": "149653",
-      "title": "Eva Robin's e \"Il Frigo\" di Copi: il vortice surreale arriva al Teatro Libero di Palermo",
-      "url": "https://www.balarm.it/eventi/eva-robin-s-e-il-frigo-di-copi-il-vortice-surreale-arriva-al-teatro-libero-di-palermo-149653",
-      "category": "Teatro e cabaret",
-      "dateLabel": "Dal 6 al 7 novembre 2026",
-      "start": "2026-11-06",
-      "end": "2026-11-07",
-      "venue": "Teatro Libero",
-      "city": "Palermo"
     },
     {
       "id": "149553",
@@ -716,17 +683,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149508",
-      "title": "\"Fuori traccia\" arriva a Palermo: la mostra sul disco in vinile al Pablo Listening Bar",
-      "url": "https://www.balarm.it/eventi/fuori-traccia-arriva-a-palermo-la-mostra-sul-disco-in-vinile-al-pablo-listening-bar-149508",
-      "category": "Mostre",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Pablo Listening Bar",
-      "city": "Palermo"
-    },
-    {
       "id": "149592",
       "title": "\"Giovanni Nanfa Show\" al Colosseum: si ride con il professore del cabaret siciliano",
       "url": "https://www.balarm.it/eventi/giovanni-nanfa-show-al-colosseum-si-ride-con-il-professore-del-cabaret-siciliano-149592",
@@ -735,83 +691,6 @@
       "start": "2026-11-07",
       "end": "2026-11-08",
       "venue": "Cineteatro Colosseum",
-      "city": "Palermo"
-    },
-    {
-      "id": "149642",
-      "title": "\"Io mi difendo\": a Bagheria danza, parole e difesa contro la violenza sulle donne",
-      "url": "https://www.balarm.it/eventi/io-mi-difendo-a-bagheria-danza-parole-e-difesa-contro-la-violenza-sulle-donne-149642",
-      "category": "Teatro e cabaret",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Teatro Monsignor Muratore",
-      "city": "Bagheria (Pa)"
-    },
-    {
-      "id": "149567",
-      "title": "\"Sarò la tua voce\": Mirna Mastronardi presenta il suo libro a Palazzo Mazzarino",
-      "url": "https://www.balarm.it/eventi/saro-la-tua-voce-mirna-mastronardi-presenta-il-suo-libro-a-palazzo-mazzarino-149567",
-      "category": "Libri, film e incontri",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Palazzo Mazzarino",
-      "city": "Palermo"
-    },
-    {
-      "id": "149652",
-      "title": "\"Una notte al museo Salinas\": archeologia, racconto e gioco per grandi e bambini",
-      "url": "https://www.balarm.it/eventi/una-notte-al-museo-salinas-archeologia-racconto-e-gioco-per-grandi-e-bambini-149652",
-      "category": "Bambini e ragazzi",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Museo archeologico regionale \"Antonino Salinas\"",
-      "city": "Palermo"
-    },
-    {
-      "id": "149680",
-      "title": "Alt-rock, post-punk e noise: i Kōhei da Catania al palco del PunkFunk di Palermo",
-      "url": "https://www.balarm.it/eventi/alt-rock-post-punk-e-noise-i-kohei-da-catania-al-palco-del-punkfunk-di-palermo-149680",
-      "category": "Concerti",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "PunkFunk Record Shop Music Bar",
-      "city": "Palermo"
-    },
-    {
-      "id": "149598",
-      "title": "Caccia fotografica ai tesori di Palermo: l'iniziativa di P'Orto di Mare in centro storico",
-      "url": "https://www.balarm.it/eventi/caccia-fotografica-ai-tesori-di-palermo-l-iniziativa-di-p-orto-di-mare-in-centro-storico-149598",
-      "category": "Sport e giochi",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Vari luoghi del centro storico",
-      "city": "Palermo"
-    },
-    {
-      "id": "149331",
-      "title": "Canzoni per Montalbano con Olivia Sellerio: il concerto al Real Teatro Santa Cecilia",
-      "url": "https://www.balarm.it/eventi/canzoni-per-montalbano-con-olivia-sellerio-il-concerto-al-real-teatro-santa-cecilia-149331",
-      "category": "Concerti",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Real Teatro Santa Cecilia",
-      "city": "Palermo"
-    },
-    {
-      "id": "149672",
-      "title": "Centesimo libro per Sara Favarò: \"Il Femminile sacro in Sicilia\" a Palazzo Reale",
-      "url": "https://www.balarm.it/eventi/centesimo-libro-per-sara-favaro-il-femminile-sacro-in-sicilia-a-palazzo-reale-a-palermo-149672",
-      "category": "Libri, film e incontri",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Palazzo Reale (o Palazzo dei Normanni)",
       "city": "Palermo"
     },
     {
@@ -834,39 +713,6 @@
       "start": "2026-11-07",
       "end": "2026-11-08",
       "venue": "Nuovo Teatro Orione",
-      "city": "Palermo"
-    },
-    {
-      "id": "149658",
-      "title": "Donne sui trenta e aspettative in famiglia e società: le racconta Giulia Cerruti a Palermo",
-      "url": "https://www.balarm.it/eventi/donne-sui-trenta-e-aspettative-in-famiglia-e-societa-le-racconta-giulia-cerruti-a-palermo-149658",
-      "category": "Teatro e cabaret",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Piccolo Teatro ai Biscottari",
-      "city": "Palermo"
-    },
-    {
-      "id": "149638",
-      "title": "È una delle grandi dimore nobiliari di Palermo: visite a Palazzo Conte Federico",
-      "url": "https://www.balarm.it/eventi/e-una-delle-grandi-dimore-nobiliari-di-palermo-visite-a-palazzo-conte-federico-149638",
-      "category": "Visite ed escursioni",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Palazzo Conte Federico",
-      "city": "Palermo"
-    },
-    {
-      "id": "149634",
-      "title": "Giovanna Rosadini presenta due libri: \"Cicatrici\" e \"Impromtu\" da Spazio Cultura",
-      "url": "https://www.balarm.it/eventi/giovanna-rosadini-presenta-due-libri-cicatrici-e-impromtu-da-spazio-cultura-a-palermo-149634",
-      "category": "Libri, film e incontri",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Spazio Cultura Libreria Macaione",
       "city": "Palermo"
     },
     {
@@ -925,17 +771,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149320",
-      "title": "Music Tales secondo atto a Palermo: con \"Italian Amarcord\" il jazz incontra il cinema",
-      "url": "https://www.balarm.it/eventi/music-tales-secondo-atto-a-palermo-con-italian-amarcord-il-jazz-incontra-il-cinema-149320",
-      "category": "Concerti",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Cinematocasa",
-      "city": "Palermo"
-    },
-    {
       "id": "149651",
       "title": "Quando la scrittura diventa gesto e la parola immagine: a Palermo la mostra “Meridiani”",
       "url": "https://www.balarm.it/eventi/quando-la-scrittura-diventa-gesto-e-la-parola-immagine-a-palermo-la-mostra-meridiani-149651",
@@ -944,39 +779,6 @@
       "start": "2026-11-07",
       "end": "2027-01-07",
       "venue": "Martha - Musica Art House Academy",
-      "city": "Palermo"
-    },
-    {
-      "id": "149692",
-      "title": "Riuso, scambio solidale e sostenibilità: lo \"Swap Festival\" ai Cantieri alla Zisa",
-      "url": "https://www.balarm.it/eventi/riuso-scambio-solidale-e-sostenibilita-lo-swap-festival-ai-cantieri-alla-zisa-di-palermo-149692",
-      "category": "Mercatini e artigianato",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Circolo Arci Tavola Tonda",
-      "city": "Palermo"
-    },
-    {
-      "id": "149640",
-      "title": "Viaggio nell'universo musicale di Bach: Basilio Timpanaro al clavicembalo a Palermo",
-      "url": "https://www.balarm.it/eventi/viaggio-nell-universo-musicale-di-bach-basilio-timpanaro-al-clavicembalo-a-palermo-149640",
-      "category": "Concerti",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Oratorio del Rosario di Santa Cita",
-      "city": "Palermo"
-    },
-    {
-      "id": "149624",
-      "title": "Viaggio tra i capolavori del cinema: il genio di Hans Zimmer al Golden di Palermo",
-      "url": "https://www.balarm.it/eventi/viaggio-tra-i-capolavori-del-cinema-il-genio-di-hans-zimmer-al-golden-di-palermo-149624",
-      "category": "Concerti",
-      "dateLabel": "7 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "venue": "Teatro Golden",
       "city": "Palermo"
     },
     {
@@ -1418,6 +1220,17 @@
       "end": "2026-11-15",
       "venue": "Masseria La Chiusa",
       "city": "San Giuseppe Jato (Pa)"
+    },
+    {
+      "id": "149557",
+      "title": "​​​​​​​Gino Carista e i \"Pidocchi a processo\": risate garantite al Sant'Eugenio di Palermo",
+      "url": "https://www.balarm.it/eventi/gino-carista-e-i-pidocchi-a-processo-risate-garantite-al-sant-eugenio-di-palermo-149557",
+      "category": "Teatro e cabaret",
+      "dateLabel": "Dal 14 al 29 novembre 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-29",
+      "venue": "Teatro Sant'Eugenio",
+      "city": "Palermo"
     },
     {
       "id": "149324",
