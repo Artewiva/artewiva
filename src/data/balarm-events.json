@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-11-09",
-  "count": 126,
+  "generatedAt": "2026-11-10",
+  "count": 149,
   "events": [
     {
       "id": "146469",
@@ -672,39 +672,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149636",
-      "title": "Chef stellati e maestri del gusto: al Grand Hotel et des Palmes \"PalermoSquisita\"",
-      "url": "https://www.balarm.it/eventi/chef-stellati-e-maestri-del-gusto-al-grand-hotel-et-des-palmes-palermosquisita-149636",
-      "category": "Dove mangiare",
-      "dateLabel": "9 novembre 2026",
-      "start": "2026-11-09",
-      "end": "2026-11-09",
-      "venue": "Grand Hotel et des Palmes",
-      "city": "Palermo"
-    },
-    {
-      "id": "149419",
-      "title": "La musica di Faber e Fossati rivive al teatro Massimo: il concerto di Fiorella Mannoia",
-      "url": "https://www.balarm.it/eventi/la-musica-di-faber-e-fossati-rivive-al-teatro-massimo-il-concerto-di-fiorella-mannoia-149419",
-      "category": "Concerti",
-      "dateLabel": "9 novembre 2026",
-      "start": "2026-11-09",
-      "end": "2026-11-09",
-      "venue": "Vari luoghi di Palermo",
-      "city": "Palermo"
-    },
-    {
-      "id": "149339",
-      "title": "Lectio magistralis di Nicolò Fiorenza: a Palermo \"Portali chiaramontani in Sicilia\"",
-      "url": "https://www.balarm.it/eventi/lectio-magistralis-di-nicolo-fiorenza-a-palermo-portali-chiaramontani-in-sicilia-149339",
-      "category": "Libri, film e incontri",
-      "dateLabel": "9 novembre 2026",
-      "start": "2026-11-09",
-      "end": "2026-11-09",
-      "venue": "Palazzo Chiaramonte-Steri",
-      "city": "Palermo"
-    },
-    {
       "id": "149623",
       "title": "Pirandello al Teatro Golden: Pippo Pattavina è il protagonista de \"Il giuoco delle parti\"",
       "url": "https://www.balarm.it/eventi/pirandello-al-teatro-golden-pippo-pattavina-e-il-protagonista-de-il-giuoco-delle-parti-149623",
@@ -716,25 +683,14 @@
       "city": "Palermo"
     },
     {
-      "id": "149662",
-      "title": "Storia di \"whisky e contrabbassi\" e del Brass: Mario Di Caro presenta il suo libro a Palermo",
-      "url": "https://www.balarm.it/eventi/storia-di-whisky-e-contrabbassi-e-del-brass-mario-di-caro-presenta-il-suo-libro-a-palermo-149662",
+      "id": "149749",
+      "title": "\"La mafia che cambia\" a Palermo: in libreria con Maurizio De Lucia e Salvo Palazzolo",
+      "url": "https://www.balarm.it/eventi/la-mafia-che-cambia-a-palermo-in-libreria-con-maurizio-de-lucia-e-salvo-palazzolo-149749",
       "category": "Libri, film e incontri",
-      "dateLabel": "9 novembre 2026",
-      "start": "2026-11-09",
-      "end": "2026-11-09",
-      "venue": "La Feltrinelli libri e musica",
-      "city": "Palermo"
-    },
-    {
-      "id": "149641",
-      "title": "Un trio internazionale al Politeama Garibaldi: il concerto per gli \"Amici della Musica\"",
-      "url": "https://www.balarm.it/eventi/un-trio-internazionale-al-politeama-garibaldi-il-concerto-per-gli-amici-della-musica-149641",
-      "category": "Concerti",
-      "dateLabel": "9 novembre 2026",
-      "start": "2026-11-09",
-      "end": "2026-11-09",
-      "venue": "Politeama Garibaldi",
+      "dateLabel": "10 novembre 2026",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "venue": "Libreria Modusvivendi",
       "city": "Palermo"
     },
     {
@@ -757,6 +713,127 @@
       "start": "2026-11-10",
       "end": "2026-11-22",
       "venue": "Teatro Biondo",
+      "city": "Palermo"
+    },
+    {
+      "id": "149754",
+      "title": "Saverio Raimondo arriva a Palermo: il live del comico sul palco della Mind House",
+      "url": "https://www.balarm.it/eventi/saverio-raimondo-arriva-a-palermo-il-live-del-comico-sul-palco-della-mind-house-149754",
+      "category": "Teatro e cabaret",
+      "dateLabel": "10 novembre 2026",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "venue": "Mind House",
+      "city": "Palermo"
+    },
+    {
+      "id": "149729",
+      "title": "\"Notti horror\" al Rouge et Noir: \"Non si sevizia un paperino\" in sala a Palermo",
+      "url": "https://www.balarm.it/eventi/notti-horror-al-rouge-et-noir-non-si-sevizia-un-paperino-in-sala-a-palermo-149729",
+      "category": "Libri, film e incontri",
+      "dateLabel": "11 novembre 2026",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "venue": "Cinema Rouge Et Noir",
+      "city": "Palermo"
+    },
+    {
+      "id": "149582",
+      "title": "Calzature storiche e iconiche: a Palermo la visita guidata alla mostra \"Dream Shoes\"",
+      "url": "https://www.balarm.it/eventi/calzature-storiche-e-iconiche-a-palermo-la-visita-guidata-alla-mostra-dream-shoes-149582",
+      "category": "Visite ed escursioni",
+      "dateLabel": "11 novembre 2026",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "venue": "Palazzo Branciforte",
+      "city": "Palermo"
+    },
+    {
+      "id": "149547",
+      "title": "Contrasto a discriminazioni e violenza di genere: a Palermo il festival \"DialoghiAmo\"",
+      "url": "https://www.balarm.it/eventi/contrasto-a-discriminazioni-e-violenza-di-genere-a-palermo-il-festival-dialoghiamo-149547",
+      "category": "Festival e rassegne",
+      "dateLabel": "Dal 11 al 25 novembre 2026",
+      "start": "2026-11-11",
+      "end": "2026-11-25",
+      "venue": "Vari luoghi di Palermo",
+      "city": "Palermo"
+    },
+    {
+      "id": "149733",
+      "title": "Dal libro alla nuova biblioteca: le iniziative per i 20 anni del Cervantes di Palermo",
+      "url": "https://www.balarm.it/eventi/dal-libro-alla-nuova-biblioteca-le-iniziative-per-i-20-anni-dell-instituto-cervantes-di-palermo-149733",
+      "category": "Libri, film e incontri",
+      "dateLabel": "11 novembre 2026",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "venue": "Chiesa di Sant'Eulalia dei Catalani",
+      "city": "Palermo"
+    },
+    {
+      "id": "149713",
+      "title": "Eleonora Lombardo presenta \"A Palermo con Letizia Battaglia\": il libro al Bar Pickwick",
+      "url": "https://www.balarm.it/eventi/eleonora-lombardo-presenta-a-palermo-con-letizia-battaglia-il-libro-al-bar-pickwick-di-palermo-149713",
+      "category": "Libri, film e incontri",
+      "dateLabel": "11 novembre 2026",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "venue": "Pickwick",
+      "city": "Palermo"
+    },
+    {
+      "id": "149699",
+      "title": "Futuro rurale e opportunità formative: a Terrasini inaugura lo Spazio Primacenter",
+      "url": "https://www.balarm.it/eventi/futuro-rurale-e-opportunita-formative-a-terrasini-inaugura-lo-spazio-primacenter-149699",
+      "category": "Libri, film e incontri",
+      "dateLabel": "11 novembre 2026",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "venue": "LAND Impresa Sociale - via dei Siculi 2",
+      "city": "Terrasini (Pa)"
+    },
+    {
+      "id": "149599",
+      "title": "Litografie con la Coca-Cola? Possibile: l'incontro da Radici, in centro a Palermo",
+      "url": "https://www.balarm.it/eventi/litografie-con-la-coca-cola-possibile-l-incontro-da-radici-in-centro-a-palermo-149599",
+      "category": "Libri, film e incontri",
+      "dateLabel": "11 novembre 2026",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "venue": "Radici - Piccolo museo della natura",
+      "city": "Palermo"
+    },
+    {
+      "id": "149743",
+      "title": "Musica dal vivo e cena a Mondello: una nuova serata musicale al Circolo Artistico",
+      "url": "https://www.balarm.it/eventi/musica-dal-vivo-e-cena-a-mondello-una-nuova-serata-musicale-al-circolo-artistico-149743",
+      "category": "Musica e aperitivi",
+      "dateLabel": "11 novembre 2026",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "venue": "Circolo Artistico di Palermo",
+      "city": "Palermo"
+    },
+    {
+      "id": "149732",
+      "title": "Sulle tracce di San Martino: visite guidate, moscato e biscotti all'Abbazia benedettina",
+      "url": "https://www.balarm.it/eventi/sulle-tracce-di-san-martino-visite-guidate-moscato-e-biscotti-all-abbazia-benedettina-149732",
+      "category": "Visite ed escursioni",
+      "dateLabel": "Dal 11 al 15 novembre 2026",
+      "start": "2026-11-11",
+      "end": "2026-11-15",
+      "venue": "Abbazia dei Benedettini",
+      "city": "San Martino delle Scale (Pa)"
+    },
+    {
+      "id": "149735",
+      "title": "\"Figliastra/quasi vero\" svela i segreti del teatro: lo spettacolo in scena a Palermo",
+      "url": "https://www.balarm.it/eventi/figliastra-quasi-vero-svela-i-segreti-del-teatro-lo-spettacolo-in-scena-a-palermo-149735",
+      "category": "Teatro e cabaret",
+      "dateLabel": "Dal 12 al 14 novembre 2026",
+      "start": "2026-11-12",
+      "end": "2026-11-14",
+      "venue": "Teatro Libero",
       "city": "Palermo"
     },
     {
@@ -859,6 +936,28 @@
       "city": "Palermo"
     },
     {
+      "id": "149742",
+      "title": "La \"Leningrado\" di Šostakovič a Palermo: Rhorer sul podio del Politeama Garibaldi",
+      "url": "https://www.balarm.it/eventi/la-leningrado-di-sostakovic-a-palermo-rhorer-sul-podio-del-politeama-garibaldi-149742",
+      "category": "Concerti",
+      "dateLabel": "Dal 13 al 14 novembre 2026",
+      "start": "2026-11-13",
+      "end": "2026-11-14",
+      "venue": "Politeama Garibaldi",
+      "city": "Palermo"
+    },
+    {
+      "id": "149748",
+      "title": "Leonardo Scicolone presenta \"Studi per pianista\": i brani al Conservatorio di Palermo",
+      "url": "https://www.balarm.it/eventi/leonardo-scicolone-presenta-studi-per-pianista-i-brani-al-conservatorio-di-palermo-149748",
+      "category": "Concerti",
+      "dateLabel": "13 novembre 2026",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "venue": "Conservatorio di musica \"Alessandro Scarlatti\"",
+      "city": "Palermo"
+    },
+    {
       "id": "149683",
       "title": "Libro fotografico di Angela Ferrotti: \"Until the Sun and Moon go down\" da Radici",
       "url": "https://www.balarm.it/eventi/libro-fotografico-di-angela-ferrotti-until-the-sun-and-moon-go-down-da-radici-a-palermo-149683",
@@ -956,6 +1055,17 @@
       "end": "2026-11-15",
       "venue": "Bottega 5",
       "city": "Palermo"
+    },
+    {
+      "id": "149750",
+      "title": "Come stiamo al mondo? \"Alice nel paese dei Tarahumara\" in scena a Termini Imerese",
+      "url": "https://www.balarm.it/eventi/come-stiamo-al-mondo-alice-nel-paese-dei-tarahumara-in-scena-a-termini-imerese-149750",
+      "category": "Teatro e cabaret",
+      "dateLabel": "Dal 14 al 15 novembre 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "venue": "Teatro Zeta",
+      "city": "Termini Imerese (Pa)"
     },
     {
       "id": "149704",
@@ -1057,6 +1167,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149741",
+      "title": "Psych rock e post-punk: gli internazionali Clustersun da Catania al PunkFunk",
+      "url": "https://www.balarm.it/eventi/psych-rock-e-post-punk-gli-internazionali-clustersun-da-catania-al-punkfunk-di-palermo-149741",
+      "category": "Concerti",
+      "dateLabel": "14 novembre 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "venue": "PunkFunk Record Shop Music Bar",
+      "city": "Palermo"
+    },
+    {
       "id": "149608",
       "title": "Riflessione tra guerre e crisi globale: \"Lettera ai contadini\" al Teatro Atlante di Palermo",
       "url": "https://www.balarm.it/eventi/riflessione-tra-guerre-e-crisi-globale-lettera-ai-contadini-al-teatro-atlante-di-palermo-149608",
@@ -1068,6 +1189,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149753",
+      "title": "Stefania Andreoli debutta a teatro: \"La mente in scena\" al Golden di Palermo",
+      "url": "https://www.balarm.it/eventi/stefania-andreoli-debutta-a-teatro-la-mente-in-scena-al-golden-di-palermo-149753",
+      "category": "Teatro e cabaret",
+      "dateLabel": "14 novembre 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "venue": "Teatro Golden",
+      "city": "Palermo"
+    },
+    {
       "id": "149478",
       "title": "Tra passi, respiro e silenzio: un’esperienza immersiva di meditazione e raja yoga",
       "url": "https://www.balarm.it/eventi/tra-passi-respiro-e-silenzio-un-esperienza-immersiva-di-meditazione-e-raja-yoga-149478",
@@ -1076,6 +1208,17 @@
       "start": "2026-11-14",
       "end": "2026-11-14",
       "venue": "Parco della Favorita",
+      "city": "Palermo"
+    },
+    {
+      "id": "149751",
+      "title": "Visite a Palazzo Francavilla: la dimora nobiliare con vista sul Massimo di Palermo",
+      "url": "https://www.balarm.it/eventi/visite-a-palazzo-francavilla-la-dimora-nobiliare-con-vista-sul-massimo-di-palermo-149751",
+      "category": "Visite ed escursioni",
+      "dateLabel": "14 novembre 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "venue": "Palazzo Francavilla",
       "city": "Palermo"
     },
     {
@@ -1099,6 +1242,17 @@
       "end": "2026-11-17",
       "venue": "Politeama Garibaldi",
       "city": "Palermo"
+    },
+    {
+      "id": "149746",
+      "title": "A volo d'uccello sopra la città: tra i sentieri di Altofonte in compagnia di una Poiana",
+      "url": "https://www.balarm.it/eventi/a-volo-d-uccello-sopra-la-citta-tra-i-sentieri-di-altofonte-in-compagnia-di-una-poiana-149746",
+      "category": "Mercatini e artigianato",
+      "dateLabel": "15 novembre 2026",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "venue": "Pizzo Valle del Fico",
+      "city": "Altofonte (Pa)"
     },
     {
       "id": "149714",
@@ -1134,6 +1288,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149755",
+      "title": "Dalla mitologia al palcoscenico: \"Hercules\" sotto i riflettori al Teatro Golden di Palermo",
+      "url": "https://www.balarm.it/eventi/dalla-mitologia-al-palcoscenico-hercules-sotto-i-riflettori-al-teatro-golden-di-palermo-149755",
+      "category": "Bambini e ragazzi",
+      "dateLabel": "15 novembre 2026",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "venue": "Teatro Golden",
+      "city": "Palermo"
+    },
+    {
       "id": "149710",
       "title": "Il foliage in Sicilia: escursione tra alberi e sentieri al parco delle Madonie",
       "url": "https://www.balarm.it/eventi/il-foliage-in-sicilia-escursione-tra-alberi-e-sentieri-al-parco-delle-madonie-149710",
@@ -1143,6 +1308,17 @@
       "end": "2026-11-15",
       "venue": "Piano Battaglia",
       "city": "Petralia Sottana (Pa)"
+    },
+    {
+      "id": "149747",
+      "title": "Linea d'ombra tra umano e animale: a Palermo la mostra di Tony Lombardo",
+      "url": "https://www.balarm.it/eventi/linea-d-ombra-tra-umano-e-animale-a-palermo-la-mostra-di-tony-lombardo-149747",
+      "category": "Mostre",
+      "dateLabel": "Dal 15 novembre 2026 al 15 gennaio 2027",
+      "start": "2026-11-15",
+      "end": "2027-01-15",
+      "venue": "Parentesi Tonde",
+      "city": "Palermo"
     },
     {
       "id": "149721",
@@ -1167,6 +1343,17 @@
       "city": "Lercara Friddi (Pa)"
     },
     {
+      "id": "149752",
+      "title": "Sulla Torre di San Nicolò: visite fino alla terrazza con vista sui tetti di Palermo",
+      "url": "https://www.balarm.it/eventi/sulla-torre-di-san-nicolo-visite-fino-alla-terrazza-con-vista-sui-tetti-di-palermo-149752",
+      "category": "Visite ed escursioni",
+      "dateLabel": "15 novembre 2026",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "venue": "Torre di San Nicolò all'Albergheria",
+      "city": "Palermo"
+    },
+    {
       "id": "149720",
       "title": "\"2001: Odissea Nello Spazio\" di Kubrick torna al cinema: la programmazione in Sicilia",
       "url": "https://www.balarm.it/eventi/2001-odissea-nello-spazio-di-kubrick-torna-al-cinema-la-programmazione-in-sicilia-149720",
@@ -1178,6 +1365,50 @@
       "city": "Sicilia"
     },
     {
+      "id": "149760",
+      "title": "Arte e impegno civile: \"Senza onore\" di Enzo Mignosi e tre mostre da Artètika a Palermo",
+      "url": "https://www.balarm.it/eventi/arte-e-impegno-civile-senza-onore-di-enzo-mignosi-e-tre-mostre-da-artetika-a-palermo-149760",
+      "category": "Mostre",
+      "dateLabel": "Dal 16 al 26 novembre 2026",
+      "start": "2026-11-16",
+      "end": "2026-11-26",
+      "venue": "Artetika",
+      "city": "Palermo"
+    },
+    {
+      "id": "149737",
+      "title": "Sette giorni di eventi con \"Palermo Cocktail Week\": il meglio della mixology in città",
+      "url": "https://www.balarm.it/eventi/la-citta-diventa-capitale-della-mixology-gli-eventi-della-palermo-cocktail-week-149737",
+      "category": "Festival e rassegne",
+      "dateLabel": "Dal 16 al 22 novembre 2026",
+      "start": "2026-11-16",
+      "end": "2026-11-22",
+      "venue": "Vari luoghi di Palermo",
+      "city": "Palermo"
+    },
+    {
+      "id": "149745",
+      "title": "\"Musica a Palazzo\" con i giovani talenti del Conservatorio: il concerto a Palermo",
+      "url": "https://www.balarm.it/eventi/musica-a-palazzo-con-i-giovani-talenti-del-conservatorio-il-concerto-a-palermo-149745",
+      "category": "Concerti",
+      "dateLabel": "17 novembre 2026",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "venue": "Palazzo Bonocore",
+      "city": "Palermo"
+    },
+    {
+      "id": "149758",
+      "title": "Salvo Filetti presenta il suo libro: \"Chi vuol esser bella sia\" da D'O Donna a Palermo",
+      "url": "https://www.balarm.it/eventi/salvo-filetti-presenta-il-suo-libro-chi-vuol-esser-bella-sia-da-d-o-donna-a-palermo-149758",
+      "category": "Libri, film e incontri",
+      "dateLabel": "17 novembre 2026",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "venue": "D'O Donna Palermo - piazza Castelnuovo 41",
+      "city": "Palermo"
+    },
+    {
       "id": "149600",
       "title": "Libro cinese del cucito: \"Origami Chinese Thread Book\" al Cre.Zi. Plus di Palermo",
       "url": "https://www.balarm.it/eventi/libro-cinese-del-cucito-origami-chinese-thread-book-al-cre-zi-plus-di-palermo-149600",
@@ -1186,6 +1417,17 @@
       "start": "2026-11-18",
       "end": "2026-11-18",
       "venue": "Cre.Zi. Plus",
+      "city": "Palermo"
+    },
+    {
+      "id": "149761",
+      "title": "Resistenza e rifiuto della guerra: \"Donne Belle Bandiere di Pace\" in scena a Palermo",
+      "url": "https://www.balarm.it/eventi/resistenza-e-rifiuto-della-guerra-donne-belle-bandiere-di-pace-in-scena-a-palermo-149761",
+      "category": "Teatro e cabaret",
+      "dateLabel": "19 novembre 2026",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "venue": "Cinema Vittorio De Seta",
       "city": "Palermo"
     },
     {
@@ -1374,6 +1616,17 @@
       "end": "2026-11-22",
       "venue": "ex Chiesa del Monte",
       "city": "Castelbuono (Pa)"
+    },
+    {
+      "id": "149759",
+      "title": "In Sicilia la prima edizione di Art Déco Week: visite guidate in quattro città",
+      "url": "https://www.balarm.it/eventi/in-sicilia-la-prima-edizione-di-art-deco-week-visite-guidate-in-quattro-citta-149759",
+      "category": "Visite ed escursioni",
+      "dateLabel": "22 novembre 2026",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "venue": "Vari luoghi della Sicilia",
+      "city": "Sicilia"
     },
     {
       "id": "149597",
