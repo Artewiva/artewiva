@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-11-13",
-  "count": 187,
+  "generatedAt": "2026-11-14",
+  "count": 169,
   "events": [
     {
       "id": "146469",
@@ -78,17 +78,6 @@
       "city": "Corleone (Pa)"
     },
     {
-      "id": "148513",
-      "title": "Arte e consapevolezza per cambiare il mondo: incontri sull'architettura a Palermo",
-      "url": "https://www.balarm.it/eventi/arte-e-consapevolezza-per-cambiare-il-mondo-incontri-sull-architettura-a-palermo-148513",
-      "category": "Festival e rassegne",
-      "dateLabel": "Dal 18 settembre al 11 dicembre 2026",
-      "start": "2026-09-18",
-      "end": "2026-12-11",
-      "venue": "Vari luoghi della città",
-      "city": "Palermo"
-    },
-    {
       "id": "148615",
       "title": "Le scarpe diventano opere d'arte: la mostra \"Dream Shoes\" a Palazzo Branciforte",
       "url": "https://www.balarm.it/eventi/le-scarpe-diventano-opere-d-arte-la-mostra-dream-shoes-a-palazzo-branciforte-148615",
@@ -131,17 +120,6 @@
       "end": "2026-12-21",
       "venue": "Cinema Rouge Et Noir",
       "city": "Palermo"
-    },
-    {
-      "id": "148791",
-      "title": "Note d’Autunno a Castelbuono: risuonano gli organi della musica antica di BCsicilia",
-      "url": "https://www.balarm.it/eventi/note-d-autunno-a-castelbuono-risuonano-gli-organi-della-musica-antica-di-bcsicilia-148791",
-      "category": "Concerti",
-      "dateLabel": "Dal 26 settembre al 29 novembre 2026",
-      "start": "2026-09-26",
-      "end": "2026-11-29",
-      "venue": "Vari luoghi",
-      "city": "Castelbuono (Pa)"
     },
     {
       "id": "148850",
@@ -394,28 +372,6 @@
       "start": "2026-10-22",
       "end": "2027-01-11",
       "venue": "Palazzo Reale (o Palazzo dei Normanni)",
-      "city": "Palermo"
-    },
-    {
-      "id": "149192",
-      "title": "\"Chitarre d'autunno\" a Palermo: musica negli oratori di San Mercurio e San Lorenzo",
-      "url": "https://www.balarm.it/eventi/chitarre-d-autunno-a-palermo-musica-negli-oratori-di-san-mercurio-e-san-lorenzo-149192",
-      "category": "Festival e rassegne",
-      "dateLabel": "Dal 23 ottobre al 12 dicembre 2026",
-      "start": "2026-10-23",
-      "end": "2026-12-12",
-      "venue": "Vari luoghi di Palermo",
-      "city": "Palermo"
-    },
-    {
-      "id": "149365",
-      "title": "Capolavoro dell'Art Déco di Palermo: Casa Savona apre per la prima volta al pubblico",
-      "url": "https://www.balarm.it/eventi/capolavoro-dell-art-deco-di-palermo-casa-savona-apre-per-la-prima-volta-al-pubblico-149365",
-      "category": "Visite ed escursioni",
-      "dateLabel": "Dal 23 ottobre al 13 novembre 2026",
-      "start": "2026-10-23",
-      "end": "2026-11-13",
-      "venue": "Casa Savona",
       "city": "Palermo"
     },
     {
@@ -727,17 +683,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149625",
-      "title": "Quando l'infanzia è interrotta dalla violenza: \"Il Boato\" in prima nazionale a Palermo",
-      "url": "https://www.balarm.it/eventi/quando-l-infanzia-e-interrotta-dalla-violenza-il-boato-in-prima-nazionale-a-palermo-149625",
-      "category": "Teatro e cabaret",
-      "dateLabel": "Dal 12 al 13 novembre 2026",
-      "start": "2026-11-12",
-      "end": "2026-11-13",
-      "venue": "Bottega 5",
-      "city": "Palermo"
-    },
-    {
       "id": "149709",
       "title": "Un vero e proprio inno al fallimento: Claudio Casisa è \"Inconcludente\" al Teatro Agricantus",
       "url": "https://www.balarm.it/eventi/un-vero-e-proprio-inno-al-fallimento-claudio-casisa-e-inconcludente-al-teatro-agricantus-149709",
@@ -749,17 +694,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149787",
-      "title": "\"Chitarre d'autunno\" a Palermo: Dario Macaluso all'Oratorio di San Mercurio",
-      "url": "https://www.balarm.it/eventi/chitarre-d-autunno-a-palermo-dario-macaluso-all-oratorio-di-san-mercurio-149787",
-      "category": "Concerti",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Oratorio di San Mercurio",
-      "city": "Palermo"
-    },
-    {
       "id": "149297",
       "title": "\"Sherbeth Festival\", il gelato artigianale in piazza: Palermo accoglie 60 maestri gelatieri",
       "url": "https://www.balarm.it/eventi/sherbeth-festival-il-gelato-artigianale-in-piazza-palermo-accoglie-60-maestri-gelatieri-149297",
@@ -768,28 +702,6 @@
       "start": "2026-11-13",
       "end": "2026-11-16",
       "venue": "Piazza Giuseppe Verdi",
-      "city": "Palermo"
-    },
-    {
-      "id": "149323",
-      "title": "\"Storie di note e di passione\": il duo Faja-Randisi a Palermo per il \"Music Tales\"",
-      "url": "https://www.balarm.it/eventi/storie-di-note-e-di-passione-il-duo-faja-randisi-a-palermo-per-il-music-tales-149323",
-      "category": "Concerti",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Cinematocasa",
-      "city": "Palermo"
-    },
-    {
-      "id": "149607",
-      "title": "\"Vivo Ergo Sum\" a Palermo: il recital solista di Marco Giliberti al Teatro Atlante",
-      "url": "https://www.balarm.it/eventi/vivo-ergo-sum-a-palermo-il-recital-solista-di-marco-giliberti-al-teatro-atlante-149607",
-      "category": "Concerti",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Teatro Atlante",
       "city": "Palermo"
     },
     {
@@ -826,17 +738,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149767",
-      "title": "Cena e musica al Mondello Glam Hotel: il menu della serata in compagnia dei Prostix",
-      "url": "https://www.balarm.it/eventi/cena-e-musica-al-mondello-glam-hotel-il-menu-della-serata-in-compagnia-dei-prostix-149767",
-      "category": "Dove mangiare",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Mondello Glam Hotel",
-      "city": "Palermo"
-    },
-    {
       "id": "149791",
       "title": "Dai suoni dell'acqua ai pranzi collettivi: il weekend all'Ecomuseo di Palermo",
       "url": "https://www.balarm.it/eventi/dai-suoni-dell-acqua-ai-pranzi-collettivi-il-weekend-all-ecomuseo-di-palermo-149791",
@@ -845,28 +746,6 @@
       "start": "2026-11-13",
       "end": "2026-11-15",
       "venue": "Ecomuseo Urbano Mare Memoria Viva",
-      "city": "Palermo"
-    },
-    {
-      "id": "149718",
-      "title": "Il rigore e la gentilezza di Giorgio Chinnici in un libro: la presentazione a Palermo",
-      "url": "https://www.balarm.it/eventi/il-rigore-e-la-gentilezza-di-giorgio-chinnici-in-un-libro-la-presentazione-a-palermo-149718",
-      "category": "Libri, film e incontri",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Chiesa del Santissimo Salvatore",
-      "city": "Palermo"
-    },
-    {
-      "id": "149474",
-      "title": "Indie-pop e blues in centro a Palermo: The Brogers Project dal vivo per cena alla PPP",
-      "url": "https://www.balarm.it/eventi/indie-pop-e-blues-in-centro-a-palermo-the-brogers-project-dal-vivo-per-cena-alla-ppp-149474",
-      "category": "Musica e aperitivi",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "PPP – Pregiata Putia Palermitana",
       "city": "Palermo"
     },
     {
@@ -881,61 +760,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149773",
-      "title": "Laboratorio con Mastro Geppetto: bimbi all'opera al MiniMupa di Palermo",
-      "url": "https://www.balarm.it/eventi/laboratorio-con-mastro-geppetto-bimbi-all-opera-al-minimupa-di-palermo-149773",
-      "category": "Bambini e ragazzi",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Minimupa, Mini Museo",
-      "city": "Palermo"
-    },
-    {
-      "id": "149748",
-      "title": "Leonardo Scicolone presenta \"Studi per pianista\": i brani al Conservatorio di Palermo",
-      "url": "https://www.balarm.it/eventi/leonardo-scicolone-presenta-studi-per-pianista-i-brani-al-conservatorio-di-palermo-149748",
-      "category": "Concerti",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Conservatorio di musica \"Alessandro Scarlatti\"",
-      "city": "Palermo"
-    },
-    {
-      "id": "149683",
-      "title": "Libro fotografico di Angela Ferrotti: \"Until the Sun and Moon go down\" da Radici",
-      "url": "https://www.balarm.it/eventi/libro-fotografico-di-angela-ferrotti-until-the-sun-and-moon-go-down-da-radici-a-palermo-149683",
-      "category": "Libri, film e incontri",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Radici - Piccolo museo della natura",
-      "city": "Palermo"
-    },
-    {
-      "id": "149730",
-      "title": "Libro su \"Babbaurra e il comunismo di Antonio\": la presentazione a Palermo",
-      "url": "https://www.balarm.it/eventi/libro-su-babbaurra-e-il-comunismo-di-antonio-la-presentazione-a-palermo-149730",
-      "category": "Libri, film e incontri",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Istituto Gramsci Siciliano, Cantieri Culturali alla Zisa",
-      "city": "Palermo"
-    },
-    {
-      "id": "149715",
-      "title": "Maria Elisa Aloisi presenta \"L'isola degli inganni\": l'incontro alla Libreria Macaione",
-      "url": "https://www.balarm.it/eventi/maria-elisa-aloisi-presenta-l-isola-degli-inganni-incontro-alla-libreria-macaione-a-palermo-149715",
-      "category": "Libri, film e incontri",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Spazio Cultura Libreria Macaione",
-      "city": "Palermo"
-    },
-    {
       "id": "149676",
       "title": "Opere di Adriana Pecoraro in mostra a Bagheria: \"Apparente Niente\" a Palazzo Cutò",
       "url": "https://www.balarm.it/eventi/opere-di-adriana-pecoraro-in-mostra-a-bagheria-apparente-niente-a-palazzo-cuto-149676",
@@ -947,28 +771,6 @@
       "city": "Bagheria (Pa)"
     },
     {
-      "id": "149728",
-      "title": "Pizza solidale a Palermo: contribuire con gusto per una scuola nel villaggio di Igbedor",
-      "url": "https://www.balarm.it/eventi/pizza-solidale-a-palermo-contribuire-con-gusto-per-una-scuola-nel-villaggio-di-igbedor-149728",
-      "category": "Dove mangiare",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Pizza Club da Tonino - via Palmerino 54",
-      "city": "Palermo"
-    },
-    {
-      "id": "149838",
-      "title": "Roberto Dell'Era a Palermo: lo storico bassista degli Afterhours alla Mind House",
-      "url": "https://www.balarm.it/eventi/roberto-dell-era-a-palermo-lo-storico-bassista-degli-afterhours-alla-mind-house-149838",
-      "category": "Concerti",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Mind House",
-      "city": "Palermo"
-    },
-    {
       "id": "149566",
       "title": "Rory Quattrocchi e Paride Benassai in scena a Palermo: \"Ciungam\" al Teatro Apparte",
       "url": "https://www.balarm.it/eventi/rory-quattrocchi-e-paride-benassai-in-scena-a-palermo-ciungam-al-teatro-apparte-149566",
@@ -977,28 +779,6 @@
       "start": "2026-11-13",
       "end": "2026-11-15",
       "venue": "Teatro Apparte",
-      "city": "Palermo"
-    },
-    {
-      "id": "149775",
-      "title": "Vento, roccia e memoria: il cuntu di \"Ciatu di Pietra\" al Teatro Marcello Puglisi di Palermo",
-      "url": "https://www.balarm.it/eventi/vento-roccia-e-memoria-il-cuntu-di-ciatu-di-pietra-al-teatro-marcello-puglisi-di-palermo-149775",
-      "category": "Teatro e cabaret",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Teatro Marcello Puglisi",
-      "city": "Palermo"
-    },
-    {
-      "id": "149788",
-      "title": "Visita tattile alla collezione permanente: arte a portata di mano alla GAM di Palermo",
-      "url": "https://www.balarm.it/eventi/visita-tattile-alla-collezione-permanente-arte-a-portata-di-mano-alla-gam-di-palermo-149788",
-      "category": "Bambini e ragazzi",
-      "dateLabel": "13 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Galleria d'Arte Moderna",
       "city": "Palermo"
     },
     {
@@ -1530,6 +1310,17 @@
       "city": "Sicilia"
     },
     {
+      "id": "149841",
+      "title": "\"Ora d'Oro\" a Palazzo Sant'Elia: 35 opere che ingannano lo sguardo in mostra a Palermo",
+      "url": "https://www.balarm.it/eventi/ora-d-oro-a-palazzo-sant-elia-35-opere-che-ingannano-lo-sguardo-in-mostra-a-palermo-149841",
+      "category": "Mostre",
+      "dateLabel": "Dal 16 novembre 2026 al 15 aprile 2027",
+      "start": "2026-11-16",
+      "end": "2027-04-15",
+      "venue": "Palazzo Sant'Elia (Fondazione Sant'Elia)",
+      "city": "Palermo"
+    },
+    {
       "id": "149760",
       "title": "Arte e impegno civile: \"Senza onore\" di Enzo Mignosi e tre mostre da Artètika a Palermo",
       "url": "https://www.balarm.it/eventi/arte-e-impegno-civile-senza-onore-di-enzo-mignosi-e-tre-mostre-da-artetika-a-palermo-149760",
@@ -1660,6 +1451,17 @@
       "end": "2026-11-25",
       "venue": "Palermo e provincia",
       "city": "Palermo"
+    },
+    {
+      "id": "149842",
+      "title": "\"Sfincione Fest 2026\" a Bagheria: quattro giorni di gusto, tradizione e grandi spettacoli",
+      "url": "https://www.balarm.it/eventi/sfincione-fest-2026-a-bagheria-quattro-giorni-di-gusto-tradizione-e-grandi-spettacoli-149842",
+      "category": "Dove mangiare",
+      "dateLabel": "Dal 19 al 22 novembre 2026",
+      "start": "2026-11-19",
+      "end": "2026-11-22",
+      "venue": "Bagheria",
+      "city": "Bagheria (Pa)"
     },
     {
       "id": "149834",
