@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-11-14",
-  "count": 169,
+  "generatedAt": "2026-11-15",
+  "count": 149,
   "events": [
     {
       "id": "146469",
@@ -562,17 +562,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149657",
-      "title": "Corpi e volti raccontano storie: mostra collettiva alla Galleria Josephine Bonì",
-      "url": "https://www.balarm.it/eventi/corpi-e-volti-raccontano-storie-mostra-collettiva-alla-galleria-josephine-boni-di-palermo-149657",
-      "category": "Mostre",
-      "dateLabel": "Dal 7 al 14 novembre 2026",
-      "start": "2026-11-07",
-      "end": "2026-11-14",
-      "venue": "Josephine Bonì - Galleria d'Arte",
-      "city": "Palermo"
-    },
-    {
       "id": "149374",
       "title": "Incontro tra linguaggi artistici e patrimonio storico: la collettiva \"Tra Arte\" a Marineo",
       "url": "https://www.balarm.it/eventi/incontro-tra-linguaggi-artistici-e-patrimonio-storico-la-collettiva-tra-arte-a-marineo-149374",
@@ -650,17 +639,6 @@
       "city": "San Martino delle Scale (Pa)"
     },
     {
-      "id": "149735",
-      "title": "\"Figliastra/quasi vero\" svela i segreti del teatro: lo spettacolo in scena a Palermo",
-      "url": "https://www.balarm.it/eventi/figliastra-quasi-vero-svela-i-segreti-del-teatro-lo-spettacolo-in-scena-a-palermo-149735",
-      "category": "Teatro e cabaret",
-      "dateLabel": "Dal 12 al 14 novembre 2026",
-      "start": "2026-11-12",
-      "end": "2026-11-14",
-      "venue": "Teatro Libero",
-      "city": "Palermo"
-    },
-    {
       "id": "149778",
       "title": "Bobby Watson al Real Teatro Santa Cecilia: leggenda della jazz internazionale a Palermo",
       "url": "https://www.balarm.it/eventi/bobby-watson-al-real-teatro-santa-cecilia-leggenda-della-jazz-internazionale-a-palermo-149778",
@@ -669,17 +647,6 @@
       "start": "2026-11-12",
       "end": "2026-11-15",
       "venue": "Real Teatro Santa Cecilia",
-      "city": "Palermo"
-    },
-    {
-      "id": "149724",
-      "title": "Brani dal mondo e da diverse epoche: i concerti della settimana al Miles di Palermo",
-      "url": "https://www.balarm.it/eventi/brani-dal-mondo-e-da-diverse-epoche-i-concerti-della-settimana-al-miles-di-palermo-149724",
-      "category": "Musica e aperitivi",
-      "dateLabel": "Dal 12 al 14 novembre 2026",
-      "start": "2026-11-12",
-      "end": "2026-11-14",
-      "venue": "Miles Jazz Club",
       "city": "Palermo"
     },
     {
@@ -727,17 +694,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149711",
-      "title": "Arte, disabilità e partecipazione: gli spettacoli di \"Coreopolis\" in scena a Palermo",
-      "url": "https://www.balarm.it/eventi/arte-disabilita-e-partecipazione-gli-spettacoli-di-coreopolis-in-scena-a-palermo-149711",
-      "category": "Festival e rassegne",
-      "dateLabel": "Dal 13 al 14 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-14",
-      "venue": "Circolo Arci Tavola Tonda",
-      "city": "Palermo"
-    },
-    {
       "id": "149791",
       "title": "Dai suoni dell'acqua ai pranzi collettivi: il weekend all'Ecomuseo di Palermo",
       "url": "https://www.balarm.it/eventi/dai-suoni-dell-acqua-ai-pranzi-collettivi-il-weekend-all-ecomuseo-di-palermo-149791",
@@ -746,17 +702,6 @@
       "start": "2026-11-13",
       "end": "2026-11-15",
       "venue": "Ecomuseo Urbano Mare Memoria Viva",
-      "city": "Palermo"
-    },
-    {
-      "id": "149742",
-      "title": "La \"Leningrado\" di Šostakovič a Palermo: Rhorer sul podio del Politeama Garibaldi",
-      "url": "https://www.balarm.it/eventi/la-leningrado-di-sostakovic-a-palermo-rhorer-sul-podio-del-politeama-garibaldi-149742",
-      "category": "Concerti",
-      "dateLabel": "Dal 13 al 14 novembre 2026",
-      "start": "2026-11-13",
-      "end": "2026-11-14",
-      "venue": "Politeama Garibaldi",
       "city": "Palermo"
     },
     {
@@ -804,17 +749,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149700",
-      "title": "\"O corte a Dio\" a Bagheria: visita teatralizzata tra sale e corridoi a Villa Butera",
-      "url": "https://www.balarm.it/eventi/o-corte-a-dio-a-bagheria-visita-teatralizzata-tra-sale-e-corridoi-a-villa-butera-149700",
-      "category": "Visite ed escursioni",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Palazzo Butera",
-      "city": "Bagheria (Pa)"
-    },
-    {
       "id": "149626",
       "title": "\"Semplicemente Io\" in scena ai Cantieri: il tema dell'identità sul palco del Ditirammu",
       "url": "https://www.balarm.it/eventi/semplicemente-io-in-scena-ai-cantieri-il-tema-dell-identita-sul-palco-del-ditirammu-149626",
@@ -823,17 +757,6 @@
       "start": "2026-11-14",
       "end": "2026-11-15",
       "venue": "Bottega 5",
-      "city": "Palermo"
-    },
-    {
-      "id": "149819",
-      "title": "Autismo e inclusione tra arte e vita: incontri, un libro e una mostra a CasAut a Palermo",
-      "url": "https://www.balarm.it/eventi/autismo-e-inclusione-tra-arte-e-vita-incontri-un-libro-e-una-mostra-a-casaut-a-palermo-149819",
-      "category": "Libri, film e incontri",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "CasAut - via Francesco Pizzarro 4",
       "city": "Palermo"
     },
     {
@@ -859,39 +782,6 @@
       "city": "Termini Imerese (Pa)"
     },
     {
-      "id": "149704",
-      "title": "Concerto del gruppo Mediterraneo: canzoni in siciliano al Laboratorio Ballarò di Palermo",
-      "url": "https://www.balarm.it/eventi/concerto-del-gruppo-mediterraneo-canzoni-in-siciliano-al-laboratorio-ballaro-di-palermo-149704",
-      "category": "Concerti",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Centro culturale Arci - \"Laboratorio Andrea Ballarò\"",
-      "city": "Palermo"
-    },
-    {
-      "id": "149762",
-      "title": "Dieci degustazioni gratis e laboratori per bimbi: Monreale in festa per San Martino",
-      "url": "https://www.balarm.it/eventi/dieci-degustazioni-gratis-e-laboratori-per-bimbi-monreale-in-festa-per-san-martino-149762",
-      "category": "Esperienze",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Complesso monumentale Guglielmo II",
-      "city": "Monreale (Pa)"
-    },
-    {
-      "id": "148177",
-      "title": "Dov'è Liana a Palermo: il trio francese porta musica, danza e condivisione ai Cantieri",
-      "url": "https://www.balarm.it/eventi/dov-e-liana-a-palermo-il-trio-francese-porta-musica-danza-e-condivisione-ai-cantieri-148177",
-      "category": "Concerti",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Cantieri culturali alla Zisa",
-      "city": "Palermo"
-    },
-    {
       "id": "149315",
       "title": "Due giorni di relax tra natura e osservazione del cielo: il weekend a San Giuseppe Jato",
       "url": "https://www.balarm.it/eventi/due-giorni-di-relax-tra-natura-e-osservazione-del-cielo-il-weekend-a-san-giuseppe-jato-149315",
@@ -911,39 +801,6 @@
       "start": "2026-11-14",
       "end": "2026-11-29",
       "venue": "Teatro Sant'Eugenio",
-      "city": "Palermo"
-    },
-    {
-      "id": "149783",
-      "title": "Giovanni Pitruzzella presenta \"L'Europa in trasformazione\": il libro a Villa Zito",
-      "url": "https://www.balarm.it/eventi/giovanni-pitruzzella-presenta-l-europa-in-trasformazione-il-libro-a-villa-zito-a-palermo-149783",
-      "category": "Libri, film e incontri",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Pinacoteca di Villa Zito",
-      "city": "Palermo"
-    },
-    {
-      "id": "149716",
-      "title": "Giusi Russo presenta \"Come un taglio nel vetro\": il libro protagonista a Palermo",
-      "url": "https://www.balarm.it/eventi/giusi-russo-presenta-come-un-taglio-nel-vetro-il-libro-protagonista-a-palermo-149716",
-      "category": "Libri, film e incontri",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Spazio Cultura Libreria Macaione",
-      "city": "Palermo"
-    },
-    {
-      "id": "149324",
-      "title": "Jazz Up Close esplora la tradizione hard bop: a Palermo i musicisti Casati e De Martini",
-      "url": "https://www.balarm.it/eventi/jazz-up-close-esplora-la-tradizione-hard-bop-a-palermo-i-musicisti-casati-e-de-martini-149324",
-      "category": "Concerti",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Cinematocasa",
       "city": "Palermo"
     },
     {
@@ -980,28 +837,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149837",
-      "title": "Pattern ritmici e figure sonore: l'Eidos Ensemble in Sala Perriera a Palermo",
-      "url": "https://www.balarm.it/eventi/pattern-ritmici-e-figure-sonore-l-eidos-ensemble-in-sala-perriera-a-palermo-149837",
-      "category": "Concerti",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Sala Perriera",
-      "city": "Palermo"
-    },
-    {
-      "id": "149741",
-      "title": "Psych rock e post-punk: gli internazionali Clustersun da Catania al PunkFunk",
-      "url": "https://www.balarm.it/eventi/psych-rock-e-post-punk-gli-internazionali-clustersun-da-catania-al-punkfunk-di-palermo-149741",
-      "category": "Concerti",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "PunkFunk Record Shop Music Bar",
-      "city": "Palermo"
-    },
-    {
       "id": "149608",
       "title": "Riflessione tra guerre e crisi globale: \"Lettera ai contadini\" al Teatro Atlante di Palermo",
       "url": "https://www.balarm.it/eventi/riflessione-tra-guerre-e-crisi-globale-lettera-ai-contadini-al-teatro-atlante-di-palermo-149608",
@@ -1010,61 +845,6 @@
       "start": "2026-11-14",
       "end": "2026-11-15",
       "venue": "Teatro Atlante",
-      "city": "Palermo"
-    },
-    {
-      "id": "149753",
-      "title": "Stefania Andreoli debutta a teatro: \"La mente in scena\" al Golden di Palermo",
-      "url": "https://www.balarm.it/eventi/stefania-andreoli-debutta-a-teatro-la-mente-in-scena-al-golden-di-palermo-149753",
-      "category": "Teatro e cabaret",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Teatro Golden",
-      "city": "Palermo"
-    },
-    {
-      "id": "149478",
-      "title": "Tra passi, respiro e silenzio: un’esperienza immersiva di meditazione e raja yoga",
-      "url": "https://www.balarm.it/eventi/tra-passi-respiro-e-silenzio-un-esperienza-immersiva-di-meditazione-e-raja-yoga-149478",
-      "category": "Esperienze",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Parco della Favorita",
-      "city": "Palermo"
-    },
-    {
-      "id": "149795",
-      "title": "Tributo agli 883 al Mood Spazio Almoad: gli Industria Di Caffè sul palco di Carini",
-      "url": "https://www.balarm.it/eventi/tributo-agli-883-al-mood-spazio-almoad-gli-industria-di-caffe-sul-palco-di-carini-149795",
-      "category": "Musica e aperitivi",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Sabato 14 novembre, musica italiana protagonista al Mood",
-      "city": "Spazio Almoad di Carini."
-    },
-    {
-      "id": "149789",
-      "title": "Visita alla mostra \"Dream Shoes\" e lettura partecipata: l'attività per ragazzi a Palermo",
-      "url": "https://www.balarm.it/eventi/visita-alla-mostra-dream-shoes-e-lettura-partecipata-l-attivita-per-ragazzi-a-palermo-149789",
-      "category": "Bambini e ragazzi",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Palazzo Branciforte",
-      "city": "Palermo"
-    },
-    {
-      "id": "149751",
-      "title": "Visite a Palazzo Francavilla: la dimora nobiliare con vista sul Massimo di Palermo",
-      "url": "https://www.balarm.it/eventi/visite-a-palazzo-francavilla-la-dimora-nobiliare-con-vista-sul-massimo-di-palermo-149751",
-      "category": "Visite ed escursioni",
-      "dateLabel": "14 novembre 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Palazzo Francavilla",
       "city": "Palermo"
     },
     {
