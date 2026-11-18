@@ -1,6 +1,6 @@
 import { CONTACT, IMPRESSUM, SERVICES } from "../data";
 import { Button } from "./ui";
-import { Logo, LogoMark } from "./Logo";
+import { LogoWhite } from "./LogoWhite";
 
 const SOCIAL = [
   { label: "Facebook", short: "Fb", href: "#" },
@@ -19,8 +19,7 @@ export default function Footer() {
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           <div>
             <div className="flex items-center gap-5">
-              <LogoMark className="h-24 w-24 shrink-0 rounded-full bg-white p-1 shadow-[0_0_0_6px_rgba(255,255,255,0.06)]" />
-              <Logo light />
+              <LogoWhite className="h-24 w-24 shrink-0" />
             </div>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/60">
               Database fotografico e video del fermento artistico di Palermo.
