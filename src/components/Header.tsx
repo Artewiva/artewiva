@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button, cx } from "./ui";
 import { Logo } from "./Logo";
+import { LogoWhite } from "./LogoWhite";
 
 const NAV = [
   { label: "Home", href: "#/" },
@@ -46,7 +47,13 @@ export default function Header({ route }: { route: string }) {
             : "bg-white/10 ring-1 ring-white/15 backdrop-blur-md"
         )}
       >
-        <Logo light={!scrolled && !open} />
+        {!scrolled && !open ? (
+          // Nav traslucida sull'eroe scuro (in alto): logo "linee bianche"
+          <LogoWhite className="h-10 w-10 shrink-0" />
+        ) : (
+          // Nav chiara (scroll o menu aperto): logo SVG standard
+          <Logo light={false} />
+        )}
 
         <div className="hidden items-center gap-1 lg:flex">
           {NAV.map((n) => (
