@@ -155,8 +155,8 @@ function About() {
           <div className="relative">
             <div className="overflow-hidden rounded-[2rem] shadow-[0_40px_80px_-40px_rgba(12,11,15,0.5)]">
               <img
-                src={IMG.photographer}
-                alt="Fotografo al lavoro durante un concerto"
+                src={IMG.teatroPieno}
+                alt="Pubblico seduto davanti al palco durante un concerto serale nel Parco Villa Filippina a Palermo"
                 className="h-[420px] w-full object-cover transition-transform duration-700 hover:scale-105 sm:h-[520px]"
               />
             </div>
