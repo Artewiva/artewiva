@@ -9,6 +9,7 @@ export const IMG = {
     "https://images.pexels.com/photos/20532119/pexels-photo-20532119.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=1800",
   photographer:
     "https://images.pexels.com/photos/33411321/pexels-photo-33411321.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1200",
+  teatroPieno: "/Teatro%20Pieno.jpg",
   photographer2:
     "https://images.pexels.com/photos/18072016/pexels-photo-18072016.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1200",
   video:
