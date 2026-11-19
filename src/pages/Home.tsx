@@ -1,11 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  HERO_SLIDES,
-  IMG,
-  PROJECTS,
-  SERVICES,
-  STATS,
-} from "../data";
+import { HERO_SLIDES, IMG, SERVICES, STATS } from "../data";
 import { Button, Kicker, Reveal, SectionTitle, cx } from "../components/ui";
 import { CoverImage, RubricaTag } from "../components/ArticleCard";
 import { EventRow } from "../components/EventCard";
@@ -288,70 +282,6 @@ function Services() {
   );
 }
 
-function Portfolio() {
-  const cats = ["Tutti", ...Array.from(new Set(PROJECTS.map((p) => p.category)))];
-  const [cat, setCat] = useState("Tutti");
-  const list = cat === "Tutti" ? PROJECTS : PROJECTS.filter((p) => p.category === cat);
-
-  return (
-    <section className="relative overflow-hidden bg-ink-950 py-20 sm:py-28">
-      <div className="pointer-events-none absolute -left-20 top-20 h-72 w-72 rounded-full bg-ink-950/20 blur-[120px]" />
-      <div className="relative mx-auto max-w-6xl px-5">
-        <SectionTitle
-          light
-          kicker="Portfolio"
-          title="Progetti ed eventi in evidenza"
-          sub="Una selezione dei lavori che raccontano meglio il nostro modo di guardare il palco."
-        />
-
-        <div className="mt-8 flex flex-wrap gap-2">
-          {cats.map((c) => (
-            <button
-              key={c}
-              onClick={() => setCat(c)}
-              className={cx(
-                "rounded-full px-4 py-2 text-xs font-semibold transition",
-                c === cat
-                  ? "bg-brand-500 text-white"
-                  : "bg-white/5 text-white/60 ring-1 ring-white/10 hover:text-white"
-              )}
-            >
-              {c}
-            </button>
-          ))}
-        </div>
-
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {list.map((p, i) => (
-            <Reveal key={p.title} delay={i * 60}>
-              <article className="group relative h-80 overflow-hidden rounded-3xl ring-1 ring-white/10">
-                <img
-                  src={p.img}
-                  alt={p.title}
-                  className="h-full w-full object-cover transition-transform duration-[900ms] group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/30 to-transparent" />
-                <div className="absolute inset-x-0 bottom-0 p-6">
-                  <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-wider text-brand-400">
-                    {p.category} <span className="text-white/30">·</span> {p.year}
-                  </div>
-                  <h3 className="mt-2 font-display text-xl font-bold text-white">
-                    {p.title}
-                  </h3>
-                  <p className="mt-1 text-xs text-white/50">{p.place}</p>
-                  <p className="mt-3 max-h-0 overflow-hidden text-sm leading-relaxed text-white/70 opacity-0 transition-all duration-500 group-hover:max-h-24 group-hover:opacity-100">
-                    {p.desc}
-                  </p>
-                </div>
-              </article>
-            </Reveal>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function EventsNews() {
   return (
     <section className="mx-auto max-w-6xl px-5 py-20 sm:py-28">
@@ -477,7 +407,6 @@ export default function Home() {
       <About />
       <Services />
       <AudioTeaser />
-      <Portfolio />
       <EventsNews />
       <CtaBand />
     </main>
