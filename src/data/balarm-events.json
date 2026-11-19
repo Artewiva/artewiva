@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-11-18",
-  "count": 178,
+  "generatedAt": "2026-11-19",
+  "count": 183,
   "events": [
     {
       "id": "146469",
@@ -573,6 +573,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149980",
+      "title": "Astrattismo di Giorgio Geraci Camalò: \"Da cosa nasce cosa\" all'Accademia Erato",
+      "url": "https://www.balarm.it/eventi/astrattismo-di-giorgio-geraci-camalo-da-cosa-nasce-cosa-all-accademia-erato-di-palermo-149980",
+      "category": "Mostre",
+      "dateLabel": "Dal 14 novembre 2026 al 24 aprile 2027",
+      "start": "2026-11-14",
+      "end": "2027-04-24",
+      "venue": "Accademia Erato",
+      "city": "Palermo"
+    },
+    {
       "id": "149557",
       "title": "​​​​​​​Gino Carista e i \"Pidocchi a processo\": risate garantite al Sant'Eugenio di Palermo",
       "url": "https://www.balarm.it/eventi/gino-carista-e-i-pidocchi-a-processo-risate-garantite-al-sant-eugenio-di-palermo-149557",
@@ -604,17 +615,6 @@
       "end": "2027-01-15",
       "venue": "Parentesi Tonde",
       "city": "Palermo"
-    },
-    {
-      "id": "149720",
-      "title": "\"2001: Odissea Nello Spazio\" di Kubrick torna al cinema: la programmazione in Sicilia",
-      "url": "https://www.balarm.it/eventi/2001-odissea-nello-spazio-di-kubrick-torna-al-cinema-la-programmazione-in-sicilia-149720",
-      "category": "Libri, film e incontri",
-      "dateLabel": "Dal 16 al 18 novembre 2026",
-      "start": "2026-11-16",
-      "end": "2026-11-18",
-      "venue": "Vari luoghi della Sicilia",
-      "city": "Sicilia"
     },
     {
       "id": "149841",
@@ -661,17 +661,6 @@
       "city": "Sicilia"
     },
     {
-      "id": "149770",
-      "title": "Convegno di studi su Pinocchio: gli incontri alla Società Siciliana per la Storia Patria",
-      "url": "https://www.balarm.it/eventi/convegno-di-studi-su-pinocchio-gli-incontri-alla-societa-siciliana-per-la-storia-patria-di-palermo-149770",
-      "category": "Libri, film e incontri",
-      "dateLabel": "Dal 17 al 18 novembre 2026",
-      "start": "2026-11-17",
-      "end": "2026-11-18",
-      "venue": "Biblioteca della Società Siciliana per la Storia Patria",
-      "city": "Palermo"
-    },
-    {
       "id": "149857",
       "title": "Creatività e improvvisazione a Palermo: le jam session al Ridotto dello Spasimo",
       "url": "https://www.balarm.it/eventi/creativita-e-improvvisazione-a-palermo-le-jam-session-al-ridotto-dello-spasimo-149857",
@@ -683,80 +672,14 @@
       "city": "Palermo"
     },
     {
-      "id": "149883",
-      "title": "Pinocchio compie 200 anni: a Palermo due giorni di incontri dedicati al burattino",
-      "url": "https://www.balarm.it/eventi/pinocchio-compie-200-anni-a-palermo-due-giorni-di-incontri-dedicati-al-burattino-149883",
-      "category": "Festival e rassegne",
-      "dateLabel": "Dal 17 al 18 novembre 2026",
-      "start": "2026-11-17",
-      "end": "2026-11-18",
-      "venue": "Biblioteca della Società Siciliana per la Storia Patria",
-      "city": "Palermo"
-    },
-    {
-      "id": "149799",
-      "title": "\"Mustang\" di Kasia Smutniak: la presentazione con la regista al Rouge et Noir",
-      "url": "https://www.balarm.it/eventi/mustang-di-kasia-smutniak-la-presentazione-con-la-regista-al-rouge-et-noir-di-palermo-149799",
+      "id": "149989",
+      "title": "Contro la violenza sulle donne a Palermo (e non solo): gli incontri del centro Lia Pipitone",
+      "url": "https://www.balarm.it/eventi/contro-la-violenza-sulle-donne-a-palermo-e-non-solo-gli-incontri-del-centro-lia-pipitone-149989",
       "category": "Libri, film e incontri",
-      "dateLabel": "18 novembre 2026",
+      "dateLabel": "Dal 18 novembre al 2 dicembre 2026",
       "start": "2026-11-18",
-      "end": "2026-11-18",
-      "venue": "Cinema Rouge Et Noir",
-      "city": "Palermo"
-    },
-    {
-      "id": "149864",
-      "title": "\"Viaggio verso l'essenziale\" a Villa Zito: il percorso tra le opere della pinacoteca",
-      "url": "https://www.balarm.it/eventi/viaggio-verso-l-essenziale-a-villa-zito-il-percorso-tra-le-opere-della-pinacoteca-a-palermo-149864",
-      "category": "Visite ed escursioni",
-      "dateLabel": "18 novembre 2026",
-      "start": "2026-11-18",
-      "end": "2026-11-18",
-      "venue": "Pinacoteca di Villa Zito",
-      "city": "Palermo"
-    },
-    {
-      "id": "149861",
-      "title": "Contrasto alle ludopatie: l'incontro \"Non giocarti il futuro!\" a Villa Niscemi a Palermo",
-      "url": "https://www.balarm.it/eventi/contrasto-alle-ludopatie-l-incontro-non-giocarti-il-futuro-a-villa-niscemi-a-palermo-149861",
-      "category": "Libri, film e incontri",
-      "dateLabel": "18 novembre 2026",
-      "start": "2026-11-18",
-      "end": "2026-11-18",
-      "venue": "Villa Niscemi",
-      "city": "Palermo"
-    },
-    {
-      "id": "149824",
-      "title": "La storia dell'acqua nella Valle dell'Eleuterio: il libro di Marco Giammona a Palermo",
-      "url": "https://www.balarm.it/eventi/la-storia-dell-acqua-nella-valle-dell-eleuterio-il-libro-di-marco-giammona-a-palermo-149824",
-      "category": "Libri, film e incontri",
-      "dateLabel": "18 novembre 2026",
-      "start": "2026-11-18",
-      "end": "2026-11-18",
-      "venue": "Fondazione Marzio Tricoli",
-      "city": "Palermo"
-    },
-    {
-      "id": "149600",
-      "title": "Libro cinese del cucito: \"Origami Chinese Thread Book\" al Cre.Zi. Plus di Palermo",
-      "url": "https://www.balarm.it/eventi/libro-cinese-del-cucito-origami-chinese-thread-book-al-cre-zi-plus-di-palermo-149600",
-      "category": "Libri, film e incontri",
-      "dateLabel": "18 novembre 2026",
-      "start": "2026-11-18",
-      "end": "2026-11-18",
-      "venue": "Cre.Zi. Plus",
-      "city": "Palermo"
-    },
-    {
-      "id": "149798",
-      "title": "Nuova edizione de \"L'ultimo lento e poi andiamo via\": la presentazione a Palermo",
-      "url": "https://www.balarm.it/eventi/nuova-edizione-de-l-ultimo-lento-e-poi-andiamo-via-la-presentazione-a-palermo-149798",
-      "category": "Libri, film e incontri",
-      "dateLabel": "18 novembre 2026",
-      "start": "2026-11-18",
-      "end": "2026-11-18",
-      "venue": "Spazio Cultura Libreria Macaione",
+      "end": "2026-12-02",
+      "venue": "e province (vari luoghi)",
       "city": "Palermo"
     },
     {
@@ -768,17 +691,6 @@
       "start": "2026-11-18",
       "end": "2026-11-21",
       "venue": "Pontificia Facoltà di Teologia di Sicilia",
-      "city": "Palermo"
-    },
-    {
-      "id": "149769",
-      "title": "Vita e lotta contro la mafia di Michela Buscemi: a Palermo il libro \"La spiona\"",
-      "url": "https://www.balarm.it/eventi/vita-e-lotta-contro-la-mafia-di-michela-buscemi-a-palermo-il-libro-la-spiona-149769",
-      "category": "Libri, film e incontri",
-      "dateLabel": "18 novembre 2026",
-      "start": "2026-11-18",
-      "end": "2026-11-18",
-      "venue": "Istituto Gramsci Siciliano, Cantieri Culturali alla Zisa",
       "city": "Palermo"
     },
     {
@@ -813,6 +725,17 @@
       "end": "2026-11-22",
       "venue": "Bagheria",
       "city": "Bagheria (Pa)"
+    },
+    {
+      "id": "149965",
+      "title": "Aspettando \"Samson et Dalila\": incontro sull'opera al Teatro Massimo di Palermo",
+      "url": "https://www.balarm.it/eventi/aspettando-samson-et-dalila-incontro-sull-opera-al-teatro-massimo-di-palermo-149965",
+      "category": "Libri, film e incontri",
+      "dateLabel": "19 novembre 2026",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "venue": "Teatro Massimo",
+      "city": "Palermo"
     },
     {
       "id": "149908",
@@ -856,6 +779,17 @@
       "start": "2026-11-19",
       "end": "2026-11-19",
       "venue": "Spazio Cultura Libreria Macaione",
+      "city": "Palermo"
+    },
+    {
+      "id": "149986",
+      "title": "Ottant’anni dal primo voto delle donne: a Palermo incontro sulle donne in politica",
+      "url": "https://www.balarm.it/eventi/ottant-anni-dal-primo-voto-delle-donne-a-palermo-incontro-sulle-donne-in-politica-149986",
+      "category": "Libri, film e incontri",
+      "dateLabel": "19 novembre 2026",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "venue": "Palazzo Reale (o Palazzo dei Normanni)",
       "city": "Palermo"
     },
     {
@@ -1123,6 +1057,17 @@
       "city": "Termini Imerese (Pa)"
     },
     {
+      "id": "149972",
+      "title": "Piccoli detective al MiniMupa di Palermo: indizi ed enigmi per nuovi casi da risolvere",
+      "url": "https://www.balarm.it/eventi/piccoli-detective-al-minimupa-di-palermo-indizi-ed-enigmi-per-nuovi-casi-da-risolvere-149972",
+      "category": "Bambini e ragazzi",
+      "dateLabel": "20 novembre 2026",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "venue": "Minimupa, Mini Museo",
+      "city": "Palermo"
+    },
+    {
       "id": "149930",
       "title": "Quando il lutto diventa teatro: \"Una specie di preghiera\" in scena al Libero di Palermo",
       "url": "https://www.balarm.it/eventi/quando-il-lutto-diventa-teatro-una-specie-di-preghiera-in-scena-al-libero-di-palermo-149930",
@@ -1233,6 +1178,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149978",
+      "title": "Autismo in età scolare: incontro e dialogo a Palazzo dei Normanni a Palermo",
+      "url": "https://www.balarm.it/eventi/autismo-in-eta-scolare-incontro-e-dialogo-a-palazzo-dei-normanni-a-palermo-149978",
+      "category": "Libri, film e incontri",
+      "dateLabel": "21 novembre 2026",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "venue": "Palazzo Reale (o Palazzo dei Normanni)",
+      "city": "Palermo"
+    },
+    {
       "id": "149898",
       "title": "Concerti dei BTS in diretta al cinema: il gran finale del tour in sala anche in Sicilia",
       "url": "https://www.balarm.it/eventi/concerti-dei-bts-in-diretta-al-cinema-il-gran-finale-del-tour-in-sala-anche-in-sicilia-149898",
@@ -1332,6 +1288,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149971",
+      "title": "L'affascinante mondo dei rettili: un \"Mini Safari\" per i piccoli al MiniMupa di Palermo",
+      "url": "https://www.balarm.it/eventi/l-affascinante-mondo-dei-rettili-un-mini-safari-per-i-piccoli-al-minimupa-di-palermo-149971",
+      "category": "Bambini e ragazzi",
+      "dateLabel": "21 novembre 2026",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "venue": "Minimupa, Mini Museo",
+      "city": "Palermo"
+    },
+    {
       "id": "149867",
       "title": "La straordinaria storia dei Florio: ascesa e declino in un tour che attraversa Palermo",
       "url": "https://www.balarm.it/eventi/la-straordinaria-storia-dei-florio-ascesa-e-declino-in-un-tour-che-attraversa-palermo-149867",
@@ -1406,6 +1373,17 @@
       "start": "2026-11-21",
       "end": "2026-11-22",
       "venue": "Cineteatro Colosseum",
+      "city": "Palermo"
+    },
+    {
+      "id": "149984",
+      "title": "Tra affreschi e cimeli dei Florio: all'Arenella si scopre la Palazzina dei Quattro Pizzi",
+      "url": "https://www.balarm.it/eventi/tra-affreschi-e-cimeli-dei-florio-all-arenella-si-scopre-la-palazzina-dei-quattro-pizzi-149984",
+      "category": "Esperienze",
+      "dateLabel": "21 novembre 2026",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "venue": "Palazzina dei Quattro Pizzi all'Arenella (Casa Florio)",
       "city": "Palermo"
     },
     {
@@ -1618,6 +1596,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149964",
+      "title": "Shakespeare rivive sul palco: al Pan Teatro di Palermo in scena \"William, una storia\"",
+      "url": "https://www.balarm.it/eventi/shakespeare-rivive-sul-palco-al-pan-teatro-di-palermo-in-scena-william-una-storia-149964",
+      "category": "Teatro e cabaret",
+      "dateLabel": "22 novembre 2026",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "venue": "Pan Teatro",
+      "city": "Palermo"
+    },
+    {
       "id": "149904",
       "title": "Teatri, divi, impresari e società: un tour urbano dedicato allo spettacolo a Palermo",
       "url": "https://www.balarm.it/eventi/teatri-divi-impresari-e-societa-un-tour-urbano-dedicato-allo-spettacolo-a-palermo-149904",
@@ -1684,6 +1673,39 @@
       "city": "Palermo"
     },
     {
+      "id": "171696",
+      "title": "Studenti (ciceroni) con le Giornate FAI per le scuole: tutti i luoghi aperti in Sicilia",
+      "url": "https://www.balarm.it/news/studenti-ciceroni-con-le-giornate-fai-per-le-scuole-tutti-i-luoghi-aperti-in-sicilia-171696",
+      "category": "Visite ed escursioni",
+      "dateLabel": "Dal 23 al 28 novembre 2026",
+      "start": "2026-11-23",
+      "end": "2026-11-28",
+      "venue": "Vari luoghi della Sicilia",
+      "city": "Sicilia"
+    },
+    {
+      "id": "149975",
+      "title": "\"Le Mille e una notte\" al Politeama Garibaldi: flauto e pianoforte in dialogo",
+      "url": "https://www.balarm.it/eventi/le-mille-e-una-notte-al-politeama-garibaldi-flauto-e-pianoforte-in-dialogo-149975",
+      "category": "Concerti",
+      "dateLabel": "24 novembre 2026",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "venue": "Politeama Garibaldi",
+      "city": "Palermo"
+    },
+    {
+      "id": "149982",
+      "title": "Canti, danze e musiche dalla tradizione: \"Riginedda di li tri mari\" in scena a Palermo",
+      "url": "https://www.balarm.it/eventi/canti-danze-e-musiche-dalla-tradizione-riginedda-di-li-tri-mari-in-scena-a-palermo-149982",
+      "category": "Opera, musical e danza",
+      "dateLabel": "Dal 24 al 27 novembre 2026",
+      "start": "2026-11-24",
+      "end": "2026-11-27",
+      "venue": "Centro del Divino Amore - via Luigi Castiglia 5",
+      "city": "Palermo"
+    },
+    {
       "id": "149684",
       "title": "Mario Biondi live a Palermo: il concerto per i vent'anni di musica al Teatro Golden",
       "url": "https://www.balarm.it/eventi/mario-biondi-live-a-palermo-il-concerto-per-i-vent-anni-di-musica-al-teatro-golden-149684",
@@ -1692,6 +1714,17 @@
       "start": "2026-11-24",
       "end": "2026-11-24",
       "venue": "Teatro Golden",
+      "city": "Palermo"
+    },
+    {
+      "id": "149969",
+      "title": "Esordio letterario per Lidia Mezzapelle: la presentazione a Spazio Cultura Macaione",
+      "url": "https://www.balarm.it/eventi/esordio-letterario-per-lidia-mezzapelle-la-presentazione-a-spazio-cultura-macaione-a-palermo-149969",
+      "category": "Libri, film e incontri",
+      "dateLabel": "25 novembre 2026",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "venue": "Spazio Cultura Libreria Macaione",
       "city": "Palermo"
     },
     {
@@ -1717,6 +1750,17 @@
       "city": "Palermo"
     },
     {
+      "id": "149976",
+      "title": "Apertura straordinaria per la mostra \"Ora d'Oro\": concerto e visita serale a Palermo",
+      "url": "https://www.balarm.it/eventi/apertura-straordinaria-per-la-mostra-ora-d-oro-concerto-e-visita-serale-a-palermo-149976",
+      "category": "Visite ed escursioni",
+      "dateLabel": "27 novembre 2026",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "venue": "Palazzo Sant'Elia (Fondazione Sant'Elia)",
+      "city": "Palermo"
+    },
+    {
       "id": "148662",
       "title": "Flora Canto arriva a Palermo: gag e ironia in uno show musicale al Teatro San Eugenio",
       "url": "https://www.balarm.it/eventi/flora-canto-arriva-a-palermo-gag-e-ironia-in-uno-show-musicale-al-teatro-san-eugenio-148662",
@@ -1725,6 +1769,17 @@
       "start": "2026-11-27",
       "end": "2026-11-27",
       "venue": "Teatro Sant'Eugenio",
+      "city": "Palermo"
+    },
+    {
+      "id": "149985",
+      "title": "Musiche di Schubert su un fortepiano del 1825: il concerto da Martha a Palermo",
+      "url": "https://www.balarm.it/eventi/musiche-di-schubert-su-un-fortepiano-del-1825-il-concerto-da-martha-a-palermo-149985",
+      "category": "Concerti",
+      "dateLabel": "27 novembre 2026",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "venue": "Martha - Musica Art House Academy",
       "city": "Palermo"
     },
     {
