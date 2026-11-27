@@ -8,8 +8,8 @@
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-del-weekend",
     "https://www.balarm.it/tutti-gli-eventi-a-palermo-e-provincia-della-prossima-settimana"
   ],
-  "generatedAt": "2026-11-26",
-  "count": 181,
+  "generatedAt": "2026-11-27",
+  "count": 187,
   "events": [
     {
       "id": "146469",
@@ -131,17 +131,6 @@
       "end": "2026-12-27",
       "venue": "Ecomuseo Urbano Mare Memoria Viva",
       "city": "Palermo"
-    },
-    {
-      "id": "148793",
-      "title": "Il \"Maxiprocesso\" di Maria Rapicavoli a Castelbuono: memoria, arte e giustizia",
-      "url": "https://www.balarm.it/eventi/il-maxiprocesso-di-maria-rapicavoli-a-castelbuono-memoria-arte-e-giustizia-148793",
-      "category": "Mostre",
-      "dateLabel": "Dal 4 ottobre al 26 novembre 2026",
-      "start": "2026-10-04",
-      "end": "2026-11-26",
-      "venue": "Museo Civico di Castelbuono",
-      "city": "Castelbuono (Pa)"
     },
     {
       "id": "148881",
@@ -342,17 +331,6 @@
       "city": "Palermo"
     },
     {
-      "id": "171004",
-      "title": "A scuola di circo a Palermo: prove (gratuite) per bambini al Piccolo Teatro Patafisico",
-      "url": "https://www.balarm.it/news/a-scuola-di-circo-a-palermo-prove-gratuite-per-bambini-al-piccolo-teatro-patafisico-171004",
-      "category": "Bambini e ragazzi",
-      "dateLabel": "Dal 3 al 26 novembre 2026",
-      "start": "2026-11-03",
-      "end": "2026-11-26",
-      "venue": "Piccolo Teatro Patafisico",
-      "city": "Palermo"
-    },
-    {
       "id": "149630",
       "title": "Domenico Pellegrino a Palazzo Bonocore: donne del mito e simboli dell'Isola in mostra",
       "url": "https://www.balarm.it/eventi/domenico-pellegrino-a-palazzo-bonocore-le-donne-del-mito-e-i-simboli-dell-isola-a-palermo-149630",
@@ -529,17 +507,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149760",
-      "title": "Arte e impegno civile: \"Senza onore\" di Enzo Mignosi e tre mostre da Artètika a Palermo",
-      "url": "https://www.balarm.it/eventi/arte-e-impegno-civile-senza-onore-di-enzo-mignosi-e-tre-mostre-da-artetika-a-palermo-149760",
-      "category": "Mostre",
-      "dateLabel": "Dal 16 al 26 novembre 2026",
-      "start": "2026-11-16",
-      "end": "2026-11-26",
-      "venue": "Artetika",
-      "city": "Palermo"
-    },
-    {
       "id": "149857",
       "title": "Creatività e improvvisazione a Palermo: le jam session al Ridotto dello Spasimo",
       "url": "https://www.balarm.it/eventi/creativita-e-improvvisazione-a-palermo-le-jam-session-al-ridotto-dello-spasimo-149857",
@@ -592,17 +559,6 @@
       "start": "2026-11-20",
       "end": "2027-01-22",
       "venue": "Il Casino delle Muse",
-      "city": "Palermo"
-    },
-    {
-      "id": "149375",
-      "title": "Arriva la \"Japan Week\": kimono, bonsai e spettacoli (gratis) in tre luoghi di Palermo",
-      "url": "https://www.balarm.it/eventi/arriva-la-japan-week-grandi-spettacoli-concerti-e-tradizioni-in-tre-luoghi-di-palermo-149375",
-      "category": "Musica e aperitivi",
-      "dateLabel": "Dal 20 al 26 novembre 2026",
-      "start": "2026-11-20",
-      "end": "2026-11-26",
-      "venue": "Vari luoghi di Palermo",
       "city": "Palermo"
     },
     {
@@ -771,6 +727,17 @@
       "city": "Palermo"
     },
     {
+      "id": "150177",
+      "title": "Mostra permanente in piazza Garibaldi: opere artistiche abbelliscono Bagheria",
+      "url": "https://www.balarm.it/eventi/mostra-permanente-in-piazza-garibaldi-opere-artistiche-abbelliscono-bagheria-150177",
+      "category": "Mostre",
+      "dateLabel": "Dal 25 novembre al 31 dicembre 2026",
+      "start": "2026-11-25",
+      "end": "2026-12-31",
+      "venue": "Piazza Garibaldi 1",
+      "city": "Bagheria (Pa)"
+    },
+    {
       "id": "150019",
       "title": "Quaranta scatti per riscoprire la meraviglia: la mostra \"The Wonder\" a Palermo",
       "url": "https://www.balarm.it/eventi/quaranta-scatti-per-riscoprire-la-meraviglia-la-mostra-the-wonder-a-palermo-150019",
@@ -779,17 +746,6 @@
       "start": "2026-11-25",
       "end": "2026-12-06",
       "venue": "Ecomuseo Urbano Mare Memoria Viva",
-      "city": "Palermo"
-    },
-    {
-      "id": "150015",
-      "title": "\"Next Gen Comedy\" all'Agricantus: Chris Clun è \"Topà. Storia di un ragazzo balbuziente\"",
-      "url": "https://www.balarm.it/eventi/next-gen-comedy-all-agricantus-chris-clun-e-topa-storia-di-un-ragazzo-balbuziente-150015",
-      "category": "Teatro e cabaret",
-      "dateLabel": "26 novembre 2026",
-      "start": "2026-11-26",
-      "end": "2026-11-26",
-      "venue": "Teatro Agricantus",
       "city": "Palermo"
     },
     {
@@ -826,39 +782,6 @@
       "city": "Palermo"
     },
     {
-      "id": "149993",
-      "title": "Potere, libertà e democrazia nei tempi della pandemia: il nuovo libro di Vincenzo Siino",
-      "url": "https://www.balarm.it/eventi/potere-liberta-e-democrazia-nei-tempi-della-pandemia-il-nuovo-libro-di-vincenzo-siino-149993",
-      "category": "Libri, film e incontri",
-      "dateLabel": "26 novembre 2026",
-      "start": "2026-11-26",
-      "end": "2026-11-26",
-      "venue": "Cantieri culturali alla Zisa",
-      "city": "Palermo"
-    },
-    {
-      "id": "149922",
-      "title": "Progetto acustico \"Wine&Rock\": Rocco Tarantino e Mimmo Di Bari al CocoLò",
-      "url": "https://www.balarm.it/eventi/progetto-acustico-wine-rock-rocco-tarantino-e-mimmo-di-bari-al-cocolo-di-palermo-149922",
-      "category": "Musica e aperitivi",
-      "dateLabel": "26 novembre 2026",
-      "start": "2026-11-26",
-      "end": "2026-11-26",
-      "venue": "CocoLO' ristorante",
-      "city": "Palermo"
-    },
-    {
-      "id": "150120",
-      "title": "Realtà produttive siciliane d'eccellenza: l'incontro con gli imprenditori a Palermo",
-      "url": "https://www.balarm.it/eventi/realta-produttive-siciliane-d-eccellenza-l-incontro-con-gli-imprenditori-a-palermo-150120",
-      "category": "Libri, film e incontri",
-      "dateLabel": "26 novembre 2026",
-      "start": "2026-11-26",
-      "end": "2026-11-26",
-      "venue": "Cre.Zi. Plus",
-      "city": "Palermo"
-    },
-    {
       "id": "150128",
       "title": "Tim Hodgkinson e Atsuku Kamura a Palermo: due esibizioni in programma ai Cantieri",
       "url": "https://www.balarm.it/eventi/tim-hodgkinson-e-atsuku-kamura-a-palermo-due-esibizioni-in-programma-ai-cantieri-150128",
@@ -867,17 +790,6 @@
       "start": "2026-11-26",
       "end": "2026-11-27",
       "venue": "Sala Perriera",
-      "city": "Palermo"
-    },
-    {
-      "id": "149806",
-      "title": "Un aperitivo con le mani in pasta: \"Decora la tua torta\" tra gusto e relax a Palermo",
-      "url": "https://www.balarm.it/eventi/un-aperitivo-con-le-mani-in-pasta-decora-la-tua-torta-tra-gusto-e-relax-a-palermo-149806",
-      "category": "Musica e aperitivi",
-      "dateLabel": "26 novembre 2026",
-      "start": "2026-11-26",
-      "end": "2026-11-26",
-      "venue": "B",
       "city": "Palermo"
     },
     {
@@ -956,6 +868,17 @@
       "end": "2026-11-27",
       "venue": "Università degli Studi di Palermo",
       "city": "Palermo"
+    },
+    {
+      "id": "150159",
+      "title": "Babbo Natale, luci e schiaccianoci: a Bagheria c’è un set per tue le foto delle Feste",
+      "url": "https://www.balarm.it/eventi/babbo-natale-luci-e-schiaccianoci-a-bagheria-c-e-un-set-per-tue-le-foto-delle-feste-150159",
+      "category": "Esperienze",
+      "dateLabel": "Dal 27 novembre al 23 dicembre 2026",
+      "start": "2026-11-27",
+      "end": "2026-12-23",
+      "venue": "Rosanna Valenti Wedding Planner And Event Creator & Coordinator",
+      "city": "Bagheria (Pa)"
     },
     {
       "id": "150080",
@@ -1178,6 +1101,17 @@
       "city": "Palermo"
     },
     {
+      "id": "150160",
+      "title": "Scegli un classico metal e suonalo dal vivo: nuova serata \"Mixed by Mind\" a Palermo",
+      "url": "https://www.balarm.it/eventi/scegli-un-classico-metal-e-suonalo-dal-vivo-nuova-serata-mixed-by-mind-a-palermo-150160",
+      "category": "Musica e aperitivi",
+      "dateLabel": "27 novembre 2026",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "venue": "Mind House",
+      "city": "Palermo"
+    },
+    {
       "id": "149855",
       "title": "Sogni, paure e futuro: lo spettacolo inclusivo \"Tutti in scena\" al Teatro Apparte di Palermo",
       "url": "https://www.balarm.it/eventi/sogni-paure-e-futuro-lo-spettacolo-inclusivo-tutti-in-scena-al-teatro-apparte-di-palermo-149855",
@@ -1340,6 +1274,28 @@
       "start": "2026-11-28",
       "end": "2026-11-29",
       "venue": "Teatro Garibaldi alla Kalsa",
+      "city": "Palermo"
+    },
+    {
+      "id": "150174",
+      "title": "Il Centro Audiovisivo delle Madonie compie un anno: film e incontri a Collesano",
+      "url": "https://www.balarm.it/eventi/il-centro-audiovisivo-delle-madonie-compie-un-anno-film-e-incontri-a-collesano-150174",
+      "category": "Libri, film e incontri",
+      "dateLabel": "28 novembre 2026",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "venue": "Chiostro S. Maria di Gesù",
+      "city": "Collesano (Pa)"
+    },
+    {
+      "id": "150162",
+      "title": "Il Festival delle Filosofie torna fra gli dei del Salinas: 3 weekend sulla \"scena del mito\"",
+      "url": "https://www.balarm.it/eventi/il-festival-delle-filosofie-torna-fra-gli-dei-del-salinas-3-weekend-sulla-scena-del-mito-150162",
+      "category": "Festival e rassegne",
+      "dateLabel": "Dal 28 novembre al 13 dicembre 2026",
+      "start": "2026-11-28",
+      "end": "2026-12-13",
+      "venue": "Museo archeologico regionale \"Antonino Salinas\"",
       "city": "Palermo"
     },
     {
@@ -1533,7 +1489,7 @@
       "id": "150088",
       "title": "Weekend tra vino, tradizioni ed eccellenze locali: al via la rassegna \"Carini d'Inverno\"",
       "url": "https://www.balarm.it/eventi/weekend-tra-vino-tradizioni-ed-eccellenze-locali-al-via-la-rassegna-carini-d-inverno-150088",
-      "category": "Dove mangiare",
+      "category": "Musica e aperitivi",
       "dateLabel": "Dal 28 al 29 novembre 2026",
       "start": "2026-11-28",
       "end": "2026-11-29",
@@ -1805,6 +1761,17 @@
       "city": "Palermo"
     },
     {
+      "id": "150161",
+      "title": "Centoventesimo anniversario della nascita di Hannah Arendt: il documentario a Palermo",
+      "url": "https://www.balarm.it/eventi/centoventesimo-anniversario-della-nascita-di-hannah-arendt-il-documentario-a-palermo-150161",
+      "category": "Libri, film e incontri",
+      "dateLabel": "30 novembre 2026",
+      "start": "2026-11-30",
+      "end": "2026-11-30",
+      "venue": "Cinema Rouge Et Noir",
+      "city": "Palermo"
+    },
+    {
       "id": "149958",
       "title": "Guida ai teatri di Sicilia: il libro di Costanza Diquattro e Toni Campo a Villa Zito",
       "url": "https://www.balarm.it/eventi/guida-ai-teatri-di-sicilia-il-libro-di-costanza-diquattro-e-toni-campo-a-villa-zito-a-palermo-149958",
@@ -1825,6 +1792,17 @@
       "end": "2026-12-02",
       "venue": "Vari luoghi della Sicilia",
       "city": "Sicilia"
+    },
+    {
+      "id": "150164",
+      "title": "Il Conservatorio di Palermo omaggia Angelo Faja: cerimonia tra musica e una nuova aula",
+      "url": "https://www.balarm.it/eventi/il-conservatorio-di-palermo-omaggia-angelo-faja-cerimonia-tra-musica-e-una-nuova-aula-150164",
+      "category": "Libri, film e incontri",
+      "dateLabel": "1 dicembre 2026",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "venue": "Conservatorio di musica \"Alessandro Scarlatti\"",
+      "city": "Palermo"
     },
     {
       "id": "150156",
@@ -1860,6 +1838,17 @@
       "city": "Palermo"
     },
     {
+      "id": "150180",
+      "title": "Cover dei We Man e dj set con Scancarello: musica e gusto a La Gintoneria di Palermo",
+      "url": "https://www.balarm.it/eventi/cover-dei-we-man-e-dj-set-con-scancarello-musica-e-gusto-a-la-gintoneria-di-palermo-150180",
+      "category": "Musica e aperitivi",
+      "dateLabel": "2 dicembre 2026",
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "venue": "La Gintoneria",
+      "city": "Palermo"
+    },
+    {
       "id": "150148",
       "title": "Libro e tavola rotonda: \"Prassi pedagogiche positive\" all'Istituto Gramsci di Palermo",
       "url": "https://www.balarm.it/eventi/libro-e-tavola-rotonda-prassi-pedagogiche-positive-all-istituto-gramsci-di-palermo-150148",
@@ -1882,10 +1871,43 @@
       "city": "Palermo"
     },
     {
+      "id": "150168",
+      "title": "Concerti, racconti (e un ospite d'eccezione): Palermo dedica tre giorni ai Beatles",
+      "url": "https://www.balarm.it/eventi/concerti-racconti-e-un-ospite-d-eccezione-palermo-dedica-tre-giorni-ai-beatles-150168",
+      "category": "Festival e rassegne",
+      "dateLabel": "Dal 3 al 5 dicembre 2026",
+      "start": "2026-12-03",
+      "end": "2026-12-05",
+      "venue": "Vari luoghi di Palermo",
+      "city": "Palermo"
+    },
+    {
+      "id": "150170",
+      "title": "\"Odissea\" tra riscrittura e nuove chiavi: incontro con Salvatore Nicosia a Palermo",
+      "url": "https://www.balarm.it/eventi/odissea-tra-riscrittura-e-nuove-chiavi-incontro-con-salvatore-nicosia-a-palermo-150170",
+      "category": "Libri, film e incontri",
+      "dateLabel": "4 dicembre 2026",
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "venue": "Istituto Gramsci Siciliano, Cantieri Culturali alla Zisa",
+      "city": "Palermo"
+    },
+    {
+      "id": "150171",
+      "title": "Dallo schermo al palco: \"Io sono Nicolò\" di Emanuele Beltrame in scena a Palermo",
+      "url": "https://www.balarm.it/eventi/dallo-schermo-al-palco-io-sono-nicolo-di-emanuele-beltrame-in-scena-a-palermo-150171",
+      "category": "Teatro e cabaret",
+      "dateLabel": "4 dicembre 2026",
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "venue": "Casa di Paolo APS - via della Vetreria 57",
+      "city": "Palermo"
+    },
+    {
       "id": "149556",
       "title": "Dj Sotofett per la prima volta a Palermo: sonorità house e techno a I Candelai",
       "url": "https://www.balarm.it/eventi/dj-sotofett-per-la-prima-volta-a-palermo-sonorita-house-e-techno-a-i-candelai-149556",
-      "category": "Teatro e cabaret",
+      "category": "Musica e aperitivi",
       "dateLabel": "4 dicembre 2026",
       "start": "2026-12-04",
       "end": "2026-12-04",
@@ -1937,6 +1959,17 @@
       "city": "Palermo"
     },
     {
+      "id": "150178",
+      "title": "L'atmosfera delle feste invade Cefalù: tutte le iniziative (gratuite) per grandi e piccoli",
+      "url": "https://www.balarm.it/eventi/l-atmosfera-delle-feste-invade-cefalu-tutte-le-iniziative-gratuite-per-grandi-e-piccoli-150178",
+      "category": "Festival e rassegne",
+      "dateLabel": "Dal 5 dicembre 2026 al 6 gennaio 2027",
+      "start": "2026-12-05",
+      "end": "2027-01-06",
+      "venue": "Vari luoghi della città",
+      "city": "Cefalù (Pa)"
+    },
+    {
       "id": "150123",
       "title": "Mondo del lavoro: incontro tra imprese e lavoratori alle Officine Bellotti di Palermo",
       "url": "https://www.balarm.it/eventi/mondo-del-lavoro-incontro-tra-imprese-e-lavoratori-alle-officine-bellotti-di-palermo-150123",
@@ -1945,6 +1978,28 @@
       "start": "2026-12-05",
       "end": "2026-12-05",
       "venue": "Officine Bellotti",
+      "city": "Palermo"
+    },
+    {
+      "id": "150181",
+      "title": "Aperitivo o cena con le cover dei We Man: la serata da Pasqualino Tavernetta a Palermo",
+      "url": "https://www.balarm.it/eventi/aperitivo-o-cena-con-le-cover-dei-we-man-la-serata-da-pasqualino-tavernetta-a-palermo-150181",
+      "category": "Musica e aperitivi",
+      "dateLabel": "6 dicembre 2026",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "venue": "Serata di gusto e musica il 6 dicembre al Pasqualino",
+      "city": "La Tavernetta Bio a Palermo."
+    },
+    {
+      "id": "150179",
+      "title": "Mercatini di Natale a Villa Rossi: artigianato, sapori e attività a dicembre a Palermo",
+      "url": "https://www.balarm.it/eventi/mercatini-di-natale-a-villa-rossi-artigianato-sapori-e-attivita-a-dicembre-a-palermo-150179",
+      "category": "Mercatini e artigianato",
+      "dateLabel": "Dal 6 al 20 dicembre 2026",
+      "start": "2026-12-06",
+      "end": "2026-12-20",
+      "venue": "Centro sociale \"Villa Rossi\"",
       "city": "Palermo"
     },
     {
@@ -1967,6 +2022,17 @@
       "start": "2026-12-06",
       "end": "2026-12-06",
       "venue": "Vari luoghi del centro storico",
+      "city": "Palermo"
+    },
+    {
+      "id": "150172",
+      "title": "Società tra risate e contraddizioni: \"Il posto fesso\" di Daniele Ciniglio all'Agricantus",
+      "url": "https://www.balarm.it/eventi/societa-tra-risate-e-contraddizioni-il-posto-fesso-di-daniele-ciniglio-all-agricantus-di-palermo-150172",
+      "category": "Teatro e cabaret",
+      "dateLabel": "6 dicembre 2026",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "venue": "Teatro Agricantus",
       "city": "Palermo"
     },
     {
